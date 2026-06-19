@@ -17,7 +17,6 @@ _DECK = [
     719, 719, 719, 719,
     259, 259, 259, 259,
     99, 99,
-
     2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
     2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
     2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
@@ -25,12 +24,24 @@ _DECK = [
     2, 2, 2, 2, 2, 2
 ]
 
+ATTACK_PRIORITY = [
+    1409,
+    1408,
+    1039,
+    981,
+]
+
 
 def _finalize_choice(preferred_indexes, options, max_count):
     chosen = []
 
     for idx in preferred_indexes:
-        if idx not in chosen and 0 <= idx < len(options):
+        if (
+            isinstance(idx, int)
+            and idx >= 0
+            and idx < len(options)
+            and idx not in chosen
+        ):
             chosen.append(idx)
 
     if len(chosen) < max_count:
@@ -47,8 +58,9 @@ def random_agent(obs_dict, config=None):
     if obs_dict.get("select") is None:
         return _DECK
 
-    options = obs_dict["select"].get("option", [])
-    max_count = obs_dict["select"].get("maxCount", 1)
+    select = obs_dict["select"]
+    options = select.get("option", [])
+    max_count = select.get("maxCount", 1)
 
     if not options:
         return []
@@ -71,41 +83,22 @@ def agent(obs_dict, config=None):
     if not options:
         return []
 
-    types = []
+    types = [opt.get("type") for opt in options]
 
-    for opt in options:
-        t = opt.get("type")
+    # YES / NO prompts
+    yes_indexes = [
+        i for i, t in enumerate(types)
+        if t == OPT_YES
+    ]
 
-        if isinstance(t, str):
-            mapping = {
-                "Yes": OPT_YES,
-                "No": OPT_NO,
-                "Card": OPT_CARD,
-                "Play": OPT_PLAY,
-                "Attach": OPT_ATTACH,
-                "Evolve": OPT_EVOLVE,
-                "Ability": OPT_ABILITY,
-                "Discard": OPT_DISCARD,
-                "Retreat": OPT_RETREAT,
-                "Attack": OPT_ATTACK,
-                "End": OPT_END,
-            }
-            t = mapping.get(t, t)
+    if yes_indexes:
+        return _finalize_choice(
+            [yes_indexes[0]],
+            options,
+            max_count
+        )
 
-        types.append(t)
-
-    # -----------------------------
-    # YES/NO prompts
-    # -----------------------------
-    yes_indexes = [i for i, t in enumerate(types) if t == OPT_YES]
-    no_indexes = [i for i, t in enumerate(types) if t == OPT_NO]
-
-    if yes_indexes and not no_indexes:
-        return _finalize_choice([yes_indexes[0]], options, max_count)
-
-    # -----------------------------
-    # EVOLVE FIRST
-    # -----------------------------
+    # EVOLVE
     evolve_indexes = [
         i for i, t in enumerate(types)
         if t == OPT_EVOLVE
@@ -118,9 +111,7 @@ def agent(obs_dict, config=None):
             max_count
         )
 
-    # -----------------------------
-    # USE ABILITIES
-    # -----------------------------
+    # ABILITIES
     ability_indexes = [
         i for i, t in enumerate(types)
         if t == OPT_ABILITY
@@ -133,9 +124,7 @@ def agent(obs_dict, config=None):
             max_count
         )
 
-    # -----------------------------
     # PLAY CARDS
-    # -----------------------------
     play_indexes = [
         i for i, t in enumerate(types)
         if t == OPT_PLAY
@@ -148,39 +137,73 @@ def agent(obs_dict, config=None):
             max_count
         )
 
-    # -----------------------------
     # ATTACH ENERGY
-    # -----------------------------
-    attach_indexes = [
-        i for i, t in enumerate(types)
-        if t == OPT_ATTACH
+    attach_options = [
+        (i, opt)
+        for i, opt in enumerate(options)
+        if opt.get("type") == OPT_ATTACH
     ]
 
-    if attach_indexes:
+    if attach_options:
+
+        # Prefer Active Pokémon
+        active_targets = [
+            idx
+            for idx, opt in attach_options
+            if opt.get("inPlayArea") == 4
+        ]
+
+        if active_targets:
+            return _finalize_choice(
+                [active_targets[0]],
+                options,
+                max_count
+            )
+
         return _finalize_choice(
-            [attach_indexes[0]],
+            [attach_options[0][0]],
             options,
             max_count
         )
 
-    # -----------------------------
     # ATTACK
-    # -----------------------------
-    attack_indexes = [
-        i for i, t in enumerate(types)
-        if t == OPT_ATTACK
+    attack_options = [
+        (i, opt.get("attackId"))
+        for i, opt in enumerate(options)
+        if opt.get("type") == OPT_ATTACK
     ]
 
-    if attack_indexes:
+    if attack_options:
+
+        for preferred_attack in ATTACK_PRIORITY:
+            for idx, attack_id in attack_options:
+                if attack_id == preferred_attack:
+                    return _finalize_choice(
+                        [idx],
+                        options,
+                        max_count
+                    )
+
         return _finalize_choice(
-            [attack_indexes[-1]],
+            [attack_options[0][0]],
             options,
             max_count
         )
 
-    # -----------------------------
-    # RETREAT ONLY IF NEEDED
-    # -----------------------------
+    # END TURN BEFORE RETREAT
+    end_indexes = [
+        i for i, t in enumerate(types)
+        if t == OPT_END
+    ]
+
+    if end_indexes:
+        return _finalize_choice(
+            [end_indexes[0]],
+            options,
+            max_count
+        )
+
+    # RETREAT ONLY AS LAST RESORT
     retreat_indexes = [
         i for i, t in enumerate(types)
         if t == OPT_RETREAT
@@ -193,17 +216,28 @@ def agent(obs_dict, config=None):
             max_count
         )
 
-    # -----------------------------
-    # END TURN LAST
-    # -----------------------------
-    end_indexes = [
+    # DISCARD
+    discard_indexes = [
         i for i, t in enumerate(types)
-        if t == OPT_END
+        if t == OPT_DISCARD
     ]
 
-    if end_indexes:
+    if discard_indexes:
         return _finalize_choice(
-            [end_indexes[0]],
+            [discard_indexes[0]],
+            options,
+            max_count
+        )
+
+    # CARD SELECTION
+    card_indexes = [
+        i for i, t in enumerate(types)
+        if t == OPT_CARD
+    ]
+
+    if card_indexes:
+        return _finalize_choice(
+            [card_indexes[0]],
             options,
             max_count
         )
