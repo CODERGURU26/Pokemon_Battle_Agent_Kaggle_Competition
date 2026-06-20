@@ -12,6 +12,7 @@ OPT_RETREAT = 12
 OPT_ATTACK = 13
 OPT_END = 14
 
+# Your deck
 _DECK = [
     46, 46, 46, 46,
     719, 719, 719, 719,
@@ -22,6 +23,14 @@ _DECK = [
     2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
     2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
     2, 2, 2, 2, 2, 2
+]
+
+# Confirmed from replay logs
+ATTACK_PRIORITY = [
+    45,    # Gouging Fire ex big attack
+    1072,  # Confirmed attack from replays
+    1039,  # Chi-Yu attack
+    44     # Smaller Gouging Fire attack
 ]
 
 
@@ -79,11 +88,12 @@ def agent(obs_dict, config=None):
 
     types = [opt.get("type") for opt in options]
 
-    # YES prompts
+    # Always answer YES first
     yes_indexes = [
         i for i, t in enumerate(types)
         if t == OPT_YES
     ]
+
     if yes_indexes:
         return _finalize_choice(
             [yes_indexes[0]],
@@ -91,11 +101,12 @@ def agent(obs_dict, config=None):
             max_count
         )
 
-    # EVOLVE
+    # Evolve whenever possible
     evolve_indexes = [
         i for i, t in enumerate(types)
         if t == OPT_EVOLVE
     ]
+
     if evolve_indexes:
         return _finalize_choice(
             [evolve_indexes[0]],
@@ -103,11 +114,12 @@ def agent(obs_dict, config=None):
             max_count
         )
 
-    # ABILITIES
+    # Use abilities
     ability_indexes = [
         i for i, t in enumerate(types)
         if t == OPT_ABILITY
     ]
+
     if ability_indexes:
         return _finalize_choice(
             [ability_indexes[0]],
@@ -115,11 +127,40 @@ def agent(obs_dict, config=None):
             max_count
         )
 
-    # PLAY CARDS
+    # Attach energy (prefer active Pokémon)
+    attach_options = [
+        (i, opt)
+        for i, opt in enumerate(options)
+        if opt.get("type") == OPT_ATTACH
+    ]
+
+    if attach_options:
+
+        active_targets = [
+            idx
+            for idx, opt in attach_options
+            if opt.get("inPlayArea") == 4
+        ]
+
+        if active_targets:
+            return _finalize_choice(
+                [active_targets[0]],
+                options,
+                max_count
+            )
+
+        return _finalize_choice(
+            [attach_options[0][0]],
+            options,
+            max_count
+        )
+
+    # Play cards
     play_indexes = [
         i for i, t in enumerate(types)
         if t == OPT_PLAY
     ]
+
     if play_indexes:
         return _finalize_choice(
             [play_indexes[0]],
@@ -127,35 +168,37 @@ def agent(obs_dict, config=None):
             max_count
         )
 
-    # ATTACH ENERGY
-    attach_indexes = [
-        i for i, t in enumerate(types)
-        if t == OPT_ATTACH
+    # Attack selection using confirmed attack IDs
+    attack_options = [
+        (i, opt.get("attackId"))
+        for i, opt in enumerate(options)
+        if opt.get("type") == OPT_ATTACK
     ]
-    if attach_indexes:
+
+    if attack_options:
+
+        for preferred_attack in ATTACK_PRIORITY:
+            for idx, attack_id in attack_options:
+                if attack_id == preferred_attack:
+                    return _finalize_choice(
+                        [idx],
+                        options,
+                        max_count
+                    )
+
+        # Fallback
         return _finalize_choice(
-            [attach_indexes[0]],
+            [attack_options[-1][0]],
             options,
             max_count
         )
 
-    # ATTACK
-    attack_indexes = [
-        i for i, t in enumerate(types)
-        if t == OPT_ATTACK
-    ]
-    if attack_indexes:
-        return _finalize_choice(
-            [attack_indexes[-1]],
-            options,
-            max_count
-        )
-
-    # END TURN BEFORE RETREAT
+    # End turn before retreating
     end_indexes = [
         i for i, t in enumerate(types)
         if t == OPT_END
     ]
+
     if end_indexes:
         return _finalize_choice(
             [end_indexes[0]],
@@ -163,11 +206,12 @@ def agent(obs_dict, config=None):
             max_count
         )
 
-    # RETREAT ONLY AS LAST RESORT
+    # Retreat only as last resort
     retreat_indexes = [
         i for i, t in enumerate(types)
         if t == OPT_RETREAT
     ]
+
     if retreat_indexes:
         return _finalize_choice(
             [retreat_indexes[0]],
@@ -175,11 +219,12 @@ def agent(obs_dict, config=None):
             max_count
         )
 
-    # DISCARD
+    # Discard decisions
     discard_indexes = [
         i for i, t in enumerate(types)
         if t == OPT_DISCARD
     ]
+
     if discard_indexes:
         return _finalize_choice(
             [discard_indexes[0]],
@@ -187,11 +232,12 @@ def agent(obs_dict, config=None):
             max_count
         )
 
-    # CARD SELECTION
+    # Generic card selections
     card_indexes = [
         i for i, t in enumerate(types)
         if t == OPT_CARD
     ]
+
     if card_indexes:
         return _finalize_choice(
             [card_indexes[0]],
@@ -199,6 +245,7 @@ def agent(obs_dict, config=None):
             max_count
         )
 
+    # Fallback
     return _finalize_choice(
         list(range(len(options))),
         options,
