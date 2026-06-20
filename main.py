@@ -24,13 +24,6 @@ _DECK = [
     2, 2, 2, 2, 2, 2
 ]
 
-ATTACK_PRIORITY = [
-    1409,
-    1408,
-    1039,
-    981,
-]
-
 
 def _finalize_choice(preferred_indexes, options, max_count):
     chosen = []
@@ -38,8 +31,7 @@ def _finalize_choice(preferred_indexes, options, max_count):
     for idx in preferred_indexes:
         if (
             isinstance(idx, int)
-            and idx >= 0
-            and idx < len(options)
+            and 0 <= idx < len(options)
             and idx not in chosen
         ):
             chosen.append(idx)
@@ -48,6 +40,7 @@ def _finalize_choice(preferred_indexes, options, max_count):
         for i in range(len(options)):
             if i not in chosen:
                 chosen.append(i)
+
             if len(chosen) >= max_count:
                 break
 
@@ -73,6 +66,7 @@ def random_agent(obs_dict, config=None):
 
 def agent(obs_dict, config=None):
 
+    # Submit deck at game start
     if obs_dict.get("select") is None:
         return _DECK
 
@@ -85,12 +79,11 @@ def agent(obs_dict, config=None):
 
     types = [opt.get("type") for opt in options]
 
-    # YES / NO prompts
+    # YES prompts
     yes_indexes = [
         i for i, t in enumerate(types)
         if t == OPT_YES
     ]
-
     if yes_indexes:
         return _finalize_choice(
             [yes_indexes[0]],
@@ -103,7 +96,6 @@ def agent(obs_dict, config=None):
         i for i, t in enumerate(types)
         if t == OPT_EVOLVE
     ]
-
     if evolve_indexes:
         return _finalize_choice(
             [evolve_indexes[0]],
@@ -116,7 +108,6 @@ def agent(obs_dict, config=None):
         i for i, t in enumerate(types)
         if t == OPT_ABILITY
     ]
-
     if ability_indexes:
         return _finalize_choice(
             [ability_indexes[0]],
@@ -129,7 +120,6 @@ def agent(obs_dict, config=None):
         i for i, t in enumerate(types)
         if t == OPT_PLAY
     ]
-
     if play_indexes:
         return _finalize_choice(
             [play_indexes[0]],
@@ -138,54 +128,25 @@ def agent(obs_dict, config=None):
         )
 
     # ATTACH ENERGY
-    attach_options = [
-        (i, opt)
-        for i, opt in enumerate(options)
-        if opt.get("type") == OPT_ATTACH
+    attach_indexes = [
+        i for i, t in enumerate(types)
+        if t == OPT_ATTACH
     ]
-
-    if attach_options:
-
-        # Prefer Active Pokémon
-        active_targets = [
-            idx
-            for idx, opt in attach_options
-            if opt.get("inPlayArea") == 4
-        ]
-
-        if active_targets:
-            return _finalize_choice(
-                [active_targets[0]],
-                options,
-                max_count
-            )
-
+    if attach_indexes:
         return _finalize_choice(
-            [attach_options[0][0]],
+            [attach_indexes[0]],
             options,
             max_count
         )
 
     # ATTACK
-    attack_options = [
-        (i, opt.get("attackId"))
-        for i, opt in enumerate(options)
-        if opt.get("type") == OPT_ATTACK
+    attack_indexes = [
+        i for i, t in enumerate(types)
+        if t == OPT_ATTACK
     ]
-
-    if attack_options:
-
-        for preferred_attack in ATTACK_PRIORITY:
-            for idx, attack_id in attack_options:
-                if attack_id == preferred_attack:
-                    return _finalize_choice(
-                        [idx],
-                        options,
-                        max_count
-                    )
-
+    if attack_indexes:
         return _finalize_choice(
-            [attack_options[0][0]],
+            [attack_indexes[-1]],
             options,
             max_count
         )
@@ -195,7 +156,6 @@ def agent(obs_dict, config=None):
         i for i, t in enumerate(types)
         if t == OPT_END
     ]
-
     if end_indexes:
         return _finalize_choice(
             [end_indexes[0]],
@@ -208,7 +168,6 @@ def agent(obs_dict, config=None):
         i for i, t in enumerate(types)
         if t == OPT_RETREAT
     ]
-
     if retreat_indexes:
         return _finalize_choice(
             [retreat_indexes[0]],
@@ -221,7 +180,6 @@ def agent(obs_dict, config=None):
         i for i, t in enumerate(types)
         if t == OPT_DISCARD
     ]
-
     if discard_indexes:
         return _finalize_choice(
             [discard_indexes[0]],
@@ -234,7 +192,6 @@ def agent(obs_dict, config=None):
         i for i, t in enumerate(types)
         if t == OPT_CARD
     ]
-
     if card_indexes:
         return _finalize_choice(
             [card_indexes[0]],
