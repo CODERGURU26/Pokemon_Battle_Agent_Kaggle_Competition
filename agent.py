@@ -31,51 +31,36 @@ _DECK = [
     1210, 1210,
     1182, 1182,
     1194, 1194,
-    12
+    12,
 ]
 
 
 def _finalize_choice(preferred_indexes, options, max_count):
     chosen = []
-
     for idx in preferred_indexes:
-        if (
-            isinstance(idx, int)
-            and 0 <= idx < len(options)
-            and idx not in chosen
-        ):
+        if isinstance(idx, int) and 0 <= idx < len(options) and idx not in chosen:
             chosen.append(idx)
-
     if len(chosen) < max_count:
         for i in range(len(options)):
             if i not in chosen:
                 chosen.append(i)
-
             if len(chosen) >= max_count:
                 break
-
     return chosen[:max_count]
 
 
 def random_agent(obs_dict, config=None):
     if obs_dict.get("select") is None:
         return _DECK
-
     select = obs_dict["select"]
     options = select.get("option", [])
     max_count = select.get("maxCount", 1)
-
     if not options:
         return []
-
-    return random.sample(
-        range(len(options)),
-        min(max_count, len(options))
-    )
+    return random.sample(range(len(options)), min(max_count, len(options)))
 
 
 def agent(obs_dict, config=None):
-
     if obs_dict.get("select") is None:
         return _DECK
 
@@ -83,171 +68,65 @@ def agent(obs_dict, config=None):
     options = select.get("option", [])
     max_count = select.get("maxCount", 1)
 
+    # Critical: never return empty -- always fall through to the generic fallback
     if not options:
-        return []
+        return _finalize_choice([], options, max_count)
 
     types = [opt.get("type") for opt in options]
 
-    # 1. Evolve immediately
-    evolve_indexes = [
-        i for i, t in enumerate(types)
-        if t == OPT_EVOLVE
-    ]
+    # YES first -- handles opening hand keep/mulligan, who-goes-first,
+    # and all ability/effect confirmation prompts immediately
+    yes_indexes = [i for i, t in enumerate(types) if t == OPT_YES]
+    if yes_indexes:
+        return _finalize_choice([yes_indexes[0]], options, max_count)
 
+    evolve_indexes = [i for i, t in enumerate(types) if t == OPT_EVOLVE]
     if evolve_indexes:
-        return _finalize_choice(
-            [evolve_indexes[0]],
-            options,
-            max_count
-        )
+        return _finalize_choice([evolve_indexes[0]], options, max_count)
 
-    # 2. Use abilities
-    ability_indexes = [
-        i for i, t in enumerate(types)
-        if t == OPT_ABILITY
-    ]
-
+    ability_indexes = [i for i, t in enumerate(types) if t == OPT_ABILITY]
     if ability_indexes:
-        return _finalize_choice(
-            [ability_indexes[0]],
-            options,
-            max_count
-        )
+        return _finalize_choice([ability_indexes[0]], options, max_count)
 
-    # 3. Play cards/trainers
-    play_indexes = [
-        i for i, t in enumerate(types)
-        if t == OPT_PLAY
-    ]
-
+    play_indexes = [i for i, t in enumerate(types) if t == OPT_PLAY]
     if play_indexes:
-        return _finalize_choice(
-            [play_indexes[0]],
-            options,
-            max_count
-        )
+        return _finalize_choice([play_indexes[0]], options, max_count)
 
-    # 4. Attach energy to active first
     attach_options = [
-        (i, opt)
-        for i, opt in enumerate(options)
+        (i, opt) for i, opt in enumerate(options)
         if opt.get("type") == OPT_ATTACH
     ]
-
     if attach_options:
-
         active_targets = [
-            idx
-            for idx, opt in attach_options
+            idx for idx, opt in attach_options
             if opt.get("inPlayArea") == 4
         ]
-
         if active_targets:
-            return _finalize_choice(
-                [active_targets[0]],
-                options,
-                max_count
-            )
+            return _finalize_choice([active_targets[0]], options, max_count)
+        return _finalize_choice([attach_options[0][0]], options, max_count)
 
-        return _finalize_choice(
-            [attach_options[0][0]],
-            options,
-            max_count
-        )
-
-    # 5. Attack whenever possible
-    attack_indexes = [
-        i for i, t in enumerate(types)
-        if t == OPT_ATTACK
-    ]
-
+    attack_indexes = [i for i, t in enumerate(types) if t == OPT_ATTACK]
     if attack_indexes:
-        return _finalize_choice(
-            [attack_indexes[0]],
-            options,
-            max_count
-        )
+        return _finalize_choice([attack_indexes[0]], options, max_count)
 
-    # 6. Prefer ending turn over retreating
-    end_indexes = [
-        i for i, t in enumerate(types)
-        if t == OPT_END
-    ]
-
+    end_indexes = [i for i, t in enumerate(types) if t == OPT_END]
     if end_indexes:
-        return _finalize_choice(
-            [end_indexes[0]],
-            options,
-            max_count
-        )
+        return _finalize_choice([end_indexes[0]], options, max_count)
 
-    # 7. Retreat only if nothing else exists
-    retreat_indexes = [
-        i for i, t in enumerate(types)
-        if t == OPT_RETREAT
-    ]
-
+    retreat_indexes = [i for i, t in enumerate(types) if t == OPT_RETREAT]
     if retreat_indexes:
-        return _finalize_choice(
-            [retreat_indexes[0]],
-            options,
-            max_count
-        )
+        return _finalize_choice([retreat_indexes[0]], options, max_count)
 
-    # 8. Card selections
-    card_indexes = [
-        i for i, t in enumerate(types)
-        if t == OPT_CARD
-    ]
-
+    card_indexes = [i for i, t in enumerate(types) if t == OPT_CARD]
     if card_indexes:
-        return _finalize_choice(
-            [card_indexes[0]],
-            options,
-            max_count
-        )
+        return _finalize_choice([card_indexes[0]], options, max_count)
 
-    # 9. Discard selections
-    discard_indexes = [
-        i for i, t in enumerate(types)
-        if t == OPT_DISCARD
-    ]
-
+    discard_indexes = [i for i, t in enumerate(types) if t == OPT_DISCARD]
     if discard_indexes:
-        return _finalize_choice(
-            [discard_indexes[0]],
-            options,
-            max_count
-        )
+        return _finalize_choice([discard_indexes[0]], options, max_count)
 
-    # 10. If only NO is available, choose it
-    no_indexes = [
-        i for i, t in enumerate(types)
-        if t == OPT_NO
-    ]
+    no_indexes = [i for i, t in enumerate(types) if t == OPT_NO]
+    if no_indexes:
+        return _finalize_choice([no_indexes[0]], options, max_count)
 
-    if no_indexes and len(options) == 1:
-        return _finalize_choice(
-            [no_indexes[0]],
-            options,
-            max_count
-        )
-
-    # 11. YES only as fallback
-    yes_indexes = [
-        i for i, t in enumerate(types)
-        if t == OPT_YES
-    ]
-
-    if yes_indexes:
-        return _finalize_choice(
-            [yes_indexes[0]],
-            options,
-            max_count
-        )
-
-    return _finalize_choice(
-        list(range(len(options))),
-        options,
-        max_count
-    )
+    return _finalize_choice(list(range(len(options))), options, max_count)
