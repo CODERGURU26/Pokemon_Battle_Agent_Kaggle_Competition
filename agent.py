@@ -3,6 +3,7 @@ import random
 OPT_YES = 1
 OPT_NO = 2
 OPT_CARD = 3
+OPT_NUMBER = 0      # ADD THIS LINE -- was missing, causes empty on type-0 prompts
 OPT_PLAY = 7
 OPT_ATTACH = 8
 OPT_EVOLVE = 9
@@ -68,14 +69,12 @@ def agent(obs_dict, config=None):
     options = select.get("option", [])
     max_count = select.get("maxCount", 1)
 
-    # Critical: never return empty -- always fall through to the generic fallback
     if not options:
         return _finalize_choice([], options, max_count)
 
     types = [opt.get("type") for opt in options]
 
-    # YES first -- handles opening hand keep/mulligan, who-goes-first,
-    # and all ability/effect confirmation prompts immediately
+    # YES first -- handles opening hand, who-goes-first, ability confirmations
     yes_indexes = [i for i, t in enumerate(types) if t == OPT_YES]
     if yes_indexes:
         return _finalize_choice([yes_indexes[0]], options, max_count)
@@ -129,4 +128,5 @@ def agent(obs_dict, config=None):
     if no_indexes:
         return _finalize_choice([no_indexes[0]], options, max_count)
 
+    # Catch-all including OPT_NUMBER (type 0) and any other unknown types
     return _finalize_choice(list(range(len(options))), options, max_count)
