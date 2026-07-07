@@ -49,33 +49,58 @@ def _finalize_choice(preferred_indexes, options, max_count):
     return chosen[:max_count]
 
 def score_option(opt, obs_dict):
-    """Heuristic scoring for each option"""
+    """Heuristic scoring for each option with board awareness"""
     t = opt.get("type")
     score = 0
+
+    # Active Pokémon HP
+    active_hp = obs_dict.get("activeHP", 999)
+    opponent_active_hp = obs_dict.get("opponentActiveHP", 999)
 
     if t == OPT_ATTACK:
         dmg = opt.get("damage", 0)
         score += dmg
-        if opt.get("koPotential"):  # custom flag if available
-            score += 50
+        # Prioritize KO potential
+        if dmg >= opponent_active_hp:
+            score += 100
+        if opt.get("statusEffect"):  # e.g. Burn, Paralysis
+            score += 30
+
     elif t == OPT_EVOLVE:
-        score += 30
+        # Evolving unlocks stronger attacks
+        score += 40
+
     elif t == OPT_ATTACH:
-        # Prefer attaching to active Pokémon
-        score += 20 if opt.get("inPlayArea") == 4 else 10
+        # Prefer attaching to active if it can attack soon
+        if opt.get("inPlayArea") == 4:
+            score += 30
+        else:
+            score += 15
+
     elif t == OPT_RETREAT:
         # Retreat if active is low HP
-        active_hp = obs_dict.get("activeHP", 999)
-        if active_hp < 30:
-            score += 40
+        if active_hp < 40:
+            score += 50
+        else:
+            score -= 10
+
     elif t == OPT_ABILITY:
-        score += 15
+        score += 20
+
     elif t == OPT_PLAY:
-        score += 10
+        score += 15
+
     elif t == OPT_END:
-        score -= 5  # discourage ending early
+        score -= 10  # discourage ending early
+
     elif t == OPT_NO:
-        score -= 10
+        score -= 20  # strongly discourage NO unless forced
+
+    elif t == OPT_CARD:
+        score += 5
+
+    elif t == OPT_DISCARD:
+        score -= 5
 
     return score
 
