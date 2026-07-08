@@ -1,5 +1,6 @@
 import random
 
+# Option constants
 OPT_YES = 1
 OPT_NO = 2
 OPT_CARD = 3
@@ -13,6 +14,7 @@ OPT_RETREAT = 12
 OPT_ATTACK = 13
 OPT_END = 14
 
+# Deck definition
 _DECK = [
     65,65,65,65,
     878,878,878,878,
@@ -36,6 +38,7 @@ _DECK = [
 ]
 
 def _finalize_choice(preferred_indexes, options, max_count):
+    """Ensure chosen indexes are valid and fill up to max_count."""
     chosen = []
     for idx in preferred_indexes:
         if isinstance(idx, int) and 0 <= idx < len(options) and idx not in chosen:
@@ -49,7 +52,7 @@ def _finalize_choice(preferred_indexes, options, max_count):
     return chosen[:max_count]
 
 def score_option(opt, obs_dict):
-    """Board-aware scoring for each option"""
+    """Board-aware scoring for each option."""
     t = opt.get("type")
     score = 0
 
@@ -112,6 +115,7 @@ def score_option(opt, obs_dict):
     return score
 
 def agent(obs_dict, config=None):
+    """Main agent function called by the competition environment."""
     if obs_dict.get("select") is None:
         return _DECK
 
