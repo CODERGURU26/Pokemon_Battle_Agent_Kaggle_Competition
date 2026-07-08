@@ -49,52 +49,59 @@ def _finalize_choice(preferred_indexes, options, max_count):
     return chosen[:max_count]
 
 def score_option(opt, obs_dict):
-    """Heuristic scoring for each option with board awareness"""
+    """Board-aware scoring for each option"""
     t = opt.get("type")
     score = 0
 
-    # Active Pokémon HP
     active_hp = obs_dict.get("activeHP", 999)
-    opponent_active_hp = obs_dict.get("opponentActiveHP", 999)
+    opp_hp = obs_dict.get("opponentActiveHP", 999)
 
     if t == OPT_ATTACK:
         dmg = opt.get("damage", 0)
         score += dmg
-        # Prioritize KO potential
-        if dmg >= opponent_active_hp:
+        if dmg >= opp_hp:  # KO potential
             score += 100
-        if opt.get("statusEffect"):  # e.g. Burn, Paralysis
-            score += 30
-
-    elif t == OPT_EVOLVE:
-        # Evolving unlocks stronger attacks
-        score += 40
+        if opt.get("statusEffect"):  # Burn, Paralysis, Poison
+            score += 40
+        if opt.get("spreadDamage"):  # Multi-target damage
+            score += 20
 
     elif t == OPT_ATTACH:
-        # Prefer attaching to active if it can attack soon
-        if opt.get("inPlayArea") == 4:
-            score += 30
+        if opt.get("enablesAttackNextTurn"):
+            score += 40
+        elif opt.get("benchEvolution"):
+            score += 20
         else:
-            score += 15
+            score += 10
+
+    elif t == OPT_EVOLVE:
+        if opt.get("isBench"):
+            score += 50
+        else:
+            score += 30
 
     elif t == OPT_RETREAT:
-        # Retreat if active is low HP
-        if active_hp < 40:
-            score += 50
+        if active_hp < 50 and opt.get("safeBench"):
+            score += 60
         else:
             score -= 10
 
     elif t == OPT_ABILITY:
-        score += 20
+        if opt.get("drawCards") or opt.get("energyAccel"):
+            score += 40
+        elif opt.get("disruptOpponent"):
+            score += 20
+        else:
+            score += 15
 
     elif t == OPT_PLAY:
         score += 15
 
     elif t == OPT_END:
-        score -= 10  # discourage ending early
+        score -= 15
 
     elif t == OPT_NO:
-        score -= 20  # strongly discourage NO unless forced
+        score -= 25
 
     elif t == OPT_CARD:
         score += 5
@@ -118,9 +125,9 @@ def agent(obs_dict, config=None):
     scored = [(i, score_option(opt, obs_dict)) for i, opt in enumerate(options)]
     scored.sort(key=lambda x: x[1], reverse=True)
 
-    # Pick best option(s), randomize among ties
+    # Pick best option(s), randomize among ties within ±5 points
     best_score = scored[0][1]
-    best_indexes = [i for i, s in scored if s == best_score]
+    candidate_indexes = [i for i, s in scored if abs(s - best_score) <= 5]
 
-    chosen = random.choice(best_indexes)
+    chosen = random.choice(candidate_indexes)
     return _finalize_choice([chosen], options, max_count)
