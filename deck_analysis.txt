@@ -1,0 +1,1051 @@
+﻿=== DECK CARDS ===
+ID=   11 | Mist Energy                    | Stage=Special Energy            | HP=  n/a | Type={C}   | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a      | Eff=As long as this card is attached to a Pok├⌐mon, it provides {C} Energy.  Prevent 
+ID=   12 | Legacy Energy                  | Stage=Special Energy            | HP=  n/a | Type={A}   | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a      | Eff=As long as this card is attached to a Pok├⌐mon, it provides every type of Energy 
+ID=   19 | Telepath Psychic Energy        | Stage=Special Energy            | HP=  n/a | Type={P}   | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a      | Eff=As long as this card is attached to a Pok├⌐mon, it provides {P} Energy. When you 
+ID=   65 | Dunsparce                      | Stage=Basic Pok├⌐mon             | HP=   60 | Type={C}   | Prev=n/a                  | Move=Gnaw                      | Cost=ΓùÅ            | Dmg=10       | Eff=n/a
+ID=   65 | Dunsparce                      | Stage=Basic Pok├⌐mon             | HP=   60 | Type={C}   | Prev=n/a                  | Move=Dig                       | Cost=ΓùÅΓùÅ           | Dmg=30       | Eff=Flip a coin. If heads, during your opponentΓÇÖs next turn, prevent all damage from
+ID=   66 | Dudunsparce                    | Stage=Stage 1 Pok├⌐mon           | HP=  140 | Type={C}   | Prev=Dunsparce            | Move=[Ability] Run Away Draw   | Cost=n/a          | Dmg=n/a      | Eff=Once during your turn, you may draw 3 cards. If you drew any cards in this way, 
+ID=   66 | Dudunsparce                    | Stage=Stage 1 Pok├⌐mon           | HP=  140 | Type={C}   | Prev=Dunsparce            | Move=Land Crush                | Cost=ΓùÅΓùÅΓùÅ          | Dmg=90       | Eff=n/a
+ID=  304 | HopΓÇÖs Snorlax                  | Stage=Basic Pok├⌐mon             | HP=  150 | Type={C}   | Prev=n/a                  | Move=[Ability] Extra Helpings  | Cost=n/a          | Dmg=n/a      | Eff=Attacks used by your HopΓÇÖs Pok├⌐mon do 30 more damage to your opponentΓÇÖs Active P
+ID=  304 | HopΓÇÖs Snorlax                  | Stage=Basic Pok├⌐mon             | HP=  150 | Type={C}   | Prev=n/a                  | Move=Dynamic Press             | Cost=ΓùÅΓùÅΓùÅ          | Dmg=140      | Eff=This Pok├⌐mon also does 80 damage to itself.
+ID=  878 | Hop's Phantump                 | Stage=Basic Pok├⌐mon             | HP=   70 | Type={P}   | Prev=n/a                  | Move=Splashing Dodge           | Cost=ΓùÅ            | Dmg=10       | Eff=Flip a coin. If heads, during your opponentΓÇÖs next turn, prevent all damage from
+ID=  879 | Hop's Trevenant                | Stage=Stage 1 Pok├⌐mon           | HP=  140 | Type={P}   | Prev=Hop's Phantump       | Move=Horrifying Revenge        | Cost=ΓùÅ            | Dmg=30       | Eff=If any of your HopΓÇÖs Pok├⌐mon were Knocked Out by damage from an attack during yo
+ID=  879 | Hop's Trevenant                | Stage=Stage 1 Pok├⌐mon           | HP=  140 | Type={P}   | Prev=Hop's Phantump       | Move=Corner                    | Cost={P}ΓùÅΓùÅ        | Dmg=90       | Eff=During your opponentΓÇÖs next turn, the Defending Pok├⌐mon canΓÇÖt retreat.
+ID= 1086 | Buddy-Buddy Poffin             | Stage=Item                      | HP=  n/a | Type=n/a   | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a      | Eff=Search your deck for up to 2 Basic Pok├⌐mon with 70 HP or less and put them onto 
+ID= 1097 | Night Stretcher                | Stage=Item                      | HP=  n/a | Type=n/a   | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a      | Eff=Put a Pok├⌐mon or a Basic Energy card from your discard pile into your hand.
+ID= 1115 | HopΓÇÖs Bag                      | Stage=Item                      | HP=  n/a | Type=n/a   | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a      | Eff=Search your deck for up to 2 Basic HopΓÇÖs Pok├⌐mon and put them onto your Bench. T
+ID= 1122 | Pok├⌐gear 3.0                   | Stage=Item                      | HP=  n/a | Type=n/a   | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a      | Eff=Look at the top 7 cards of your deck. You may reveal a Supporter card you find t
+ID= 1152 | Pok├⌐ Pad                       | Stage=Item                      | HP=  n/a | Type=n/a   | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a      | Eff=Search your deck for a Pok├⌐mon that doesnΓÇÖt have a Rule Box, reveal it, and put 
+ID= 1171 | HopΓÇÖs Choice Band              | Stage=Pok├⌐mon Tool              | HP=  n/a | Type=n/a   | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a      | Eff=Attacks used by the HopΓÇÖs Pok├⌐mon this card is attached to cost {C} less and do 
+ID= 1182 | BossΓÇÖs Orders                  | Stage=Supporter                 | HP=  n/a | Type=n/a   | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a      | Eff=Switch in 1 of your opponentΓÇÖs Benched Pok├⌐mon to the Active Spot.
+ID= 1194 | ColressΓÇÖs Tenacity             | Stage=Supporter                 | HP=  n/a | Type=n/a   | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a      | Eff=Search your deck for a Stadium card and an Energy card, reveal them, and put the
+ID= 1210 | BrockΓÇÖs Scouting               | Stage=Supporter                 | HP=  n/a | Type=n/a   | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a      | Eff=Search your deck for up to 2 Basic Pok├⌐mon or 1 Evolution Pok├⌐mon, reveal them, 
+ID= 1227 | Lillie's Determination         | Stage=Supporter                 | HP=  n/a | Type=n/a   | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a      | Eff=Shuffle your hand into your deck. Then, draw 6 cards. If you have exactly 6 Priz
+ID= 1255 | Postwick                       | Stage=Stadium                   | HP=  n/a | Type=n/a   | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a      | Eff=Attacks used by HopΓÇÖs Pok├⌐mon (both yours and your opponentΓÇÖs) do 30 more damage
+
+=== EVOLUTION LINES FOR DECK POKEMON ===
+ID=   11 | Mist Energy                    | Stage=Special Energy            | HP=  n/a | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a     
+ID=   12 | Legacy Energy                  | Stage=Special Energy            | HP=  n/a | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a     
+ID=   19 | Telepath Psychic Energy        | Stage=Special Energy            | HP=  n/a | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a     
+ID=   65 | Dunsparce                      | Stage=Basic Pok├⌐mon             | HP=   60 | Prev=n/a                  | Move=Gnaw                      | Cost=ΓùÅ            | Dmg=10      
+ID=   65 | Dunsparce                      | Stage=Basic Pok├⌐mon             | HP=   60 | Prev=n/a                  | Move=Dig                       | Cost=ΓùÅΓùÅ           | Dmg=30      
+ID=   66 | Dudunsparce                    | Stage=Stage 1 Pok├⌐mon           | HP=  140 | Prev=Dunsparce            | Move=[Ability] Run Away Draw   | Cost=n/a          | Dmg=n/a     
+ID=   66 | Dudunsparce                    | Stage=Stage 1 Pok├⌐mon           | HP=  140 | Prev=Dunsparce            | Move=Land Crush                | Cost=ΓùÅΓùÅΓùÅ          | Dmg=90      
+ID=  304 | HopΓÇÖs Snorlax                  | Stage=Basic Pok├⌐mon             | HP=  150 | Prev=n/a                  | Move=[Ability] Extra Helpings  | Cost=n/a          | Dmg=n/a     
+ID=  304 | HopΓÇÖs Snorlax                  | Stage=Basic Pok├⌐mon             | HP=  150 | Prev=n/a                  | Move=Dynamic Press             | Cost=ΓùÅΓùÅΓùÅ          | Dmg=140     
+ID=  305 | Dunsparce                      | Stage=Basic Pok├⌐mon             | HP=   70 | Prev=n/a                  | Move=Trading Places            | Cost=ΓùÅ            | Dmg=n/a     
+ID=  305 | Dunsparce                      | Stage=Basic Pok├⌐mon             | HP=   70 | Prev=n/a                  | Move=Ram                       | Cost=ΓùÅΓùÅ           | Dmg=20      
+ID=  306 | Dudunsparce ex                 | Stage=Stage 1 Pok├⌐mon           | HP=  270 | Prev=Dunsparce            | Move=Tenacious Tail            | Cost=ΓùÅ            | Dmg=60├ù     
+ID=  306 | Dudunsparce ex                 | Stage=Stage 1 Pok├⌐mon           | HP=  270 | Prev=Dunsparce            | Move=Destructive Drill         | Cost=ΓùÅΓùÅΓùÅ          | Dmg=150     
+ID=  878 | Hop's Phantump                 | Stage=Basic Pok├⌐mon             | HP=   70 | Prev=n/a                  | Move=Splashing Dodge           | Cost=ΓùÅ            | Dmg=10      
+ID=  879 | Hop's Trevenant                | Stage=Stage 1 Pok├⌐mon           | HP=  140 | Prev=Hop's Phantump       | Move=Horrifying Revenge        | Cost=ΓùÅ            | Dmg=30      
+ID=  879 | Hop's Trevenant                | Stage=Stage 1 Pok├⌐mon           | HP=  140 | Prev=Hop's Phantump       | Move=Corner                    | Cost={P}ΓùÅΓùÅ        | Dmg=90      
+ID= 1086 | Buddy-Buddy Poffin             | Stage=Item                      | HP=  n/a | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a     
+ID= 1097 | Night Stretcher                | Stage=Item                      | HP=  n/a | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a     
+ID= 1115 | HopΓÇÖs Bag                      | Stage=Item                      | HP=  n/a | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a     
+ID= 1122 | Pok├⌐gear 3.0                   | Stage=Item                      | HP=  n/a | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a     
+ID= 1152 | Pok├⌐ Pad                       | Stage=Item                      | HP=  n/a | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a     
+ID= 1171 | HopΓÇÖs Choice Band              | Stage=Pok├⌐mon Tool              | HP=  n/a | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a     
+ID= 1182 | BossΓÇÖs Orders                  | Stage=Supporter                 | HP=  n/a | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a     
+ID= 1194 | ColressΓÇÖs Tenacity             | Stage=Supporter                 | HP=  n/a | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a     
+ID= 1210 | BrockΓÇÖs Scouting               | Stage=Supporter                 | HP=  n/a | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a     
+ID= 1227 | Lillie's Determination         | Stage=Supporter                 | HP=  n/a | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a     
+ID= 1255 | Postwick                       | Stage=Stadium                   | HP=  n/a | Prev=n/a                  | Move=n/a                       | Cost=n/a          | Dmg=n/a     
+
+=== ALL SUPPORTERS ===
+ID= 1181 | Billy & O'Nare                 | Supporter            | Eff=Draw 2 cards. Then, if you have 10 or more cards in your hand, draw 2 more cards.
+ID= 1182 | BossΓÇÖs Orders                  | Supporter            | Eff=Switch in 1 of your opponentΓÇÖs Benched Pok├⌐mon to the Active Spot.
+ID= 1183 | Perrin                         | Supporter            | Eff=Reveal up to 2 Pok├⌐mon in your hand and put them into your deck. If you do, search your deck for up to that many Pok├⌐mon
+ID= 1184 | LanaΓÇÖs Aid                     | Supporter            | Eff=Put up to 3 in any combination of Pok├⌐mon that donΓÇÖt have a Rule Box and Basic Energy cards from your discard pile into 
+ID= 1185 | ExplorerΓÇÖs Guidance            | Supporter            | Eff=Look at the top 6 cards of your deck and put 2 of them into your hand. Discard the other cards.
+ID= 1186 | Eri                            | Supporter            | Eff=Your opponent reveals their hand, and you discard up to 2 Item cards you find there.
+ID= 1187 | MortyΓÇÖs Conviction             | Supporter            | Eff=You can use this card only if you discard another card from your hand.  Draw a card for each of your opponentΓÇÖs Benched 
+ID= 1188 | CiphermaniacΓÇÖs Codebreaking    | Supporter            | Eff=Search your deck for 2 cards, shuffle your deck, then put those cards on top of it in any order.
+ID= 1189 | Salvatore                      | Supporter            | Eff=Search your deck for a card that has no Abilities and evolves from 1 of your Pok├⌐mon, and put it onto that Pok├⌐mon to ev
+ID= 1190 | BiancaΓÇÖs Devotion              | Supporter            | Eff=Heal all damage from 1 of your Pok├⌐mon that has 30 HP or less remaining.
+ID= 1191 | Kieran                         | Supporter            | Eff=Choose 1:  ΓÇó Switch your Active Pok├⌐mon with 1 of your Benched Pok├⌐mon. ΓÇó During this turn, attacks used by your Pok├⌐mon
+ID= 1192 | Carmine                        | Supporter            | Eff=If you go first, you may use this card during your first turn.  Discard your hand and draw 5 cards.
+ID= 1193 | Hassel                         | Supporter            | Eff=You can use this card only if any of your Pok├⌐mon were Knocked Out during your opponentΓÇÖs last turn.  Look at the top 8 
+ID= 1194 | ColressΓÇÖs Tenacity             | Supporter            | Eff=Search your deck for a Stadium card and an Energy card, reveal them, and put them into your hand. Then, shuffle your dec
+ID= 1195 | JanineΓÇÖs Secret Art            | Supporter            | Eff=Choose up to 2 of your {D} Pok├⌐mon. For each of those Pok├⌐mon, search your deck for a Basic {D} Energy card and attach i
+ID= 1196 | Cassiopeia                     | Supporter            | Eff=You can use this card only when it is the last card in your hand.  Search your deck for up to 2 cards and put them into 
+ID= 1197 | XerosicΓÇÖs Machinations         | Supporter            | Eff=Your opponent discards cards from their hand until they have 3 cards in their hand.
+ID= 1198 | Crispin                        | Supporter            | Eff=Search your deck for up to 2 Basic Energy cards of different types, reveal them, and put 1 of them into your hand. Attac
+ID= 1199 | Lacey                          | Supporter            | Eff=Shuffle your hand into your deck. Then, draw 4 cards. If your opponent has 3 or fewer Prize cards remaining, draw 8 card
+ID= 1200 | Kofu                           | Supporter            | Eff=Put 2 cards from your hand on the bottom of your deck in any order. If you put 2 cards on the bottom of your deck in thi
+ID= 1201 | Briar                          | Supporter            | Eff=You can use this card only if your opponent has exactly 2 Prize cards remaining.  During this turn, if your opponentΓÇÖs A
+ID= 1202 | Drayton                        | Supporter            | Eff=Look at the top 7 cards of your deck. You may reveal a Pok├⌐mon and a Trainer card you find there and put them into your 
+ID= 1203 | Surfer                         | Supporter            | Eff=Switch your Active Pok├⌐mon with 1 of your Benched Pok├⌐mon. If you do, draw cards until you have 5 cards in your hand.
+ID= 1204 | LisiaΓÇÖs Appeal                 | Supporter            | Eff=Switch in 1 of your opponentΓÇÖs Benched Basic Pok├⌐mon to the Active Spot. If you do, the new Active Pok├⌐mon is now Confus
+ID= 1205 | Cyrano                         | Supporter            | Eff=Search your deck for up to 3 Pok├⌐mon {ex}, reveal them, and put them into your hand. Then, shuffle your deck.
+ID= 1206 | LarryΓÇÖs Skill                  | Supporter            | Eff=Discard your hand and search your deck for a Pok├⌐mon, a Supporter card, and a Basic Energy card, reveal them, and put th
+ID= 1207 | Amarys                         | Supporter            | Eff=Draw 4 cards. At the end of this turn, if you have 5 or more cards in your hand, discard your hand.
+ID= 1208 | IrisΓÇÖs Fighting Spirit         | Supporter            | Eff=You can use this card only if you discard another card from your hand.  Draw cards until you have 6 cards in your hand.
+ID= 1209 | Ruffian                        | Supporter            | Eff=Discard a Pok├⌐mon Tool and a Special Energy from 1 of your opponentΓÇÖs Pok├⌐mon.
+ID= 1210 | BrockΓÇÖs Scouting               | Supporter            | Eff=Search your deck for up to 2 Basic Pok├⌐mon or 1 Evolution Pok├⌐mon, reveal them, and put them into your hand. Then, shuff
+ID= 1211 | Black BeltΓÇÖs Training          | Supporter            | Eff=During this turn, attacks used by your Pok├⌐mon do 40 more damage to your opponentΓÇÖs Active Pok├⌐mon {ex} (before applying
+ID= 1212 | Cook                           | Supporter            | Eff=Heal 70 damage from your Active Pok├⌐mon.
+ID= 1213 | Judge                          | Supporter            | Eff=Each player shuffles their hand into their deck and draws 4 cards.
+ID= 1214 | Emcee's Hype                   | Supporter            | Eff=Draw 2 cards. If your opponent has 3 or fewer Prize cards remaining, draw 2 more cards.
+ID= 1215 | Ethan's Adventure              | Supporter            | Eff=Search your deck for up to 3 in any combination of EthanΓÇÖs Pok├⌐mon and Basic {R} Energy cards, reveal them, and put them
+ID= 1216 | Team Rocket's Ariana           | Supporter            | Eff=Draw cards until you have 5 cards in your hand. If all of your Pok├⌐mon in play are Team RocketΓÇÖs Pok├⌐mon, draw cards unt
+ID= 1217 | Team Rocket's Archer           | Supporter            | Eff=You can use this card only if any of your Team RocketΓÇÖs Pok├⌐mon were Knocked Out during your opponentΓÇÖs last turn.  Each
+ID= 1218 | Team Rocket's Giovanni         | Supporter            | Eff=Switch your Active Team RocketΓÇÖs Pok├⌐mon with 1 of your Benched Team RocketΓÇÖs Pok├⌐mon. If you do, switch in 1 of your op
+ID= 1219 | Team Rocket's Petrel           | Supporter            | Eff=Search your deck for a Trainer card, reveal it, and put it into your hand. Then, shuffle your deck.
+ID= 1220 | Team Rocket's Proton           | Supporter            | Eff=If you go first, you may use this card during your first turn.  Search your deck for up to 3 Basic Team RocketΓÇÖs Pok├⌐mon
+ID= 1221 | N's Plan                       | Supporter            | Eff=Move up to 2 Energy from your Benched Pok├⌐mon to your Active Pok├⌐mon.
+ID= 1222 | Fennel                         | Supporter            | Eff=Heal 40 damage from each of your Pok├⌐mon.
+ID= 1223 | Harlequin                      | Supporter            | Eff=Each player shuffles their hand into their deck. Then, flip a coin. If heads, you draw 5 cards,┬áand your opponent draws 
+ID= 1224 | Cheren                         | Supporter            | Eff=Draw 3 cards.
+ID= 1225 | Hilda                          | Supporter            | Eff=Search your deck for an Evolution Pok├⌐mon and an Energy card, reveal them, and put them into your hand. Then, shuffle yo
+ID= 1226 | Lt. Surge's Bargain            | Supporter            | Eff=Ask your opponent if each player may take a Prize card. If yes, each player takes a Prize card. If no, you draw 4 cards.
+ID= 1227 | Lillie's Determination         | Supporter            | Eff=Shuffle your hand into your deck. Then, draw 6 cards. If you have exactly 6 Prize cards remaining, draw 8 cards instead.
+ID= 1228 | Acerola's Mischief             | Supporter            | Eff=You can use this card only if your opponent has 2 or fewer Prize cards remaining.  Choose 1 of your Pok├⌐mon in play. Dur
+ID= 1229 | Wally's Compassion             | Supporter            | Eff=Heal all damage from 1 of your Mega Evolution Pok├⌐mon {ex}. If you healed any damage in this way, put all Energy attache
+ID= 1230 | Grimsley's Move                | Supporter            | Eff=Look at the top 7 cards of your deck and put a {D} Pok├⌐mon you find there onto your Bench. Shuffle the other cards and p
+ID= 1231 | Dawn                           | Supporter            | Eff=Search your deck for a Basic Pok├⌐mon, a Stage 1 Pok├⌐mon, and a Stage 2 Pok├⌐mon, reveal them, and put them into your hand
+ID= 1232 | Firebreather                   | Supporter            | Eff=Search your deck for up to 7 Basic {R} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.
+ID= 1233 | Canari                         | Supporter            | Eff=You can use this card only if you discard another card from your hand.  Search your deck for up to 4 {L} Pok├⌐mon, reveal
+ID= 1234 | Anthea & Concordia             | Supporter            | Eff=You can use this card only if you have NΓÇÖs Darmanitan, NΓÇÖs Zoroark {ex}, NΓÇÖs Vanilluxe, NΓÇÖs Klinklang, NΓÇÖs Reshiram, and
+ID= 1235 | Waitress                       | Supporter            | Eff=Look at the top 6 cards of your deck and attach a Basic Energy card you find there to 1 of your Pok├⌐mon. Shuffle the oth
+ID= 1236 | Urbain                         | Supporter            | Eff=Draw 3 cards.
+ID= 1237 | Lucian                         | Supporter            | Eff=Each player shuffles their hand and puts it on the bottom of their deck. If either player put any cards on the bottom of
+ID= 1238 | Tarragon                       | Supporter            | Eff=Put up to 4 in any combination of {F} Pok├⌐mon and Basic {F} Energy cards from your discard pile into your hand.
+ID= 1239 | Naveen                         | Supporter            | Eff=Draw cards until you have 5 cards in your hand. Before drawing cards, you may discard any number of cards from your hand
+ID= 1240 | Rosa's Encouragement           | Supporter            | Eff=You can use this card only if you have more Prize cards remaining than your opponent.  Attach up to 2 Basic Energy cards
+ID= 1241 | Jacinthe                       | Supporter            | Eff=Heal 150 damage from 1 of your {P} Pok├⌐mon.
+
+=== ALL ITEMS ===
+ID= 1077 | Roto-Stick                     | Item                 | Eff=Look at the top 4 cards of your deck. You may reveal any number of Supporter cards you find there and put them into your
+ID= 1078 | Hole-Digging Shovel            | Item                 | Eff=Discard the top 2 cards of your deck.
+ID= 1079 | Rare Candy                     | Item                 | Eff=Choose 1 of your Basic Pok├⌐mon in play. If you have a Stage 2 card in your hand that evolves from that Pok├⌐mon, put that
+ID= 1080 | Unfair Stamp                   | Item                 | Eff=You can use this card only if any of your Pok├⌐mon were Knocked Out during your opponentΓÇÖs last turn.  Each player shuffl
+ID= 1081 | Enhanced Hammer                | Item                 | Eff=Discard a Special Energy from 1 of your opponentΓÇÖs Pok├⌐mon.
+ID= 1082 | Hyper Aroma                    | Item                 | Eff=Search your deck for up to 3 Stage 1 Pok├⌐mon, reveal them, and put them into your hand. Then, shuffle your deck.
+ID= 1083 | Love Ball                      | Item                 | Eff=Search your deck for a Pok├⌐mon with the same name as 1 of your opponentΓÇÖs Pok├⌐mon in play, reveal it, and put it into yo
+ID= 1084 | Boxed Order                    | Item                 | Eff=Search your deck for up to 2 Item cards, reveal them, and put them into your hand. Then, shuffle your deck. Your turn en
+ID= 1085 | Awakening Drum                 | Item                 | Eff=Draw a card for each of your Ancient Pok├⌐mon in play.
+ID= 1086 | Buddy-Buddy Poffin             | Item                 | Eff=Search your deck for up to 2 Basic Pok├⌐mon with 70 HP or less and put them onto your Bench. Then, shuffle your deck.
+ID= 1087 | Hand Trimmer                   | Item                 | Eff=Each player discards cards from their hand until they have 5 cards in their hand. Your opponent discards first. (If a pl
+ID= 1088 | Prime Catcher                  | Item                 | Eff=Switch in 1 of your opponentΓÇÖs Benched Pok├⌐mon to the Active Spot. If you do, switch your Active Pok├⌐mon with 1 of your 
+ID= 1089 | Reboot Pod                     | Item                 | Eff=Attach a Basic Energy card from your discard pile to each of your Future Pok├⌐mon.
+ID= 1090 | OgreΓÇÖs Mask                    | Item                 | Eff=Choose a Pok├⌐mon {ex} in your discard pile that has ΓÇ£OgerponΓÇ¥ in its name, and switch it with 1 of your Pok├⌐mon {ex} in 
+ID= 1091 | Accompanying Flute             | Item                 | Eff=Reveal the top 5 cards of your opponentΓÇÖs deck. You may choose any number of Basic Pok├⌐mon you find there and put those 
+ID= 1092 | Secret Box                     | Item                 | Eff=You can use this card only if you discard 3 other cards from your hand.  Search your deck for an Item card, a Pok├⌐mon To
+ID= 1093 | Scoop Up Cyclone               | Item                 | Eff=Put 1 of your Pok├⌐mon and all attached cards into your hand.
+ID= 1094 | Bug Catching Set               | Item                 | Eff=Look at the top 7 cards of your deck. You may reveal up to 2 in any combination of {G} Pok├⌐mon and Basic {G} Energy card
+ID= 1095 | Dangerous Laser                | Item                 | Eff=Your opponentΓÇÖs Active Pok├⌐mon is now Burned and Confused.
+ID= 1096 | Pok├⌐ Vital A                   | Item                 | Eff=Heal 150 damage from 1 of your Pok├⌐mon.  This card canΓÇÖt be put into your hand or deck from the discard pile.
+ID= 1097 | Night Stretcher                | Item                 | Eff=Put a Pok├⌐mon or a Basic Energy card from your discard pile into your hand.
+ID= 1098 | Glass Trumpet                  | Item                 | Eff=You can use this card only if you have any Tera Pok├⌐mon in play.  Choose up to 2 of your Benched {C} Pok├⌐mon and attach 
+ID= 1099 | Antique Root Fossil            | Item                 | Eff=Play this card as if it were a 60-HP Basic {C} Pok├⌐mon. This card canΓÇÖt be affected by any Special Conditions and canΓÇÖt 
+ID= 1099 | Antique Root Fossil            | Item                 | Eff=As long as this Pok├⌐mon is in the Active Spot, attacks used by your opponentΓÇÖs Basic Pok├⌐mon cost {C} more.
+ID= 1100 | Energy Search Pro              | Item                 | Eff=Search your deck for any number of Basic Energy cards of different types, reveal them, and put them into your hand. Then
+ID= 1101 | Call Bell                      | Item                 | Eff=You can use this card only if you go second, and only during your first turn.  Search your deck for a Supporter card, re
+ID= 1102 | Dusk Ball                      | Item                 | Eff=Look at the bottom 7 cards of your deck. You may reveal a Pok├⌐mon you find there and put it into your hand. Shuffle the 
+ID= 1103 | Meddling Memo                  | Item                 | Eff=Your opponent counts the cards in their hand, shuffles those cards, and puts them on the bottom of their deck. If they d
+ID= 1104 | Megaton Blower                 | Item                 | Eff=Discard all Pok├⌐mon Tools and Special Energy from all of your opponentΓÇÖs Pok├⌐mon, and discard a Stadium in play.
+ID= 1105 | Dragon Elixir                  | Item                 | Eff=Heal 60 damage from your Active {N} Pok├⌐mon.
+ID= 1106 | Deduction Kit                  | Item                 | Eff=Look at the top 3 cards of your deck and put them back in any order, or shuffle them and put them on the bottom of your 
+ID= 1107 | Scramble Switch                | Item                 | Eff=Switch your Active Pok├⌐mon with 1 of your Benched Pok├⌐mon. If you do, you may move any amount of Energy from the Pok├⌐mon
+ID= 1108 | Chill Teaser Toy               | Item                 | Eff=You can use this card only if you go second, and only during your first turn. Put an Energy attached to 1 of your oppone
+ID= 1109 | Miracle Headset                | Item                 | Eff=Put up to 2 Supporter cards from your discard pile into your hand.
+ID= 1110 | Max Rod                        | Item                 | Eff=Put up to 5 in any combination of Pok├⌐mon and Basic Energy cards from your discard pile into your hand.
+ID= 1111 | Treasure Tracker               | Item                 | Eff=Search your deck for up to 5 Pok├⌐mon Tool cards, reveal them, and put them into your hand. Then, shuffle your deck.
+ID= 1112 | Super Potion                   | Item                 | Eff=Heal 60 damage from 1 of your Pok├⌐mon. If you healed any damage in this way, discard an Energy from that Pok├⌐mon.
+ID= 1113 | NΓÇÖs PP Up                      | Item                 | Eff=Attach a Basic Energy card from your discard pile to 1 of your Benched NΓÇÖs Pok├⌐mon.
+ID= 1114 | Redeemable Ticket              | Item                 | Eff=Count your Prize cards, shuffle them, and put them on the bottom of your deck. Then, take that many cards from the top o
+ID= 1115 | HopΓÇÖs Bag                      | Item                 | Eff=Search your deck for up to 2 Basic HopΓÇÖs Pok├⌐mon and put them onto your Bench. Then, shuffle your deck.
+ID= 1116 | Energy Switch                  | Item                 | Eff=Move a Basic Energy from 1 of your Pok├⌐mon to another of your Pok├⌐mon.
+ID= 1117 | Potion                         | Item                 | Eff=Heal 30 damage from 1 of your Pok├⌐mon.
+ID= 1118 | Energy Retrieval               | Item                 | Eff=Put up to 2 Basic Energy cards from your discard pile into your hand.
+ID= 1119 | Energy Search                  | Item                 | Eff=Search your deck for a Basic Energy card, reveal it, and put it into your hand. Then, shuffle your deck.
+ID= 1120 | Crushing Hammer                | Item                 | Eff=Flip a coin. If heads, discard an Energy from 1 of your opponentΓÇÖs Pok├⌐mon.
+ID= 1121 | Ultra Ball                     | Item                 | Eff=You can use this card only if you discard 2 other cards from your hand.  Search your deck for a Pok├⌐mon, reveal it, and 
+ID= 1122 | Pok├⌐gear 3.0                   | Item                 | Eff=Look at the top 7 cards of your deck. You may reveal a Supporter card you find there and put it into your hand. Shuffle 
+ID= 1123 | Switch                         | Item                 | Eff=Switch your Active Pok├⌐mon with 1 of your Benched Pok├⌐mon.
+ID= 1124 | Pok├⌐mon Catcher                | Item                 | Eff=Flip a coin. If heads, switch in 1 of your opponentΓÇÖs Benched Pok├⌐mon to the Active Spot.
+ID= 1125 | Master Ball                    | Item                 | Eff=Search your deck for a Pok├⌐mon, reveal it, and put it into your hand. Then, shuffle your deck.
+ID= 1126 | Precious Trolley               | Item                 | Eff=Search your deck for any number of Basic Pok├⌐mon and put them onto your Bench. Then, shuffle your deck.
+ID= 1127 | Tera Orb                       | Item                 | Eff=Search your deck for a Tera Pok├⌐mon, reveal it, and put it into your hand. Then, shuffle your deck.
+ID= 1128 | Brilliant Blender              | Item                 | Eff=Search your deck for up to 5 cards and discard them. Then, shuffle your deck.
+ID= 1129 | Sacred Ash                     | Item                 | Eff=Shuffle up to 5 Pok├⌐mon from your discard pile into your deck.
+ID= 1130 | Arven's Sandwich               | Item                 | Eff=Heal 30 damage from your Active Pok├⌐mon. If that Pok├⌐mon is an ArvenΓÇÖs Pok├⌐mon, heal 100 damage from it instead.
+ID= 1131 | Team Rocket's Bother-Bot       | Item                 | Eff=Turn 1 of your opponentΓÇÖs face-down Prize cards face up and choose a random card from your opponentΓÇÖs hand. Your opponen
+ID= 1132 | Team Rocket's Great Ball       | Item                 | Eff=Search your deck for a Trainer card, reveal it, and put it into your hand. Then, shuffle your deck.
+ID= 1133 | Team Rocket's Venture Bomb     | Item                 | Eff=Flip a coin. If heads, put 2 damage counters on 1 of your opponentΓÇÖs Pok├⌐mon. If tails, put 2 damage counters on your Ac
+ID= 1134 | Team Rocket's Transceiver      | Item                 | Eff=Search your deck for a Supporter card that has ΓÇ£Team RocketΓÇ¥ in its name, reveal it, and put it into your hand. Then, sh
+ID= 1135 | Energy Coin                    | Item                 | Eff=Flip 2 coins. If both of them are heads, search your deck for a Basic Energy card and attach it to 1 of your Pok├⌐mon. Th
+ID= 1136 | Antique Cover Fossil           | Item                 | Eff=Play this card as if it were a 60-HP Basic {C} Pok├⌐mon. This card canΓÇÖt be affected by any Special Conditions and canΓÇÖt 
+ID= 1136 | Antique Cover Fossil           | Item                 | Eff=Prevent all effects of attacks used by your opponentΓÇÖs Pok├⌐mon done to this Pok├⌐mon. (Damage is not an effect.)
+ID= 1137 | Tool Scrapper                  | Item                 | Eff=Choose up to 2 Pok├⌐mon Tools attached to Pok├⌐mon┬á(yours or your opponentΓÇÖs)┬áand discard them.
+ID= 1138 | Antique Plume Fossil           | Item                 | Eff=Play this card as if it were a 60-HP Basic {C} Pok├⌐mon. This card canΓÇÖt be affected by any Special Conditions and canΓÇÖt 
+ID= 1138 | Antique Plume Fossil           | Item                 | Eff=As long as this Pok├⌐mon is on your Bench, prevent all damage done to this Pok├⌐mon by attacks from your opponentΓÇÖs Pok├⌐mo
+ID= 1139 | Energy Recycler                | Item                 | Eff=Shuffle up to 5 Basic Energy cards from your discard pile into your deck.
+ID= 1140 | Iron Defender                  | Item                 | Eff=During your opponentΓÇÖs next turn, all of your {M} Pok├⌐mon take 30 less damage from attacks from your opponentΓÇÖs Pok├⌐mon 
+ID= 1141 | Premium Power Pro              | Item                 | Eff=During this turn, attacks used by your {F} Pok├⌐mon do 30 more damage to your opponentΓÇÖs Active Pok├⌐mon (before applying 
+ID= 1142 | Fighting Gong                  | Item                 | Eff=Search your deck for a Basic {F} Energy card or a Basic {F} Pok├⌐mon, reveal it, and put it into your hand. Then, shuffle
+ID= 1143 | Repel                          | Item                 | Eff=Switch out your opponentΓÇÖs Active Pok├⌐mon to the Bench. (Your opponent chooses the new Active Pok├⌐mon.)
+ID= 1144 | Strange Timepiece              | Item                 | Eff=Devolve 1 of your evolved {P} Pok├⌐mon by putting any number of Evolution cards on it into your hand. (That Pok├⌐mon canΓÇÖt
+ID= 1145 | Mega Signal                    | Item                 | Eff=Search your deck for a Mega Evolution Pok├⌐mon {ex}, reveal it, and put it into your hand. Then, shuffle your deck.
+ID= 1146 | Wondrous Patch                 | Item                 | Eff=Attach a Basic {P} Energy card from your discard pile to 1 of your Benched {P} Pok├⌐mon.
+ID= 1147 | Jumbo Ice Cream                | Item                 | Eff=Heal 80 damage from your Active Pok├⌐mon that has 3 or more Energy attached.
+ID= 1148 | Blowtorch                      | Item                 | Eff=You can use this card only if you discard a Basic {R} Energy card from your hand.  Discard a Pok├⌐mon Tool or Special Ene
+ID= 1149 | Energy Swatter                 | Item                 | Eff=Your opponent reveals their hand, and you choose an Energy card you find there and put it on the bottom of their deck.
+ID= 1150 | Antique Jaw Fossil             | Item                 | Eff=Play this card as if it were a 60-HP Basic {C} Pok├⌐mon. This card canΓÇÖt be affected by any Special Conditions and canΓÇÖt 
+ID= 1150 | Antique Jaw Fossil             | Item                 | Eff=As long as this Pok├⌐mon is in the Active Spot, attacks used by your opponentΓÇÖs Active Pok├⌐mon do 30 less damage (before 
+ID= 1151 | Antique Sail Fossil            | Item                 | Eff=Play this card as if it were a 60-HP Basic {C} Pok├⌐mon. This card canΓÇÖt be affected by any Special Conditions and canΓÇÖt 
+ID= 1151 | Antique Sail Fossil            | Item                 | Eff=Whenever your opponent plays a Supporter card from their hand, prevent all effects of that card done to this Pok├⌐mon.
+ID= 1152 | Pok├⌐ Pad                       | Item                 | Eff=Search your deck for a Pok├⌐mon that doesnΓÇÖt have a Rule Box, reveal it, and put it into your hand. Then, shuffle your de
+ID= 1153 | Lumiose Galette                | Item                 | Eff=Heal 20 damage and remove a Special Condition from your Active Pok├⌐mon.
+
+=== STAGE 1 POKEMON (for evolution decks) ===
+ID=   21 | Scrafty                        | HP=  120 | Type={D}   | Prev=Scraggy              | Move=Nab ΓÇÖnΓÇÖ Dash              | Cost=ΓùÅ            | Dmg=n/a     
+ID=   21 | Scrafty                        | HP=  120 | Type={D}   | Prev=Scraggy              | Move=High Jump Kick            | Cost={D}ΓùÅΓùÅ        | Dmg=100     
+ID=   23 | Hippowdon                      | HP=  160 | Type={F}   | Prev=Hippopotas           | Move=Ram                       | Cost={F}{F}       | Dmg=60      
+ID=   23 | Hippowdon                      | HP=  160 | Type={F}   | Prev=Hippopotas           | Move=Super Sandstorm           | Cost={F}{F}ΓùÅ      | Dmg=150     
+ID=   26 | Leafeon                        | HP=  120 | Type={G}   | Prev=Eevee                | Move=Leaflet Blessings         | Cost=ΓùÅ            | Dmg=n/a     
+ID=   26 | Leafeon                        | HP=  120 | Type={G}   | Prev=Eevee                | Move=Solar Beam                | Cost={G}ΓùÅ         | Dmg=70      
+ID=   29 | Sinistcha ex                   | HP=  240 | Type={G}   | Prev=Poltchageist         | Move=Re-Brew                   | Cost=ΓùÅ            | Dmg=n/a     
+ID=   29 | Sinistcha ex                   | HP=  240 | Type={G}   | Prev=Poltchageist         | Move=Matcha Splash             | Cost={G}ΓùÅ         | Dmg=120     
+ID=   30 | Magcargo ex                    | HP=  270 | Type={R}   | Prev=Slugma               | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=   30 | Magcargo ex                    | HP=  270 | Type={R}   | Prev=Slugma               | Move=Hot Magma                 | Cost={R}ΓùÅ         | Dmg=70      
+ID=   30 | Magcargo ex                    | HP=  270 | Type={R}   | Prev=Slugma               | Move=Ground Burn               | Cost={R}{R}ΓùÅ      | Dmg=140     
+ID=   32 | Glaceon                        | HP=  120 | Type={W}   | Prev=Eevee                | Move=Permeating Chill          | Cost={W}          | Dmg=30      
+ID=   32 | Glaceon                        | HP=  120 | Type={W}   | Prev=Eevee                | Move=Icicle Missile            | Cost={W}ΓùÅ         | Dmg=70      
+ID=   34 | Frogadier                      | HP=   90 | Type={W}   | Prev=Froakie              | Move=Numbing Water             | Cost={W}          | Dmg=20      
+ID=   48 | Croconaw                       | HP=   90 | Type={W}   | Prev=Totodile             | Move=Reverse Thrust            | Cost={W}          | Dmg=30      
+ID=   51 | Palafin                        | HP=  150 | Type={W}   | Prev=Finizen              | Move=Vanguard Punch            | Cost={W}          | Dmg=130     
+ID=   51 | Palafin                        | HP=  150 | Type={W}   | Prev=Finizen              | Move=Double Hit                | Cost={W}ΓùÅΓùÅ        | Dmg=90├ù     
+ID=   52 | Wugtrio ex                     | HP=  250 | Type={L}   | Prev=Wiglett              | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=   52 | Wugtrio ex                     | HP=  250 | Type={L}   | Prev=Wiglett              | Move=Tricolor Pump             | Cost={W}          | Dmg=n/a     
+ID=   52 | Wugtrio ex                     | HP=  250 | Type={L}   | Prev=Wiglett              | Move=Numbing Hold              | Cost={W}{W}       | Dmg=120     
+ID=   55 | Bronzong                       | HP=  110 | Type={P}   | Prev=Bronzor              | Move=Evolution Jammer          | Cost={P}          | Dmg=30      
+ID=   55 | Bronzong                       | HP=  110 | Type={P}   | Prev=Bronzor              | Move=Super Psy Bolt            | Cost={P}ΓùÅΓùÅ        | Dmg=100     
+ID=   60 | Haunter                        | HP=   90 | Type={D}   | Prev=Gastly               | Move=Super Poison Breath       | Cost={D}{D}       | Dmg=30      
+ID=   66 | Dudunsparce                    | HP=  140 | Type={C}   | Prev=Dunsparce            | Move=[Ability] Run Away Draw   | Cost=n/a          | Dmg=n/a     
+ID=   66 | Dudunsparce                    | HP=  140 | Type={C}   | Prev=Dunsparce            | Move=Land Crush                | Cost=ΓùÅΓùÅΓùÅ          | Dmg=90      
+ID=   69 | Nuzleaf                        | HP=   90 | Type={G}   | Prev=Seedot               | Move=Corkscrew Punch           | Cost={G}          | Dmg=20      
+ID=   69 | Nuzleaf                        | HP=   90 | Type={G}   | Prev=Seedot               | Move=Comet Slap                | Cost=ΓùÅΓùÅ           | Dmg=30├ù     
+ID=   72 | Sawsbuck                       | HP=  130 | Type={G}   | Prev=Deerling             | Move=[Ability] Changing Seasons | Cost=n/a          | Dmg=n/a     
+ID=   72 | Sawsbuck                       | HP=  130 | Type={G}   | Prev=Deerling             | Move=Superpowered Horns        | Cost={G}ΓùÅΓùÅ        | Dmg=110     
+ID=   74 | Rabsca                         | HP=   70 | Type={G}   | Prev=Rellor               | Move=[Ability] Spherical Shield | Cost=n/a          | Dmg=n/a     
+ID=   74 | Rabsca                         | HP=   70 | Type={G}   | Prev=Rellor               | Move=Psychic                   | Cost={G}          | Dmg=10      
+ID=   78 | Torracat                       | HP=  100 | Type={R}   | Prev=Litten               | Move=Bite                      | Cost={R}          | Dmg=30      
+ID=   78 | Torracat                       | HP=  100 | Type={R}   | Prev=Litten               | Move=Flare Strike              | Cost={R}ΓùÅΓùÅ        | Dmg=80      
+ID=   82 | Excadrill                      | HP=  130 | Type={F}   | Prev=Drilbur              | Move=Mud Shot                  | Cost=ΓùÅ            | Dmg=20      
+ID=   82 | Excadrill                      | HP=  130 | Type={F}   | Prev=Drilbur              | Move=Wild Tackle               | Cost={F}{F}ΓùÅ      | Dmg=180     
+ID=   83 | Farigiraf ex                   | HP=  260 | Type={D}   | Prev=Girafarig            | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=   83 | Farigiraf ex                   | HP=  260 | Type={D}   | Prev=Girafarig            | Move=[Ability] Armor Tail      | Cost=n/a          | Dmg=n/a     
+ID=   83 | Farigiraf ex                   | HP=  260 | Type={D}   | Prev=Girafarig            | Move=Dirty Beam                | Cost={P}ΓùÅΓùÅ        | Dmg=160     
+ID=   84 | Scizor ex                      | HP=  270 | Type={M}   | Prev=Scyther              | Move=Steel Wing                | Cost=ΓùÅΓùÅ           | Dmg=70      
+ID=   84 | Scizor ex                      | HP=  270 | Type={M}   | Prev=Scyther              | Move=Cross Breaker             | Cost={M}{M}       | Dmg=120├ù    
+ID=   86 | Metang                         | HP=  100 | Type={M}   | Prev=Beldum               | Move=[Ability] Metal Maker     | Cost=n/a          | Dmg=n/a     
+ID=   86 | Metang                         | HP=  100 | Type={M}   | Prev=Beldum               | Move=Beam                      | Cost={M}ΓùÅΓùÅ        | Dmg=60      
+ID=   90 | Thwackey                       | HP=  100 | Type={G}   | Prev=Grookey              | Move=[Ability] Boom Boom Groove | Cost=n/a          | Dmg=n/a     
+ID=   90 | Thwackey                       | HP=  100 | Type={G}   | Prev=Grookey              | Move=Beat                      | Cost={G}{G}       | Dmg=50      
+ID=   93 | Dipplin                        | HP=   80 | Type={G}   | Prev=Applin               | Move=[Ability] Festival Lead   | Cost=n/a          | Dmg=n/a     
+ID=   93 | Dipplin                        | HP=   80 | Type={G}   | Prev=Applin               | Move=Do the Wave               | Cost={G}          | Dmg=20├ù     
+ID=   94 | Sinistcha                      | HP=   70 | Type={G}   | Prev=Poltchageist         | Move=Cursed Drop               | Cost={G}          | Dmg=n/a     
+ID=   94 | Sinistcha                      | HP=   70 | Type={G}   | Prev=Poltchageist         | Move=Spill the Tea             | Cost={G}          | Dmg=70├ù     
+ID=  102 | Milotic                        | HP=  120 | Type={W}   | Prev=Feebas               | Move=[Ability] Mentally Calm   | Cost=n/a          | Dmg=n/a     
+ID=  102 | Milotic                        | HP=  120 | Type={W}   | Prev=Feebas               | Move=Hydro Splash              | Cost={W}ΓùÅΓùÅ        | Dmg=100     
+ID=  104 | Froslass                       | HP=   90 | Type={W}   | Prev=Snorunt              | Move=[Ability] Freezing Shroud | Cost=n/a          | Dmg=n/a     
+ID=  104 | Froslass                       | HP=   90 | Type={W}   | Prev=Snorunt              | Move=Frost Smash               | Cost={W}ΓùÅ         | Dmg=60      
+ID=  106 | Palafin                        | HP=  100 | Type={W}   | Prev=Finizen              | Move=[Ability] Zero to Hero    | Cost=n/a          | Dmg=n/a     
+ID=  106 | Palafin                        | HP=  100 | Type={W}   | Prev=Finizen              | Move=Wave Splash               | Cost={W}ΓùÅ         | Dmg=30      
+ID=  107 | Palafin ex                     | HP=  340 | Type={W}   | Prev=Finizen              | Move=[Ability] HeroΓÇÖs Spirit   | Cost=n/a          | Dmg=n/a     
+ID=  107 | Palafin ex                     | HP=  340 | Type={W}   | Prev=Finizen              | Move=Giga Impact               | Cost={W}          | Dmg=250     
+ID=  110 | Slurpuff                       | HP=  120 | Type={P}   | Prev=Swirlix              | Move=Slurp Slurp               | Cost={P}ΓùÅ         | Dmg=90├ù     
+ID=  114 | Gurdurr                        | HP=  100 | Type={F}   | Prev=Timburr              | Move=Knuckle Punch             | Cost={F}          | Dmg=20      
+ID=  114 | Gurdurr                        | HP=  100 | Type={F}   | Prev=Timburr              | Move=Superpower                | Cost={F}ΓùÅΓùÅ        | Dmg=50      
+ID=  120 | Drakloak                       | HP=   90 | Type=τ½£     | Prev=Dreepy               | Move=[Ability] Recon Directive | Cost=n/a          | Dmg=n/a     
+ID=  120 | Drakloak                       | HP=   90 | Type=τ½£     | Prev=Dreepy               | Move=Dragon Headbutt           | Cost={R}{P}       | Dmg=70      
+ID=  125 | Blissey ex                     | HP=  300 | Type={C}   | Prev=Chansey              | Move=[Ability] Happy Switch    | Cost=n/a          | Dmg=n/a     
+ID=  125 | Blissey ex                     | HP=  300 | Type={C}   | Prev=Chansey              | Move=Return                    | Cost=ΓùÅΓùÅΓùÅ          | Dmg=180     
+ID=  126 | Galvantula                     | HP=  100 | Type={G}   | Prev=Joltik               | Move=[Ability] Compound Eyes   | Cost=n/a          | Dmg=n/a     
+ID=  126 | Galvantula                     | HP=  100 | Type={G}   | Prev=Joltik               | Move=Shocking Web              | Cost={G}ΓùÅ         | Dmg=50      
+ID=  128 | Dartrix                        | HP=   90 | Type={G}   | Prev=Rowlet               | Move=United Wings              | Cost=ΓùÅ            | Dmg=20├ù     
+ID=  128 | Dartrix                        | HP=   90 | Type={G}   | Prev=Rowlet               | Move=Cutting Wind              | Cost={G}          | Dmg=30      
+ID=  130 | Revavroom ex                   | HP=  280 | Type={L}   | Prev=Varoom               | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=  130 | Revavroom ex                   | HP=  280 | Type={L}   | Prev=Varoom               | Move=Accelerator Flash         | Cost={M}          | Dmg=20      
+ID=  130 | Revavroom ex                   | HP=  280 | Type={L}   | Prev=Varoom               | Move=Shattering Speed          | Cost={M}{M}{M}    | Dmg=250     
+ID=  132 | Dusclops                       | HP=   90 | Type={P}   | Prev=Duskull              | Move=[Ability] Cursed Blast    | Cost=n/a          | Dmg=n/a     
+ID=  132 | Dusclops                       | HP=   90 | Type={P}   | Prev=Duskull              | Move=Will-O-Wisp               | Cost={P}{P}       | Dmg=50      
+ID=  134 | Sylveon                        | HP=  120 | Type={P}   | Prev=Eevee                | Move=Mystical Return           | Cost={P}          | Dmg=n/a     
+ID=  134 | Sylveon                        | HP=  120 | Type={P}   | Prev=Eevee                | Move=Disarming Voice           | Cost={P}ΓùÅΓùÅ        | Dmg=90      
+ID=  137 | Zoroark                        | HP=  120 | Type={D}   | Prev=Zorua                | Move=Illusory Hijacking        | Cost=ΓùÅΓùÅ           | Dmg=60├ù     
+ID=  137 | Zoroark                        | HP=  120 | Type={D}   | Prev=Zorua                | Move=Claw Slash                | Cost={D}ΓùÅΓùÅ        | Dmg=110     
+ID=  146 | Lileep                         | HP=  100 | Type={G}   | Prev=Antique Root Fossil  | Move=Bind Down                 | Cost={G}          | Dmg=50      
+ID=  152 | Raboot                         | HP=   90 | Type={R}   | Prev=Scorbunny            | Move=Low Sweep                 | Cost={R}          | Dmg=30      
+ID=  152 | Raboot                         | HP=   90 | Type={R}   | Prev=Scorbunny            | Move=Combustion                | Cost={R}ΓùÅΓùÅ        | Dmg=60      
+ID=  156 | Crabominable                   | HP=  160 | Type={W}   | Prev=Crabrawler           | Move=[Ability] Food Prep       | Cost=n/a          | Dmg=n/a     
+ID=  156 | Crabominable                   | HP=  160 | Type={W}   | Prev=Crabrawler           | Move=Haymaker                  | Cost={W}ΓùÅΓùÅΓùÅΓùÅ      | Dmg=250     
+ID=  158 | Drednaw                        | HP=  140 | Type={W}   | Prev=Chewtle              | Move=[Ability] Impervious Shell | Cost=n/a          | Dmg=n/a     
+ID=  158 | Drednaw                        | HP=  140 | Type={W}   | Prev=Chewtle              | Move=Hard Crunch               | Cost=ΓùÅΓùÅΓùÅ          | Dmg=80      
+ID=  161 | Galvantula ex                  | HP=  260 | Type={L}   | Prev=Joltik               | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=  161 | Galvantula ex                  | HP=  260 | Type={L}   | Prev=Joltik               | Move=Charged Web               | Cost={L}ΓùÅ         | Dmg=110     
+ID=  161 | Galvantula ex                  | HP=  260 | Type={L}   | Prev=Joltik               | Move=Fulgurite                 | Cost={G}{L}{F}    | Dmg=180     
+ID=  163 | Slowking                       | HP=  120 | Type={P}   | Prev=Slowpoke             | Move=Seek Inspiration          | Cost={P}ΓùÅ         | Dmg=n/a     
+ID=  163 | Slowking                       | HP=  120 | Type={P}   | Prev=Slowpoke             | Move=Super Psy Bolt            | Cost={P}{P}ΓùÅ      | Dmg=120     
+ID=  166 | Klang                          | HP=   90 | Type={M}   | Prev=Klink                | Move=Iron Tackle               | Cost=ΓùÅΓùÅ           | Dmg=60      
+ID=  170 | Archaludon                     | HP=  180 | Type={M}   | Prev=Duraludon            | Move=[Ability] Metal Bridge    | Cost=n/a          | Dmg=n/a     
+ID=  170 | Archaludon                     | HP=  180 | Type={M}   | Prev=Duraludon            | Move=Iron Blaster              | Cost={M}{M}ΓùÅ      | Dmg=160     
+ID=  173 | Noctowl                        | HP=  100 | Type={C}   | Prev=Hoothoot             | Move=[Ability] Jewel Seeker    | Cost=n/a          | Dmg=n/a     
+ID=  173 | Noctowl                        | HP=  100 | Type={C}   | Prev=Hoothoot             | Move=Speed Wing                | Cost=ΓùÅΓùÅ           | Dmg=60      
+ID=  181 | Quaxwell                       | HP=  100 | Type={W}   | Prev=Quaxly               | Move=Aqua Edge                 | Cost={W}          | Dmg=40      
+ID=  188 | Vibrava                        | HP=   90 | Type={F}   | Prev=Trapinch             | Move=Screech                   | Cost=ΓùÅ            | Dmg=n/a     
+ID=  188 | Vibrava                        | HP=   90 | Type={F}   | Prev=Trapinch             | Move=Cutting Wind              | Cost={F}ΓùÅ         | Dmg=50      
+ID=  190 | Archaludon ex                  | HP=  300 | Type={M}   | Prev=Duraludon            | Move=[Ability] Assemble Alloy  | Cost=n/a          | Dmg=n/a     
+ID=  190 | Archaludon ex                  | HP=  300 | Type={M}   | Prev=Duraludon            | Move=Metal Defender            | Cost={M}{M}{M}    | Dmg=220     
+ID=  191 | Gholdengo                      | HP=  130 | Type={M}   | Prev=Gimmighoul           | Move=Strike It Rich            | Cost={M}          | Dmg=30      
+ID=  191 | Gholdengo                      | HP=  130 | Type={M}   | Prev=Gimmighoul           | Move=Surf Back                 | Cost=ΓùÅΓùÅΓùÅ          | Dmg=100     
+ID=  193 | Alolan Exeggutor ex            | HP=  300 | Type=τ½£     | Prev=Exeggcute            | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=  193 | Alolan Exeggutor ex            | HP=  300 | Type=τ½£     | Prev=Exeggcute            | Move=Tropical Frenzy           | Cost={G}{W}       | Dmg=150     
+ID=  193 | Alolan Exeggutor ex            | HP=  300 | Type=τ½£     | Prev=Exeggcute            | Move=Swinging Sphene           | Cost={G}{W}{F}    | Dmg=n/a     
+ID=  194 | Altaria                        | HP=  120 | Type=τ½£     | Prev=Swablu               | Move=Humming Charge            | Cost={W}          | Dmg=n/a     
+ID=  194 | Altaria                        | HP=  120 | Type=τ½£     | Prev=Swablu               | Move=Cotton Wings              | Cost={W}{M}       | Dmg=100     
+ID=  200 | Spewpa                         | HP=   80 | Type={G}   | Prev=Scatterbug           | Move=Wander About              | Cost=ΓùÅ            | Dmg=n/a     
+ID=  200 | Spewpa                         | HP=   80 | Type={G}   | Prev=Scatterbug           | Move=Tackle                    | Cost={G}          | Dmg=30      
+ID=  205 | Scovillain ex                  | HP=  260 | Type={R}   | Prev=Capsakid             | Move=[Ability] Double Type     | Cost=n/a          | Dmg=n/a     
+ID=  205 | Scovillain ex                  | HP=  260 | Type={R}   | Prev=Capsakid             | Move=Spicy Rage                | Cost={R}{R}       | Dmg=10      
+ID=  207 | Milotic ex                     | HP=  270 | Type={W}   | Prev=Feebas               | Move=[Ability] Sparkling Scales | Cost=n/a          | Dmg=n/a     
+ID=  207 | Milotic ex                     | HP=  270 | Type={W}   | Prev=Feebas               | Move=Hypno Splash              | Cost={W}ΓùÅΓùÅ        | Dmg=160     
+ID=  211 | Magneton                       | HP=  100 | Type={L}   | Prev=Magnemite            | Move=[Ability] Overvolt Discharge | Cost=n/a          | Dmg=n/a     
+ID=  211 | Magneton                       | HP=  100 | Type={L}   | Prev=Magnemite            | Move=Electric Ball             | Cost={L}ΓùÅ         | Dmg=40      
+ID=  219 | Cofagrigus                     | HP=  120 | Type={P}   | Prev=Yamask               | Move=Law of the Underworld     | Cost={P}          | Dmg=n/a     
+ID=  219 | Cofagrigus                     | HP=  120 | Type={P}   | Prev=Yamask               | Move=Spooky Shot               | Cost={P}ΓùÅΓùÅ        | Dmg=100     
+ID=  221 | Meowstic                       | HP=   90 | Type={P}   | Prev=Espurr               | Move=[Ability] Beckoning Tail  | Cost=n/a          | Dmg=n/a     
+ID=  221 | Meowstic                       | HP=   90 | Type={P}   | Prev=Espurr               | Move=Psyshot                   | Cost={P}ΓùÅΓùÅ        | Dmg=80      
+ID=  223 | PalossandEX                    | HP=  280 | Type={P}   | Prev=Sandygast            | Move=Tera                      | Cost=n/a          | Dmg=n/a     
+ID=  223 | PalossandEX                    | HP=  280 | Type={P}   | Prev=Sandygast            | Move=Sand Tomb                 | Cost=ΓùÅΓùÅΓùÅ          | Dmg=160     
+ID=  223 | PalossandEX                    | HP=  280 | Type={P}   | Prev=Sandygast            | Move=Barite Jail               | Cost={W}{P}{F}    | Dmg=n/a     
+ID=  225 | Gastrodon                      | HP=  130 | Type={F}   | Prev=Shellos              | Move=[Ability] Sticky Bind     | Cost=n/a          | Dmg=n/a     
+ID=  225 | Gastrodon                      | HP=  130 | Type={F}   | Prev=Shellos              | Move=Mud Shot                  | Cost={F}ΓùÅΓùÅ        | Dmg=80      
+ID=  228 | Zweilous                       | HP=  100 | Type={D}   | Prev=Deino                | Move=Stomp Off                 | Cost={D}          | Dmg=n/a     
+ID=  228 | Zweilous                       | HP=  100 | Type={D}   | Prev=Deino                | Move=Darkness Fang             | Cost={D}ΓùÅΓùÅ        | Dmg=60      
+ID=  236 | Leafeon ex                     | HP=  270 | Type={G}   | Prev=Eevee                | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=  236 | Leafeon ex                     | HP=  270 | Type={G}   | Prev=Eevee                | Move=Verdant Storm             | Cost={G}ΓùÅ         | Dmg=60├ù     
+ID=  236 | Leafeon ex                     | HP=  270 | Type={G}   | Prev=Eevee                | Move=Moss Agate                | Cost={G}{R}{W}    | Dmg=230     
+ID=  238 | Whimsicott                     | HP=  100 | Type={G}   | Prev=Cottonee             | Move=[Ability] Wafting Heal    | Cost=n/a          | Dmg=n/a     
+ID=  238 | Whimsicott                     | HP=  100 | Type={G}   | Prev=Cottonee             | Move=Seed Bomb                 | Cost={G}          | Dmg=40      
+ID=  239 | Flareon ex                     | HP=  270 | Type={R}   | Prev=Eevee                | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=  239 | Flareon ex                     | HP=  270 | Type={R}   | Prev=Eevee                | Move=Burning Charge            | Cost={R}ΓùÅ         | Dmg=130     
+ID=  239 | Flareon ex                     | HP=  270 | Type={R}   | Prev=Eevee                | Move=Carnelian                 | Cost={R}{W}{L}    | Dmg=280     
+ID=  240 | Seaking                        | HP=  110 | Type={W}   | Prev=Goldeen              | Move=[Ability] Festival Lead   | Cost=n/a          | Dmg=n/a     
+ID=  240 | Seaking                        | HP=  110 | Type={W}   | Prev=Goldeen              | Move=Rapid Draw                | Cost=ΓùÅ            | Dmg=60      
+ID=  241 | Vaporeon ex                    | HP=  280 | Type={W}   | Prev=Eevee                | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=  241 | Vaporeon ex                    | HP=  280 | Type={W}   | Prev=Eevee                | Move=Severe Squall             | Cost={W}ΓùÅ         | Dmg=n/a     
+ID=  241 | Vaporeon ex                    | HP=  280 | Type={W}   | Prev=Eevee                | Move=Aquamarine                | Cost={R}{W}{L}    | Dmg=280     
+ID=  243 | Glaceon ex                     | HP=  270 | Type={W}   | Prev=Eevee                | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=  243 | Glaceon ex                     | HP=  270 | Type={W}   | Prev=Eevee                | Move=Frost Bullet              | Cost={W}ΓùÅ         | Dmg=110     
+ID=  243 | Glaceon ex                     | HP=  270 | Type={W}   | Prev=Eevee                | Move=Euclase                   | Cost={G}{W}{D}    | Dmg=n/a     
+ID=  244 | Jolteon ex                     | HP=  260 | Type={L}   | Prev=Eevee                | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=  244 | Jolteon ex                     | HP=  260 | Type={L}   | Prev=Eevee                | Move=Flashing Spear            | Cost={L}ΓùÅ         | Dmg=60      
+ID=  244 | Jolteon ex                     | HP=  260 | Type={L}   | Prev=Eevee                | Move=Dravite                   | Cost={R}{W}{L}    | Dmg=280     
+ID=  246 | Espeon ex                      | HP=  270 | Type={P}   | Prev=Eevee                | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=  246 | Espeon ex                      | HP=  270 | Type={P}   | Prev=Eevee                | Move=Psych Out                 | Cost={P}ΓùÅΓùÅ        | Dmg=160     
+ID=  246 | Espeon ex                      | HP=  270 | Type={P}   | Prev=Eevee                | Move=Amazez                    | Cost={G}{P}{D}    | Dmg=n/a     
+ID=  248 | Umbreon ex                     | HP=  280 | Type={D}   | Prev=Eevee                | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=  248 | Umbreon ex                     | HP=  280 | Type={D}   | Prev=Eevee                | Move=Moon Mirage               | Cost={D}ΓùÅΓùÅ        | Dmg=160     
+ID=  248 | Umbreon ex                     | HP=  280 | Type={D}   | Prev=Eevee                | Move=Onyx                      | Cost={L}{P}{D}    | Dmg=n/a     
+ID=  253 | Metapod                        | HP=   90 | Type={G}   | Prev=Caterpie             | Move=Harden                    | Cost={G}          | Dmg=n/a     
+ID=  256 | Magmortar                      | HP=  130 | Type={R}   | Prev=Magmar               | Move=[Ability] Magma Surge     | Cost=n/a          | Dmg=n/a     
+ID=  256 | Magmortar                      | HP=  130 | Type={R}   | Prev=Magmar               | Move=Searing Flame             | Cost={R}{R}ΓùÅ      | Dmg=90      
+ID=  258 | NΓÇÖs Darmanitan                 | HP=  140 | Type={R}   | Prev=NΓÇÖs Darumaka         | Move=Back Draft                | Cost=ΓùÅΓùÅ           | Dmg=30├ù     
+ID=  258 | NΓÇÖs Darmanitan                 | HP=  140 | Type={R}   | Prev=NΓÇÖs Darumaka         | Move=Flamebody Cannon          | Cost={R}{R}ΓùÅ      | Dmg=90      
+ID=  261 | Lombre                         | HP=   90 | Type={W}   | Prev=Lotad                | Move=Aqua Slash                | Cost={W}{W}       | Dmg=70      
+ID=  264 | Wailord                        | HP=  240 | Type={W}   | Prev=Wailmer              | Move=Hydro Pump                | Cost=ΓùÅΓùÅΓùÅΓùÅ         | Dmg=10      
+ID=  266 | IonoΓÇÖs Electrode               | HP=  100 | Type={L}   | Prev=IonoΓÇÖs Voltorb       | Move=Thump-Thump Boom          | Cost={L}{L}       | Dmg=n/a     
+ID=  266 | IonoΓÇÖs Electrode               | HP=  100 | Type={L}   | Prev=IonoΓÇÖs Voltorb       | Move=Electric Ball             | Cost={L}{L}ΓùÅ      | Dmg=100     
+ID=  269 | IonoΓÇÖs Bellibolt ex            | HP=  280 | Type={L}   | Prev=IonoΓÇÖs Tadbulb       | Move=[Ability] Electric Streamer | Cost=n/a          | Dmg=n/a     
+ID=  269 | IonoΓÇÖs Bellibolt ex            | HP=  280 | Type={L}   | Prev=IonoΓÇÖs Tadbulb       | Move=Thunderous Bolt           | Cost={L}{L}{L}ΓùÅ   | Dmg=230     
+ID=  271 | IonoΓÇÖs Kilowattrel             | HP=  120 | Type={L}   | Prev=IonoΓÇÖs Wattrel       | Move=[Ability] Flashing Draw   | Cost=n/a          | Dmg=n/a     
+ID=  271 | IonoΓÇÖs Kilowattrel             | HP=  120 | Type={L}   | Prev=IonoΓÇÖs Wattrel       | Move=Mach Bolt                 | Cost={L}ΓùÅΓùÅ        | Dmg=70      
+ID=  273 | Banette                        | HP=   90 | Type={P}   | Prev=Shuppet              | Move=Cursed Words              | Cost={P}          | Dmg=n/a     
+ID=  273 | Banette                        | HP=   90 | Type={P}   | Prev=Shuppet              | Move=Spooky Shot               | Cost={P}ΓùÅ         | Dmg=70      
+ID=  275 | Metang                         | HP=  100 | Type={P}   | Prev=Beldum               | Move=Psypunch                  | Cost={P}          | Dmg=30      
+ID=  275 | Metang                         | HP=  100 | Type={P}   | Prev=Beldum               | Move=Zen Headbutt              | Cost={P}{P}       | Dmg=50      
+ID=  279 | LillieΓÇÖs Ribombee              | HP=   70 | Type={P}   | Prev=LillieΓÇÖs Cutiefly    | Move=[Ability] Inviting Wink   | Cost=n/a          | Dmg=n/a     
+ID=  279 | LillieΓÇÖs Ribombee              | HP=   70 | Type={P}   | Prev=LillieΓÇÖs Cutiefly    | Move=Magical Shot              | Cost={P}          | Dmg=50      
+ID=  282 | Piloswine                      | HP=  100 | Type={F}   | Prev=Swinub               | Move=Strength                  | Cost=ΓùÅ            | Dmg=20      
+ID=  282 | Piloswine                      | HP=  100 | Type={F}   | Prev=Swinub               | Move=Impaling Tusk             | Cost={F}{F}       | Dmg=50      
+ID=  285 | Pupitar                        | HP=   90 | Type={F}   | Prev=Larvitar             | Move=Take Down                 | Cost=ΓùÅΓùÅ           | Dmg=60      
+ID=  287 | Lycanroc                       | HP=  120 | Type={F}   | Prev=Rockruff             | Move=[Ability] Spike-Clad      | Cost=n/a          | Dmg=n/a     
+ID=  287 | Lycanroc                       | HP=  120 | Type={F}   | Prev=Rockruff             | Move=Clamping Fangs            | Cost=ΓùÅΓùÅΓùÅ          | Dmg=40      
+ID=  289 | HopΓÇÖs Sandaconda               | HP=  140 | Type={F}   | Prev=HopΓÇÖs Silicobra      | Move=Rumble                    | Cost={F}ΓùÅ         | Dmg=30      
+ID=  289 | HopΓÇÖs Sandaconda               | HP=  140 | Type={F}   | Prev=HopΓÇÖs Silicobra      | Move=Break Ground              | Cost={F}ΓùÅΓùÅ        | Dmg=140     
+ID=  293 | NΓÇÖs Zoroark ex                 | HP=  280 | Type={D}   | Prev=NΓÇÖs Zorua            | Move=[Ability] Trade           | Cost=n/a          | Dmg=n/a     
+ID=  293 | NΓÇÖs Zoroark ex                 | HP=  280 | Type={D}   | Prev=NΓÇÖs Zorua            | Move=Night Joker               | Cost={D}{D}       | Dmg=n/a     
+ID=  295 | NΓÇÖs Klang                      | HP=   90 | Type={M}   | Prev=NΓÇÖs Klink            | Move=Spinning Gears            | Cost=ΓùÅ            | Dmg=20      
+ID=  295 | NΓÇÖs Klang                      | HP=   90 | Type={M}   | Prev=NΓÇÖs Klink            | Move=Confront                  | Cost={M}ΓùÅ         | Dmg=40      
+ID=  301 | Shelgon                        | HP=  100 | Type=τ½£     | Prev=Bagon                | Move=Guard Press               | Cost=ΓùÅΓùÅ           | Dmg=30      
+ID=  301 | Shelgon                        | HP=  100 | Type=τ½£     | Prev=Bagon                | Move=Heavy Impact              | Cost={R}{W}ΓùÅ      | Dmg=80      
+ID=  306 | Dudunsparce ex                 | HP=  270 | Type={C}   | Prev=Dunsparce            | Move=Tenacious Tail            | Cost=ΓùÅ            | Dmg=60├ù     
+ID=  306 | Dudunsparce ex                 | HP=  270 | Type={C}   | Prev=Dunsparce            | Move=Destructive Drill         | Cost=ΓùÅΓùÅΓùÅ          | Dmg=150     
+ID=  308 | HopΓÇÖs Corvisquire              | HP=   90 | Type={C}   | Prev=HopΓÇÖs Rookidee       | Move=Speed Dive                | Cost=ΓùÅ            | Dmg=30      
+ID=  308 | HopΓÇÖs Corvisquire              | HP=   90 | Type={C}   | Prev=HopΓÇÖs Rookidee       | Move=Razor Wing                | Cost=ΓùÅΓùÅΓùÅ          | Dmg=80      
+ID=  310 | HopΓÇÖs Dubwool                  | HP=  120 | Type={C}   | Prev=HopΓÇÖs Wooloo         | Move=[Ability] Defiant Horn    | Cost=n/a          | Dmg=n/a     
+ID=  310 | HopΓÇÖs Dubwool                  | HP=  120 | Type={C}   | Prev=HopΓÇÖs Wooloo         | Move=Headbutt                  | Cost=ΓùÅΓùÅΓùÅ          | Dmg=80      
+ID=  315 | Azumarill                      | HP=  120 | Type={P}   | Prev=Marill               | Move=[Ability] Glistening Bubbles | Cost=n/a          | Dmg=n/a     
+ID=  315 | Azumarill                      | HP=  120 | Type={P}   | Prev=Marill               | Move=Double-Edge               | Cost={P}{P}{P}{P} | Dmg=230     
+ID=  316 | Sylveon ex                     | HP=  270 | Type={P}   | Prev=Eevee                | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=  316 | Sylveon ex                     | HP=  270 | Type={P}   | Prev=Eevee                | Move=Magical Charm             | Cost={P}ΓùÅΓùÅ        | Dmg=160     
+ID=  316 | Sylveon ex                     | HP=  270 | Type={P}   | Prev=Eevee                | Move=Angelite                  | Cost={W}{L}{P}    | Dmg=n/a     
+ID=  320 | Ceruledge ex                   | HP=  270 | Type={R}   | Prev=Charcadet            | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=  320 | Ceruledge ex                   | HP=  270 | Type={R}   | Prev=Charcadet            | Move=Abyssal Flames            | Cost={R}          | Dmg=30      
+ID=  320 | Ceruledge ex                   | HP=  270 | Type={R}   | Prev=Charcadet            | Move=Raging Amethyst           | Cost={R}{P}{M}    | Dmg=280     
+ID=  322 | Lilligant                      | HP=  110 | Type={G}   | Prev=Petilil              | Move=[Ability] Sunny Day       | Cost=n/a          | Dmg=n/a     
+ID=  322 | Lilligant                      | HP=  110 | Type={G}   | Prev=Petilil              | Move=Spinning Attack           | Cost={G}ΓùÅΓùÅ        | Dmg=60      
+ID=  325 | Combusken                      | HP=   90 | Type={R}   | Prev=Torchic              | Move=Slash                     | Cost={R}ΓùÅ         | Dmg=50      
+ID=  330 | Sylveon                        | HP=  120 | Type={P}   | Prev=Eevee                | Move=[Ability] Safeguard       | Cost=n/a          | Dmg=n/a     
+ID=  330 | Sylveon                        | HP=  120 | Type={P}   | Prev=Eevee                | Move=Magical Shot              | Cost={P}ΓùÅΓùÅ        | Dmg=100     
+ID=  340 | Yanmega ex                     | HP=  280 | Type={G}   | Prev=Yanma                | Move=[Ability] Buzzing Boost   | Cost=n/a          | Dmg=n/a     
+ID=  340 | Yanmega ex                     | HP=  280 | Type={G}   | Prev=Yanma                | Move=Jet Cyclone               | Cost={G}{G}{G}ΓùÅ   | Dmg=210     
+ID=  342 | Cynthia's Roserade             | HP=  130 | Type={G}   | Prev=Cynthia's Roselia    | Move=[Ability] Cheer On to Glory | Cost=n/a          | Dmg=n/a     
+ID=  342 | Cynthia's Roserade             | HP=  130 | Type={G}   | Prev=Cynthia's Roselia    | Move=Leaf Step                 | Cost={G}ΓùÅΓùÅ        | Dmg=80      
+ID=  345 | Crustle                        | HP=  150 | Type={G}   | Prev=Dwebble              | Move=[Ability] Mysterious Rock Inn | Cost=n/a          | Dmg=n/a     
+ID=  345 | Crustle                        | HP=  150 | Type={G}   | Prev=Dwebble              | Move=Superb Scissors           | Cost={G}ΓùÅΓùÅ        | Dmg=120     
+ID=  347 | Dipplin                        | HP=   90 | Type={G}   | Prev=Applin               | Move=Energy Loop               | Cost={G}          | Dmg=50      
+ID=  351 | Rapidash                       | HP=  110 | Type={R}   | Prev=Ponyta               | Move=[Ability] Hurried Gait    | Cost=n/a          | Dmg=n/a     
+ID=  351 | Rapidash                       | HP=  110 | Type={R}   | Prev=Ponyta               | Move=Fire Mane                 | Cost={R}ΓùÅ         | Dmg=60      
+ID=  353 | Ethan's Quilava                | HP=  100 | Type={R}   | Prev=Ethan's Cyndaquil    | Move=[Ability] Bonded by the Journey | Cost=n/a          | Dmg=n/a     
+ID=  353 | Ethan's Quilava                | HP=  100 | Type={R}   | Prev=Ethan's Cyndaquil    | Move=Combustion                | Cost={R}          | Dmg=40      
+ID=  356 | Ethan's Magcargo               | HP=  130 | Type={R}   | Prev=Ethan's Slugma       | Move=[Ability] Melt Away       | Cost=n/a          | Dmg=n/a     
+ID=  356 | Ethan's Magcargo               | HP=  130 | Type={R}   | Prev=Ethan's Slugma       | Move=Lava Burst                | Cost={R}{R}{R}    | Dmg=70├ù     
+ID=  361 | Misty's Starmie                | HP=  100 | Type={W}   | Prev=Misty's Staryu       | Move=Abrupt Flash              | Cost={W}          | Dmg=60      
+ID=  363 | Misty's Gyarados               | HP=  180 | Type={W}   | Prev=Misty's Magikarp     | Move=Splashing Panic           | Cost={W}          | Dmg=70├ù     
+ID=  363 | Misty's Gyarados               | HP=  180 | Type={W}   | Prev=Misty's Magikarp     | Move=Waterfall                 | Cost={W}{W}ΓùÅ      | Dmg=120     
+ID=  366 | Cynthia's Milotic              | HP=  130 | Type={W}   | Prev=Cynthia's Feebas     | Move=Aqua Split                | Cost={W}ΓùÅ         | Dmg=60      
+ID=  368 | Floatzel                       | HP=  120 | Type={W}   | Prev=Buizel               | Move=Whirlpool                 | Cost=ΓùÅΓùÅ           | Dmg=30      
+ID=  368 | Floatzel                       | HP=  120 | Type={W}   | Prev=Buizel               | Move=Aqua Slash                | Cost={W}ΓùÅΓùÅ        | Dmg=140     
+ID=  372 | Electivire ex                  | HP=  280 | Type={L}   | Prev=Electabuzz           | Move=Dual Bolt                 | Cost={L}ΓùÅ         | Dmg=n/a     
+ID=  372 | Electivire ex                  | HP=  280 | Type={L}   | Prev=Electabuzz           | Move=High-Voltage Press        | Cost={L}{L}ΓùÅ      | Dmg=180     
+ID=  375 | Manectric                      | HP=  120 | Type={L}   | Prev=Electrike            | Move=Zap Kick                  | Cost=ΓùÅ            | Dmg=30      
+ID=  375 | Manectric                      | HP=  120 | Type={L}   | Prev=Electrike            | Move=Flash Impact              | Cost={L}ΓùÅ         | Dmg=120     
+ID=  380 | Cynthia's Gabite               | HP=  100 | Type={F}   | Prev=Cynthia's Gible      | Move=[Ability] ChampionΓÇÖs Call | Cost=n/a          | Dmg=n/a     
+ID=  380 | Cynthia's Gabite               | HP=  100 | Type={F}   | Prev=Cynthia's Gible      | Move=Dragonslice               | Cost={F}          | Dmg=40      
+ID=  383 | Mudsdale                       | HP=  150 | Type={F}   | Prev=Mudbray              | Move=[Ability] Mud Coat        | Cost=n/a          | Dmg=n/a     
+ID=  383 | Mudsdale                       | HP=  150 | Type={F}   | Prev=Mudbray              | Move=Heavy Impact              | Cost={F}{F}ΓùÅ      | Dmg=130     
+ID=  385 | Arven's Toedscruel             | HP=  140 | Type={F}   | Prev=Arven's Toedscool    | Move=Pull                      | Cost=ΓùÅ            | Dmg=n/a     
+ID=  385 | Arven's Toedscruel             | HP=  140 | Type={F}   | Prev=Arven's Toedscool    | Move=Reckless Charge           | Cost=ΓùÅΓùÅΓùÅ          | Dmg=120     
+ID=  389 | Arven's Mabosstiff ex          | HP=  270 | Type={D}   | Prev=Arven's Maschiff     | Move=Vigorous Tackle           | Cost=ΓùÅ            | Dmg=30      
+ID=  389 | Arven's Mabosstiff ex          | HP=  270 | Type={D}   | Prev=Arven's Maschiff     | Move=Boss Headbutt             | Cost=ΓùÅΓùÅΓùÅ          | Dmg=210     
+ID=  392 | Arven's Greedent               | HP=  120 | Type={C}   | Prev=Arven's Skwovet      | Move=[Ability] Greedy Order    | Cost=n/a          | Dmg=n/a     
+ID=  392 | Arven's Greedent               | HP=  120 | Type={C}   | Prev=Arven's Skwovet      | Move=Rolling Tackle            | Cost=ΓùÅΓùÅ           | Dmg=50      
+ID=  395 | Breloom                        | HP=  120 | Type={G}   | Prev=Shroomish            | Move=Damage Rush               | Cost=ΓùÅΓùÅ           | Dmg=30      
+ID=  395 | Breloom                        | HP=  120 | Type={G}   | Prev=Shroomish            | Move=Mega Drain                | Cost={G}ΓùÅΓùÅ        | Dmg=90      
+ID=  398 | Lurantis                       | HP=  120 | Type={G}   | Prev=Fomantis             | Move=Razor Leaf                | Cost=ΓùÅ            | Dmg=30      
+ID=  398 | Lurantis                       | HP=  120 | Type={G}   | Prev=Fomantis             | Move=Petal Blade Dance         | Cost={G}          | Dmg=130     
+ID=  401 | Team Rocket's Spidops          | HP=  130 | Type={G}   | Prev=Team Rocket's Tarountula | Move=[Ability] Charging Up     | Cost=n/a          | Dmg=n/a     
+ID=  401 | Team Rocket's Spidops          | HP=  130 | Type={G}   | Prev=Team Rocket's Tarountula | Move=Rocket Rush               | Cost={G}ΓùÅ         | Dmg=30├ù     
+ID=  403 | Dolliv                         | HP=   90 | Type={G}   | Prev=Smoliv               | Move=Nutrients                 | Cost={G}          | Dmg=n/a     
+ID=  403 | Dolliv                         | HP=   90 | Type={G}   | Prev=Smoliv               | Move=Tackle                    | Cost=ΓùÅΓùÅ           | Dmg=40      
+ID=  406 | Arcanine                       | HP=  140 | Type={R}   | Prev=Growlithe            | Move=Flare                     | Cost=ΓùÅΓùÅ           | Dmg=50      
+ID=  406 | Arcanine                       | HP=  140 | Type={R}   | Prev=Growlithe            | Move=Punishing Fang            | Cost={R}ΓùÅΓùÅ        | Dmg=100     
+ID=  409 | Team Rocket's Houndoom         | HP=  130 | Type={R}   | Prev=Team Rocket's Houndour | Move=Cruel Coal                | Cost={R}          | Dmg=n/a     
+ID=  409 | Team Rocket's Houndoom         | HP=  130 | Type={R}   | Prev=Team Rocket's Houndour | Move=Scorching Fire            | Cost={R}ΓùÅ         | Dmg=120     
+ID=  411 | Combusken                      | HP=  100 | Type={R}   | Prev=Torchic              | Move=Combustion                | Cost=ΓùÅ            | Dmg=20      
+ID=  411 | Combusken                      | HP=  100 | Type={R}   | Prev=Torchic              | Move=Double Kick               | Cost={R}ΓùÅ         | Dmg=40├ù     
+ID=  416 | Huntail                        | HP=  110 | Type={W}   | Prev=Clamperl             | Move=[Ability] DiverΓÇÖs Catch   | Cost=n/a          | Dmg=n/a     
+ID=  416 | Huntail                        | HP=  110 | Type={W}   | Prev=Clamperl             | Move=Wave Splash               | Cost={W}ΓùÅΓùÅ        | Dmg=80      
+ID=  417 | Gorebyss                       | HP=   90 | Type={W}   | Prev=Clamperl             | Move=Crescendo Wave            | Cost={W}          | Dmg=30├ù     
+ID=  419 | Abomasnow                      | HP=  150 | Type={W}   | Prev=Snover               | Move=Lunge Out                 | Cost=ΓùÅΓùÅΓùÅ          | Dmg=90      
+ID=  419 | Abomasnow                      | HP=  150 | Type={W}   | Prev=Snover               | Move=Frozen Wood               | Cost={W}{W}{W}ΓùÅ   | Dmg=120     
+ID=  422 | Barraskewda                    | HP=  130 | Type={W}   | Prev=Arrokuda             | Move=Sharp Fin                 | Cost={W}          | Dmg=40      
+ID=  422 | Barraskewda                    | HP=  130 | Type={W}   | Prev=Arrokuda             | Move=Dive                      | Cost={W}{W}       | Dmg=60      
+ID=  424 | Cetitan ex                     | HP=  300 | Type={W}   | Prev=Cetoddle             | Move=[Ability] Snow Camouflage | Cost=n/a          | Dmg=n/a     
+ID=  424 | Cetitan ex                     | HP=  300 | Type={W}   | Prev=Cetoddle             | Move=Crushing Press            | Cost={W}{W}{W}ΓùÅ   | Dmg=140     
+ID=  427 | Team Rocket's Flaaffy          | HP=   90 | Type={L}   | Prev=Team Rocket's Mareep | Move=Thunder Shock             | Cost={L}ΓùÅ         | Dmg=50      
+ID=  430 | Team Rocket's Hypno            | HP=  130 | Type={P}   | Prev=Team Rocket's Drowzee | Move=Psyshot                   | Cost={P}          | Dmg=40      
+ID=  430 | Team Rocket's Hypno            | HP=  130 | Type={P}   | Prev=Team Rocket's Drowzee | Move=Bench Manipulation        | Cost={P}{P}{P}    | Dmg=80├ù     
+ID=  435 | Team Rocket's Dottler          | HP=   80 | Type={P}   | Prev=Team Rocket's Blipbug | Move=Disruptive Radar          | Cost=ΓùÅ            | Dmg=n/a     
+ID=  435 | Team Rocket's Dottler          | HP=   80 | Type={P}   | Prev=Team Rocket's Blipbug | Move=Super Psy Bolt            | Cost={P}ΓùÅ         | Dmg=30      
+ID=  438 | Primeape                       | HP=  110 | Type={F}   | Prev=Mankey               | Move=Drag Off                  | Cost={F}          | Dmg=n/a     
+ID=  441 | Team Rocket's Pupitar          | HP=  100 | Type={F}   | Prev=Team Rocket's Larvitar | Move=Explosive Ascension       | Cost=ΓùÅ            | Dmg=30      
+ID=  444 | Probopass                      | HP=  140 | Type={F}   | Prev=Nosepass             | Move=Power Gem                 | Cost={F}          | Dmg=40      
+ID=  444 | Probopass                      | HP=  140 | Type={F}   | Prev=Nosepass             | Move=Mountain Drop             | Cost=ΓùÅΓùÅΓùÅ          | Dmg=70      
+ID=  446 | Medicham                       | HP=  120 | Type={F}   | Prev=Meditite             | Move=Harmonious Spirit Palm    | Cost={F}          | Dmg=50      
+ID=  449 | Team Rocket's Arbok            | HP=  130 | Type={D}   | Prev=Team Rocket's Ekans  | Move=[Ability] Potent Glare    | Cost=n/a          | Dmg=n/a     
+ID=  449 | Team Rocket's Arbok            | HP=  130 | Type={D}   | Prev=Team Rocket's Ekans  | Move=Spinning Tail             | Cost={D}{D}{D}    | Dmg=n/a     
+ID=  451 | Team Rocket's Nidorina         | HP=   90 | Type={D}   | Prev=Team Rocket's NidoranΓÖÇ | Move=Dark Awakening            | Cost={D}          | Dmg=n/a     
+ID=  451 | Team Rocket's Nidorina         | HP=   90 | Type={D}   | Prev=Team Rocket's NidoranΓÖÇ | Move=Scratch                   | Cost={D}{D}       | Dmg=50      
+ID=  454 | Team Rocket's Nidorino         | HP=  100 | Type={D}   | Prev=Team Rocket's NidoranΓÖé | Move=Hammer In                 | Cost={D}ΓùÅ         | Dmg=30      
+ID=  454 | Team Rocket's Nidorino         | HP=  100 | Type={D}   | Prev=Team Rocket's NidoranΓÖé | Move=Horn Rend                 | Cost={D}{D}ΓùÅ      | Dmg=60      
+ID=  457 | Team Rocket's Golbat           | HP=   80 | Type={D}   | Prev=Team Rocket's Zubat  | Move=[Ability] Sneaky Bite     | Cost=n/a          | Dmg=n/a     
+ID=  457 | Team Rocket's Golbat           | HP=   80 | Type={D}   | Prev=Team Rocket's Zubat  | Move=Confuse Ray               | Cost={D}          | Dmg=30      
+ID=  460 | Team Rocket's Muk              | HP=  150 | Type={D}   | Prev=Team Rocket's Grimer | Move=Gooped Up                 | Cost={D}ΓùÅ         | Dmg=40      
+ID=  460 | Team Rocket's Muk              | HP=  150 | Type={D}   | Prev=Team Rocket's Grimer | Move=Hazardous Venom           | Cost={D}{D}ΓùÅ      | Dmg=100├ù    
+ID=  462 | Team Rocket's Weezing          | HP=  130 | Type={D}   | Prev=Team Rocket's Koffing | Move=Explode Together Now      | Cost={D}ΓùÅ         | Dmg=40├ù     
+ID=  465 | Forretress                     | HP=  130 | Type={M}   | Prev=Pineco               | Move=Iron Shake-Up             | Cost=ΓùÅ            | Dmg=20      
+ID=  465 | Forretress                     | HP=  130 | Type={M}   | Prev=Pineco               | Move=Hurricane of Needles      | Cost={M}ΓùÅΓùÅΓùÅ       | Dmg=80├ù     
+ID=  469 | Team Rocket's Raticate         | HP=   90 | Type={C}   | Prev=Team Rocket's Rattata | Move=Reckless Abandon          | Cost=ΓùÅ            | Dmg=90      
+ID=  471 | Team Rocket's Persian ex       | HP=  260 | Type={C}   | Prev=Team Rocket's Meowth | Move=Haughty Order             | Cost=ΓùÅΓùÅ           | Dmg=n/a     
+ID=  471 | Team Rocket's Persian ex       | HP=  260 | Type={C}   | Prev=Team Rocket's Meowth | Move=Cruel Slash               | Cost=ΓùÅΓùÅΓùÅ          | Dmg=140     
+ID=  474 | Team Rocket's Porygon2         | HP=   90 | Type={C}   | Prev=Team Rocket's Porygon | Move=R Command                 | Cost=ΓùÅΓùÅΓùÅ          | Dmg=20├ù     
+ID=  477 | Swellow                        | HP=  100 | Type={C}   | Prev=Taillow              | Move=Add On                    | Cost=ΓùÅ            | Dmg=n/a     
+ID=  477 | Swellow                        | HP=  100 | Type={C}   | Prev=Taillow              | Move=Speed Wing                | Cost=ΓùÅΓùÅ           | Dmg=70      
+ID=  480 | Servine                        | HP=  100 | Type={G}   | Prev=Snivy                | Move=Wrap                      | Cost={G}          | Dmg=20      
+ID=  480 | Servine                        | HP=  100 | Type={G}   | Prev=Snivy                | Move=Vine Whip                 | Cost={G}ΓùÅΓùÅ        | Dmg=60      
+ID=  483 | Simisage                       | HP=  100 | Type={G}   | Prev=Pansage              | Move=Gentle Slap               | Cost=ΓùÅΓùÅ           | Dmg=70      
+ID=  485 | Lilligant                      | HP=  100 | Type={G}   | Prev=Petilil              | Move=Bemusing Aroma            | Cost={G}          | Dmg=30      
+ID=  485 | Lilligant                      | HP=  100 | Type={G}   | Prev=Petilil              | Move=Cut                       | Cost={G}ΓùÅΓùÅ        | Dmg=70      
+ID=  489 | Amoonguss                      | HP=  120 | Type={G}   | Prev=Foongus              | Move=Dangerous Reaction        | Cost=ΓùÅ            | Dmg=30      
+ID=  489 | Amoonguss                      | HP=  120 | Type={G}   | Prev=Foongus              | Move=Seed Bomb                 | Cost={G}ΓùÅ         | Dmg=60      
+ID=  492 | Darmanitan                     | HP=  140 | Type={R}   | Prev=Darumaka             | Move=Searing Flame             | Cost={R}ΓùÅ         | Dmg=50      
+ID=  492 | Darmanitan                     | HP=  140 | Type={R}   | Prev=Darumaka             | Move=Smashing Headbutt         | Cost={R}ΓùÅΓùÅΓùÅ       | Dmg=180     
+ID=  494 | Lampent                        | HP=   80 | Type={R}   | Prev=Litwick              | Move=Fire Blast                | Cost={R}          | Dmg=50      
+ID=  497 | Volcarona                      | HP=  120 | Type={R}   | Prev=Larvesta             | Move=[Ability] Torrid Scales   | Cost=n/a          | Dmg=n/a     
+ID=  497 | Volcarona                      | HP=  120 | Type={R}   | Prev=Larvesta             | Move=Fire Wing                 | Cost={R}ΓùÅΓùÅ        | Dmg=70      
+ID=  499 | Simipour                       | HP=  100 | Type={W}   | Prev=Panpour              | Move=Gentle Slap               | Cost=ΓùÅΓùÅ           | Dmg=70      
+ID=  501 | Palpitoad                      | HP=   90 | Type={W}   | Prev=Tympole              | Move=Round                     | Cost=ΓùÅΓùÅ           | Dmg=40├ù     
+ID=  501 | Palpitoad                      | HP=   90 | Type={W}   | Prev=Tympole              | Move=Wave Splash               | Cost={W}ΓùÅΓùÅ        | Dmg=60      
+ID=  503 | Tirtouga                       | HP=  100 | Type={W}   | Prev=Antique Cover Fossil | Move=Ancient Seaweed           | Cost={W}          | Dmg=30├ù     
+ID=  503 | Tirtouga                       | HP=  100 | Type={W}   | Prev=Antique Cover Fossil | Move=Surf                      | Cost={W}ΓùÅΓùÅ        | Dmg=80      
+ID=  507 | Beartic                        | HP=  150 | Type={W}   | Prev=Cubchoo              | Move=Continuous Headbutt       | Cost=ΓùÅ            | Dmg=50├ù     
+ID=  507 | Beartic                        | HP=  150 | Type={W}   | Prev=Cubchoo              | Move=Sheer Cold                | Cost={W}{W}{W}ΓùÅ   | Dmg=150     
+ID=  512 | Eelektrik                      | HP=   90 | Type={L}   | Prev=Tynamo               | Move=[Ability] Dynamotor       | Cost=n/a          | Dmg=n/a     
+ID=  512 | Eelektrik                      | HP=   90 | Type={L}   | Prev=Tynamo               | Move=Electric Ball             | Cost={L}{L}ΓùÅ      | Dmg=50      
+ID=  517 | Musharna                       | HP=  120 | Type={P}   | Prev=Munna                | Move=Dream Calling             | Cost=ΓùÅ            | Dmg=n/a     
+ID=  517 | Musharna                       | HP=  120 | Type={P}   | Prev=Munna                | Move=Sleep Pulse               | Cost={P}          | Dmg=50      
+ID=  519 | Duosion                        | HP=   70 | Type={P}   | Prev=Solosis              | Move=Cellular Evolution        | Cost=ΓùÅ            | Dmg=n/a     
+ID=  519 | Duosion                        | HP=   70 | Type={P}   | Prev=Solosis              | Move=Spray Fluid               | Cost=ΓùÅ            | Dmg=30      
+ID=  522 | Beheeyem                       | HP=   90 | Type={P}   | Prev=Elgyem               | Move=Calm Mind                 | Cost={P}          | Dmg=n/a     
+ID=  522 | Beheeyem                       | HP=   90 | Type={P}   | Prev=Elgyem               | Move=Psychic                   | Cost=ΓùÅΓùÅΓùÅ          | Dmg=80      
+ID=  524 | Golurk                         | HP=  160 | Type={P}   | Prev=Golett               | Move=Double Smash              | Cost=ΓùÅΓùÅΓùÅ          | Dmg=80├ù     
+ID=  524 | Golurk                         | HP=  160 | Type={P}   | Prev=Golett               | Move=Golurk Hammer             | Cost={P}{P}ΓùÅΓùÅΓùÅ    | Dmg=200     
+ID=  527 | Excadrill ex                   | HP=  270 | Type={F}   | Prev=Drilbur              | Move=Piercing Drill            | Cost={F}{F}       | Dmg=60      
+ID=  527 | Excadrill ex                   | HP=  270 | Type={F}   | Prev=Drilbur              | Move=Rock Tumble               | Cost={F}{F}{F}    | Dmg=200     
+ID=  529 | Gurdurr                        | HP=  100 | Type={F}   | Prev=Timburr              | Move=Low Kick                  | Cost={F}          | Dmg=30      
+ID=  529 | Gurdurr                        | HP=  100 | Type={F}   | Prev=Timburr              | Move=Hammer Arm                | Cost={F}ΓùÅΓùÅ        | Dmg=60      
+ID=  533 | Crustle                        | HP=  150 | Type={F}   | Prev=Dwebble              | Move=[Ability] Sturdy          | Cost=n/a          | Dmg=n/a     
+ID=  533 | Crustle                        | HP=  150 | Type={F}   | Prev=Dwebble              | Move=Stone Edge                | Cost={F}ΓùÅΓùÅ        | Dmg=80      
+ID=  536 | Whirlipede                     | HP=  100 | Type={D}   | Prev=Venipede             | Move=Venoshock                 | Cost=ΓùÅ            | Dmg=30      
+ID=  539 | Krokorok                       | HP=  100 | Type={D}   | Prev=Sandile              | Move=Tighten Up                | Cost={D}ΓùÅ         | Dmg=40      
+ID=  542 | Mandibuzz                      | HP=  110 | Type={D}   | Prev=Vullaby              | Move=[Ability] Look for Prey   | Cost=n/a          | Dmg=n/a     
+ID=  542 | Mandibuzz                      | HP=  110 | Type={D}   | Prev=Vullaby              | Move=Cutting Wind              | Cost=ΓùÅΓùÅΓùÅ          | Dmg=90      
+ID=  543 | Escavalier                     | HP=  130 | Type={M}   | Prev=Karrablast           | Move=Wild Lances               | Cost={M}          | Dmg=90      
+ID=  545 | Bisharp                        | HP=  120 | Type={M}   | Prev=Pawniard             | Move=Cut Up                    | Cost={M}          | Dmg=40      
+ID=  545 | Bisharp                        | HP=  120 | Type={M}   | Prev=Pawniard             | Move=Finishing Blow            | Cost={M}ΓùÅ         | Dmg=60      
+ID=  549 | Fraxure                        | HP=  100 | Type=τ½£     | Prev=Axew                 | Move=Bite                      | Cost=ΓùÅ            | Dmg=30      
+ID=  549 | Fraxure                        | HP=  100 | Type=τ½£     | Prev=Axew                 | Move=Boundless Power           | Cost={F}{M}       | Dmg=90      
+ID=  552 | Tranquill                      | HP=   80 | Type={C}   | Prev=Pidove               | Move=Fly                       | Cost=ΓùÅ            | Dmg=40      
+ID=  556 | Cinccino                       | HP=  100 | Type={C}   | Prev=Minccino             | Move=Do the Wave               | Cost=ΓùÅ            | Dmg=20      
+ID=  558 | Swadloon                       | HP=   80 | Type={G}   | Prev=Sewaddle             | Move=[Ability] Healing Leaves  | Cost=n/a          | Dmg=n/a     
+ID=  558 | Swadloon                       | HP=   80 | Type={G}   | Prev=Sewaddle             | Move=Bug Buzz                  | Cost={G}ΓùÅ         | Dmg=40      
+ID=  561 | Whimsicott ex                  | HP=  230 | Type={G}   | Prev=Cottonee             | Move=Energy Gift               | Cost={G}          | Dmg=n/a     
+ID=  561 | Whimsicott ex                  | HP=  230 | Type={G}   | Prev=Cottonee             | Move=Wondrous Cotton           | Cost={G}          | Dmg=50├ù     
+ID=  563 | Sawsbuck                       | HP=  130 | Type={G}   | Prev=Deerling             | Move=Push Down                 | Cost=ΓùÅΓùÅ           | Dmg=50      
+ID=  563 | Sawsbuck                       | HP=  130 | Type={G}   | Prev=Deerling             | Move=Solar Beam                | Cost={G}ΓùÅΓùÅ        | Dmg=100     
+ID=  565 | Accelgor                       | HP=  100 | Type={G}   | Prev=Shelmet              | Move=Acid Spray                | Cost={G}          | Dmg=50      
+ID=  568 | Pignite                        | HP=  110 | Type={R}   | Prev=Tepig                | Move=Combustion                | Cost={R}          | Dmg=30      
+ID=  568 | Pignite                        | HP=  110 | Type={R}   | Prev=Tepig                | Move=Heat Crash                | Cost={R}{R}ΓùÅ      | Dmg=80      
+ID=  571 | Simisear                       | HP=  100 | Type={R}   | Prev=Pansear              | Move=Gentle Slap               | Cost=ΓùÅΓùÅ           | Dmg=70      
+ID=  575 | Dewott                         | HP=  100 | Type={W}   | Prev=Oshawott             | Move=Energized Shell           | Cost={W}          | Dmg=30├ù     
+ID=  579 | Swanna                         | HP=  120 | Type={W}   | Prev=Ducklett             | Move=Flap                      | Cost=ΓùÅ            | Dmg=30      
+ID=  579 | Swanna                         | HP=  120 | Type={W}   | Prev=Ducklett             | Move=Air Slash                 | Cost=ΓùÅΓùÅΓùÅ          | Dmg=120     
+ID=  581 | Vanillish                      | HP=   90 | Type={W}   | Prev=Vanillite            | Move=Ram                       | Cost=ΓùÅΓùÅ           | Dmg=30      
+ID=  581 | Vanillish                      | HP=   90 | Type={W}   | Prev=Vanillite            | Move=Ice Beam                  | Cost={W}ΓùÅΓùÅ        | Dmg=50      
+ID=  585 | Zebstrika                      | HP=  120 | Type={L}   | Prev=Blitzle              | Move=Smash Kick                | Cost=ΓùÅ            | Dmg=30      
+ID=  585 | Zebstrika                      | HP=  120 | Type={L}   | Prev=Blitzle              | Move=Electrobullet             | Cost={L}{L}ΓùÅ      | Dmg=100     
+ID=  587 | Galvantula                     | HP=   90 | Type={L}   | Prev=Joltik               | Move=Discharge                 | Cost={L}          | Dmg=50├ù     
+ID=  590 | Swoobat                        | HP=   90 | Type={P}   | Prev=Woobat               | Move=Happy Return              | Cost=ΓùÅ            | Dmg=n/a     
+ID=  590 | Swoobat                        | HP=   90 | Type={P}   | Prev=Woobat               | Move=Gust                      | Cost=ΓùÅΓùÅ           | Dmg=50      
+ID=  593 | Cofagrigus                     | HP=  120 | Type={P}   | Prev=Yamask               | Move=Extended Damagriiigus     | Cost={P}ΓùÅ         | Dmg=n/a     
+ID=  593 | Cofagrigus                     | HP=  120 | Type={P}   | Prev=Yamask               | Move=Perplex                   | Cost={P}ΓùÅΓùÅ        | Dmg=60      
+ID=  595 | Gothorita                      | HP=   90 | Type={P}   | Prev=Gothita              | Move=Fortunate Eye             | Cost={P}          | Dmg=n/a     
+ID=  595 | Gothorita                      | HP=   90 | Type={P}   | Prev=Gothita              | Move=Psyshot                   | Cost={P}ΓùÅ         | Dmg=40      
+ID=  598 | Jellicent ex                   | HP=  270 | Type={P}   | Prev=Frillish             | Move=[Ability] Oceanic Curse   | Cost=n/a          | Dmg=n/a     
+ID=  598 | Jellicent ex                   | HP=  270 | Type={P}   | Prev=Frillish             | Move=Power Press               | Cost={P}ΓùÅ         | Dmg=80      
+ID=  600 | Boldore                        | HP=  110 | Type={F}   | Prev=Roggenrola           | Move=Smack Down                | Cost={F}          | Dmg=30      
+ID=  600 | Boldore                        | HP=  110 | Type={F}   | Prev=Roggenrola           | Move=Power Gem                 | Cost={F}{F}{F}    | Dmg=90      
+ID=  603 | Archen                         | HP=   80 | Type={F}   | Prev=Antique Plume Fossil | Move=Acrobatics                | Cost={F}ΓùÅ         | Dmg=30      
+ID=  606 | Mienshao                       | HP=  100 | Type={F}   | Prev=Mienfoo              | Move=Low Sweep                 | Cost={F}          | Dmg=40      
+ID=  606 | Mienshao                       | HP=  100 | Type={F}   | Prev=Mienfoo              | Move=Smash Uppercut            | Cost={F}{F}       | Dmg=80      
+ID=  609 | Liepard                        | HP=  110 | Type={D}   | Prev=Purrloin             | Move=Knock Off                 | Cost={D}          | Dmg=50      
+ID=  611 | Scrafty                        | HP=  120 | Type={D}   | Prev=Scraggy              | Move=Ruffians Attack           | Cost={D}{D}       | Dmg=60├ù     
+ID=  613 | Garbodor                       | HP=  140 | Type={D}   | Prev=Trubbish             | Move=Suffocating Gas           | Cost={D}          | Dmg=40      
+ID=  613 | Garbodor                       | HP=  140 | Type={D}   | Prev=Trubbish             | Move=Gunk Shot                 | Cost={D}{D}ΓùÅ      | Dmg=120     
+ID=  615 | Zoroark                        | HP=  120 | Type={D}   | Prev=Zorua                | Move=Mind Jack                 | Cost={D}          | Dmg=30├ù     
+ID=  615 | Zoroark                        | HP=  120 | Type={D}   | Prev=Zorua                | Move=Foul Play                 | Cost=ΓùÅΓùÅΓùÅ          | Dmg=n/a     
+ID=  617 | Zweilous                       | HP=  110 | Type={D}   | Prev=Deino                | Move=Double Hit                | Cost=ΓùÅΓùÅ           | Dmg=40├ù     
+ID=  617 | Zweilous                       | HP=  110 | Type={D}   | Prev=Deino                | Move=Pitch-Black Fangs         | Cost={D}{D}ΓùÅΓùÅ     | Dmg=100     
+ID=  620 | Ferrothorn                     | HP=  140 | Type={M}   | Prev=Ferroseed            | Move=Power Whip                | Cost={M}          | Dmg=n/a     
+ID=  620 | Ferrothorn                     | HP=  140 | Type={M}   | Prev=Ferroseed            | Move=Metal Claw                | Cost={M}ΓùÅΓùÅΓùÅ       | Dmg=130     
+ID=  622 | Klang                          | HP=   90 | Type={M}   | Prev=Klink                | Move=Hard Gears                | Cost={M}ΓùÅ         | Dmg=50      
+ID=  627 | Watchog                        | HP=   90 | Type={C}   | Prev=Patrat               | Move=Focus Energy              | Cost=ΓùÅ            | Dmg=n/a     
+ID=  627 | Watchog                        | HP=   90 | Type={C}   | Prev=Patrat               | Move=Hyper Fang                | Cost=ΓùÅ            | Dmg=80      
+ID=  629 | Herdier                        | HP=   90 | Type={C}   | Prev=Lillipup             | Move=Roar                      | Cost=ΓùÅ            | Dmg=n/a     
+ID=  629 | Herdier                        | HP=   90 | Type={C}   | Prev=Lillipup             | Move=Lunge Out                 | Cost=ΓùÅΓùÅΓùÅ          | Dmg=70      
+ID=  633 | Braviary                       | HP=  140 | Type={C}   | Prev=Rufflet              | Move=Aerial Ace                | Cost=ΓùÅ            | Dmg=40      
+ID=  633 | Braviary                       | HP=  140 | Type={C}   | Prev=Rufflet              | Move=Speed Wing                | Cost=ΓùÅΓùÅΓùÅΓùÅ         | Dmg=130     
+ID=  636 | Steven's Claydol               | HP=  120 | Type={P}   | Prev=Steven's Baltoy      | Move=Eerie Light               | Cost={P}          | Dmg=20      
+ID=  636 | Steven's Claydol               | HP=  120 | Type={P}   | Prev=Steven's Baltoy      | Move=Clay Blast                | Cost={P}{P}ΓùÅ      | Dmg=220     
+ID=  640 | Steven's Metang                | HP=  100 | Type={M}   | Prev=Steven's Beldum      | Move=Metal Slash               | Cost={M}ΓùÅ         | Dmg=70      
+ID=  643 | Marnie's Liepard               | HP=  100 | Type={D}   | Prev=Marnie's Purrloin    | Move=Pointy Claws              | Cost={D}{D}       | Dmg=70      
+ID=  645 | Marnie's Scrafty               | HP=  120 | Type={D}   | Prev=Marnie's Scraggy     | Move=Rear Kick                 | Cost={D}          | Dmg=40      
+ID=  645 | Marnie's Scrafty               | HP=  120 | Type={D}   | Prev=Marnie's Scraggy     | Move=Wild Tackle               | Cost={D}{D}ΓùÅ      | Dmg=160     
+ID=  647 | Marnie's Morgrem               | HP=  100 | Type={D}   | Prev=Marnie's Impidimp    | Move=Corkscrew Punch           | Cost={D}{D}       | Dmg=60      
+ID=  651 | Ivysaur                        | HP=  110 | Type={G}   | Prev=Bulbasaur            | Move=Razor Leaf                | Cost={G}{G}       | Dmg=60      
+ID=  654 | Exeggutor                      | HP=  140 | Type={G}   | Prev=Exeggcute            | Move=Guard Press               | Cost={G}          | Dmg=30      
+ID=  654 | Exeggutor                      | HP=  140 | Type={G}   | Prev=Exeggcute            | Move=Stomping Wood             | Cost=ΓùÅΓùÅΓùÅ          | Dmg=60      
+ID=  657 | Nuzleaf                        | HP=  100 | Type={G}   | Prev=Seedot               | Move=Pound                     | Cost={G}          | Dmg=30      
+ID=  657 | Nuzleaf                        | HP=  100 | Type={G}   | Prev=Seedot               | Move=Low Kick                  | Cost={G}ΓùÅ         | Dmg=50      
+ID=  660 | Ninetales                      | HP=  120 | Type={R}   | Prev=Vulpix               | Move=Supernatural Shapeshifter | Cost=ΓùÅ            | Dmg=n/a     
+ID=  660 | Ninetales                      | HP=  120 | Type={R}   | Prev=Vulpix               | Move=Combustion                | Cost={R}ΓùÅ         | Dmg=60      
+ID=  662 | Mega Camerupt ex               | HP=  340 | Type={R}   | Prev=Numel                | Move=Roasting Heat             | Cost={R}          | Dmg=80      
+ID=  662 | Mega Camerupt ex               | HP=  340 | Type={R}   | Prev=Numel                | Move=Volcanic Meteor           | Cost={R}ΓùÅΓùÅΓùÅ       | Dmg=280     
+ID=  665 | Raboot                         | HP=  100 | Type={R}   | Prev=Scorbunny            | Move=Jumping Kick              | Cost=ΓùÅ            | Dmg=n/a     
+ID=  670 | Sandslash                      | HP=  120 | Type={F}   | Prev=Sandshrew            | Move=Sand Attack               | Cost=ΓùÅΓùÅ           | Dmg=50      
+ID=  670 | Sandslash                      | HP=  120 | Type={F}   | Prev=Sandshrew            | Move=Mud Shot                  | Cost={F}ΓùÅΓùÅ        | Dmg=100     
+ID=  674 | Hariyama                       | HP=  150 | Type={F}   | Prev=Makuhita             | Move=[Ability] Heave-Ho Catcher | Cost=n/a          | Dmg=n/a     
+ID=  674 | Hariyama                       | HP=  150 | Type={F}   | Prev=Makuhita             | Move=Wild Press                | Cost={F}{F}{F}    | Dmg=210     
+ID=  678 | Mega Lucario ex                | HP=  340 | Type={F}   | Prev=Riolu                | Move=Aura Jab                  | Cost={F}          | Dmg=130     
+ID=  678 | Mega Lucario ex                | HP=  340 | Type={F}   | Prev=Riolu                | Move=Mega Brave                | Cost={F}{F}       | Dmg=270     
+ID=  680 | Toxicroak                      | HP=  130 | Type={F}   | Prev=Croagunk             | Move=Reckless Charge           | Cost={F}          | Dmg=70      
+ID=  684 | Naclstack                      | HP=  110 | Type={F}   | Prev=Nacli                | Move=Rock Hurl                 | Cost={F}ΓùÅ         | Dmg=50      
+ID=  686 | Crawdaunt                      | HP=  130 | Type={D}   | Prev=Corphish             | Move=Vise Grip                 | Cost=ΓùÅ            | Dmg=30      
+ID=  686 | Crawdaunt                      | HP=  130 | Type={D}   | Prev=Corphish             | Move=Cutting Riposte           | Cost={D}{D}ΓùÅ      | Dmg=130     
+ID=  691 | Thievul                        | HP=  120 | Type={D}   | Prev=Nickit               | Move=Greedy Hunt               | Cost=ΓùÅ            | Dmg=20      
+ID=  691 | Thievul                        | HP=  120 | Type={D}   | Prev=Nickit               | Move=Pitch-Black Fangs         | Cost={D}ΓùÅ         | Dmg=60      
+ID=  693 | Grafaiai                       | HP=  100 | Type={D}   | Prev=Shroodle             | Move=Miraculous Paint          | Cost={D}ΓùÅ         | Dmg=90      
+ID=  694 | Steelix                        | HP=  200 | Type={M}   | Prev=Onix                 | Move=Welcoming Tail            | Cost=ΓùÅΓùÅ           | Dmg=40      
+ID=  694 | Steelix                        | HP=  200 | Type={M}   | Prev=Onix                 | Move=Skull Bash                | Cost={M}{M}ΓùÅΓùÅ     | Dmg=140     
+ID=  698 | Tinkatuff                      | HP=   90 | Type={M}   | Prev=Tinkatink            | Move=[Ability] Haphazard Hammer | Cost=n/a          | Dmg=n/a     
+ID=  698 | Tinkatuff                      | HP=   90 | Type={M}   | Prev=Tinkatink            | Move=Light Punch               | Cost={M}          | Dmg=30      
+ID=  700 | Gholdengo                      | HP=  130 | Type={M}   | Prev=Gimmighoul           | Move=All-You-Can-Grab          | Cost=ΓùÅ            | Dmg=n/a     
+ID=  700 | Gholdengo                      | HP=  130 | Type={M}   | Prev=Gimmighoul           | Move=Speed Attack              | Cost={M}ΓùÅΓùÅ        | Dmg=100     
+ID=  702 | Fearow                         | HP=  100 | Type={C}   | Prev=Spearow              | Move=Repeating Drill           | Cost=ΓùÅ            | Dmg=30├ù     
+ID=  705 | Gumshoos                       | HP=  100 | Type={C}   | Prev=Yungoos              | Move=[Ability] Evidence Gathering | Cost=n/a          | Dmg=n/a     
+ID=  705 | Gumshoos                       | HP=  100 | Type={C}   | Prev=Yungoos              | Move=Bite                      | Cost=ΓùÅΓùÅ           | Dmg=50      
+ID=  707 | Tangrowth                      | HP=  150 | Type={G}   | Prev=Tangela              | Move=Absorb                    | Cost={G}ΓùÅ         | Dmg=30      
+ID=  707 | Tangrowth                      | HP=  150 | Type={G}   | Prev=Tangela              | Move=Pumped-Up Whip            | Cost={G}{G}ΓùÅΓùÅ     | Dmg=120     
+ID=  709 | Bayleef                        | HP=  110 | Type={G}   | Prev=Chikorita            | Move=Push Down                 | Cost={G}ΓùÅ         | Dmg=50      
+ID=  713 | Ninjask                        | HP=   80 | Type={G}   | Prev=Nincada              | Move=[Ability] Cast-Off Shell  | Cost=n/a          | Dmg=n/a     
+ID=  713 | Ninjask                        | HP=   80 | Type={G}   | Prev=Nincada              | Move=U-turn                    | Cost={G}ΓùÅ         | Dmg=90      
+ID=  716 | Pyroar                         | HP=  130 | Type={R}   | Prev=Litleo               | Move=[Ability] Intimidating Fang | Cost=n/a          | Dmg=n/a     
+ID=  716 | Pyroar                         | HP=  130 | Type={R}   | Prev=Litleo               | Move=Searing Flame             | Cost={R}ΓùÅΓùÅ        | Dmg=70      
+ID=  718 | Centiskorch                    | HP=  140 | Type={R}   | Prev=Sizzlipede           | Move=Coiling Crush             | Cost=ΓùÅΓùÅ           | Dmg=50      
+ID=  718 | Centiskorch                    | HP=  140 | Type={R}   | Prev=Sizzlipede           | Move=Heat Crawler              | Cost={R}{R}ΓùÅΓùÅ     | Dmg=140     
+ID=  723 | Mega Abomasnow ex              | HP=  350 | Type={W}   | Prev=Snover               | Move=Hammer-lanche             | Cost={W}{W}       | Dmg=100├ù    
+ID=  723 | Mega Abomasnow ex              | HP=  350 | Type={W}   | Prev=Snover               | Move=Frost Barrier             | Cost={W}{W}{W}    | Dmg=200     
+ID=  725 | Clawitzer                      | HP=  130 | Type={W}   | Prev=Clauncher            | Move=[Ability] Fall Back to Reload | Cost=n/a          | Dmg=n/a     
+ID=  725 | Clawitzer                      | HP=  130 | Type={W}   | Prev=Clauncher            | Move=Aqua Launcher             | Cost={W}{W}{W}    | Dmg=210     
+ID=  727 | Drizzile                       | HP=  100 | Type={W}   | Prev=Sobble               | Move=Double Stab               | Cost={W}          | Dmg=30├ù     
+ID=  730 | Frosmoth                       | HP=  110 | Type={W}   | Prev=Snom                 | Move=Chilling Wings            | Cost={W}          | Dmg=n/a     
+ID=  733 | Magneton                       | HP=   90 | Type={L}   | Prev=Magnemite            | Move=Thunder Shock             | Cost={L}          | Dmg=30      
+ID=  737 | Mega Manectric ex              | HP=  330 | Type={L}   | Prev=Electrike            | Move=Flash Ray                 | Cost={L}{L}       | Dmg=120     
+ID=  737 | Mega Manectric ex              | HP=  330 | Type={L}   | Prev=Electrike            | Move=Riotous Blasting          | Cost={L}{L}{L}    | Dmg=200     
+ID=  740 | Heliolisk                      | HP=  120 | Type={L}   | Prev=Helioptile           | Move=Dazzle Blast              | Cost=ΓùÅ            | Dmg=20      
+ID=  740 | Heliolisk                      | HP=  120 | Type={L}   | Prev=Helioptile           | Move=Head Bolt                 | Cost={L}ΓùÅ         | Dmg=70      
+ID=  742 | Kadabra                        | HP=   80 | Type={P}   | Prev=Abra                 | Move=[Ability] Psychic Draw    | Cost=n/a          | Dmg=n/a     
+ID=  742 | Kadabra                        | HP=   80 | Type={P}   | Prev=Abra                 | Move=Super Psy Bolt            | Cost={P}          | Dmg=30      
+ID=  746 | Kirlia                         | HP=  100 | Type={P}   | Prev=Ralts                | Move=Call Sign                 | Cost={P}          | Dmg=n/a     
+ID=  746 | Kirlia                         | HP=  100 | Type={P}   | Prev=Ralts                | Move=Psyshot                   | Cost={P}          | Dmg=30      
+ID=  748 | Shedinja                       | HP=   60 | Type={P}   | Prev=Nincada              | Move=[Ability] Fragile Husk    | Cost=n/a          | Dmg=n/a     
+ID=  748 | Shedinja                       | HP=   60 | Type={P}   | Prev=Nincada              | Move=Damage Beat               | Cost={P}          | Dmg=20├ù     
+ID=  750 | Grumpig                        | HP=  120 | Type={P}   | Prev=Spoink               | Move=[Ability] Energized Steps | Cost=n/a          | Dmg=n/a     
+ID=  750 | Grumpig                        | HP=  120 | Type={P}   | Prev=Spoink               | Move=Psychic Sphere            | Cost={P}ΓùÅΓùÅ        | Dmg=60      
+ID=  753 | Houndstone                     | HP=  140 | Type={P}   | Prev=Greavard             | Move=Horrifying Bite           | Cost={P}          | Dmg=30      
+ID=  753 | Houndstone                     | HP=  140 | Type={P}   | Prev=Greavard             | Move=Hammer In                 | Cost={P}{P}ΓùÅ      | Dmg=130     
+ID=  759 | Lopunny                        | HP=  110 | Type={C}   | Prev=Buneary              | Move=Dashing Kick              | Cost=ΓùÅ            | Dmg=n/a     
+ID=  759 | Lopunny                        | HP=  110 | Type={C}   | Prev=Buneary              | Move=Spiral Kick               | Cost=ΓùÅΓùÅ           | Dmg=60      
+ID=  761 | Bewear                         | HP=  130 | Type={C}   | Prev=Stufful              | Move=Knuckle Punch             | Cost=ΓùÅΓùÅ           | Dmg=50      
+ID=  761 | Bewear                         | HP=  130 | Type={C}   | Prev=Stufful              | Move=Hyper Lariat              | Cost=ΓùÅΓùÅΓùÅ          | Dmg=100     
+ID=  763 | Granbull                       | HP=  130 | Type={P}   | Prev=Snubbull             | Move=Bite                      | Cost={P}ΓùÅ         | Dmg=50      
+ID=  763 | Granbull                       | HP=  130 | Type={P}   | Prev=Snubbull             | Move=Finishing Blow            | Cost={P}{P}ΓùÅ      | Dmg=90      
+ID=  769 | Alcremie                       | HP=   90 | Type={P}   | Prev=Milcery              | Move=Sweet Circle              | Cost={P}          | Dmg=20├ù     
+ID=  771 | Haunter                        | HP=  100 | Type={D}   | Prev=Gastly               | Move=Spooky Shot               | Cost={D}          | Dmg=40      
+ID=  774 | Honchkrow                      | HP=  130 | Type={D}   | Prev=Murkrow              | Move=Wind of Darkness          | Cost={D}          | Dmg=30      
+ID=  774 | Honchkrow                      | HP=  130 | Type={D}   | Prev=Murkrow              | Move=Sniping Feathers          | Cost={D}{D}ΓùÅ      | Dmg=n/a     
+ID=  779 | Gloom                          | HP=   70 | Type={G}   | Prev=Oddish               | Move=Disperse Drool            | Cost={G}          | Dmg=20      
+ID=  783 | Lombre                         | HP=   90 | Type={G}   | Prev=Lotad                | Move=Mega Drain                | Cost={G}ΓùÅ         | Dmg=30      
+ID=  787 | Lokix                          | HP=  120 | Type={G}   | Prev=Nymble               | Move=Low Kick                  | Cost={G}          | Dmg=30      
+ID=  787 | Lokix                          | HP=  120 | Type={G}   | Prev=Nymble               | Move=Jumping Shot              | Cost=ΓùÅΓùÅΓùÅ          | Dmg=150     
+ID=  789 | Charmeleon                     | HP=  110 | Type={R}   | Prev=Charmander           | Move=Steady Firebreathing      | Cost={R}          | Dmg=40      
+ID=  793 | Darmanitan                     | HP=  150 | Type={R}   | Prev=Darumaka             | Move=Blaze Ball                | Cost=ΓùÅΓùÅΓùÅΓùÅ         | Dmg=40      
+ID=  797 | Ceruledge                      | HP=  140 | Type={R}   | Prev=Charcadet            | Move=Infernal Slash            | Cost={R}          | Dmg=220     
+ID=  799 | Dewgong                        | HP=  130 | Type={W}   | Prev=Seel                 | Move=[Ability] Thick Fat       | Cost=n/a          | Dmg=n/a     
+ID=  799 | Dewgong                        | HP=  130 | Type={W}   | Prev=Seel                 | Move=Slam                      | Cost={W}ΓùÅ         | Dmg=70├ù     
+ID=  801 | Piloswine                      | HP=  100 | Type={W}   | Prev=Swinub               | Move=Rising Lunge              | Cost=ΓùÅΓùÅ           | Dmg=30      
+ID=  801 | Piloswine                      | HP=  100 | Type={W}   | Prev=Swinub               | Move=Frost Smash               | Cost={W}ΓùÅΓùÅ        | Dmg=70      
+ID=  805 | Prinplup                       | HP=  100 | Type={W}   | Prev=Piplup               | Move=Peck                      | Cost=ΓùÅ            | Dmg=20      
+ID=  805 | Prinplup                       | HP=  100 | Type={W}   | Prev=Piplup               | Move=Targeted Dive             | Cost=ΓùÅΓùÅΓùÅ          | Dmg=n/a     
+ID=  808 | Boltund                        | HP=  130 | Type={L}   | Prev=Yamper               | Move=Electric Run              | Cost={L}ΓùÅ         | Dmg=70      
+ID=  810 | Pawmo                          | HP=   90 | Type={L}   | Prev=Pawmi                | Move=Electric Punch            | Cost={L}{L}       | Dmg=60      
+ID=  813 | Mismagius ex                   | HP=  260 | Type={P}   | Prev=Misdreavus           | Move=[Ability] Swirling Prose  | Cost=n/a          | Dmg=n/a     
+ID=  813 | Mismagius ex                   | HP=  260 | Type={P}   | Prev=Misdreavus           | Move=Hexa-Magic                | Cost={P}{P}       | Dmg=150     
+ID=  815 | Whimsicott                     | HP=   90 | Type={P}   | Prev=Cottonee             | Move=Healing Fluff             | Cost=ΓùÅ            | Dmg=n/a     
+ID=  815 | Whimsicott                     | HP=   90 | Type={P}   | Prev=Cottonee             | Move=U-turn                    | Cost={P}          | Dmg=50      
+ID=  818 | Brambleghast                   | HP=  100 | Type={P}   | Prev=Bramblin             | Move=[Ability] Prison Panic    | Cost=n/a          | Dmg=n/a     
+ID=  818 | Brambleghast                   | HP=  100 | Type={P}   | Prev=Bramblin             | Move=Psychic Sphere            | Cost={P}ΓùÅΓùÅ        | Dmg=80      
+ID=  821 | Gliscor                        | HP=  120 | Type={F}   | Prev=Gligar               | Move=Poison Ring               | Cost={F}          | Dmg=50      
+ID=  823 | Vibrava                        | HP=   90 | Type={F}   | Prev=Trapinch             | Move=Super Vibration           | Cost={F}{F}       | Dmg=60      
+ID=  826 | Weavile                        | HP=   90 | Type={D}   | Prev=Sneasel              | Move=Retaliatory Claw          | Cost={D}{D}       | Dmg=20      
+ID=  826 | Weavile                        | HP=   90 | Type={D}   | Prev=Sneasel              | Move=Cut                       | Cost={D}{D}       | Dmg=60      
+ID=  828 | Mega Sharpedo ex               | HP=  330 | Type={D}   | Prev=Carvanha             | Move=Greedy Fang               | Cost={D}          | Dmg=70      
+ID=  828 | Mega Sharpedo ex               | HP=  330 | Type={D}   | Prev=Carvanha             | Move=Hungry Jaws               | Cost={D}{D}       | Dmg=120     
+ID=  831 | Krokorok                       | HP=  100 | Type={D}   | Prev=Sandile              | Move=Bite                      | Cost={D}          | Dmg=30      
+ID=  831 | Krokorok                       | HP=  100 | Type={D}   | Prev=Sandile              | Move=Confront                  | Cost={D}ΓùÅΓùÅ        | Dmg=60      
+ID=  834 | Toxtricity                     | HP=  140 | Type={D}   | Prev=Toxel                | Move=[Ability] Sinister Surge  | Cost=n/a          | Dmg=n/a     
+ID=  834 | Toxtricity                     | HP=  140 | Type={D}   | Prev=Toxel                | Move=Gentle Slap               | Cost={D}{D}ΓùÅ      | Dmg=100     
+ID=  837 | Bronzong                       | HP=  140 | Type={M}   | Prev=Bronzor              | Move=Triple Draw               | Cost=ΓùÅ            | Dmg=n/a     
+ID=  837 | Bronzong                       | HP=  140 | Type={M}   | Prev=Bronzor              | Move=Tool Drop                 | Cost=ΓùÅΓùÅΓùÅ          | Dmg=40├ù     
+ID=  840 | Archaludon                     | HP=  180 | Type={M}   | Prev=Duraludon            | Move=Coated Attack             | Cost={M}{M}{M}    | Dmg=120     
+ID=  842 | Wigglytuff                     | HP=  120 | Type={C}   | Prev=Jigglypuff           | Move=Round                     | Cost=ΓùÅΓùÅ           | Dmg=40├ù     
+ID=  842 | Wigglytuff                     | HP=  120 | Type={C}   | Prev=Jigglypuff           | Move=Seismic Toss              | Cost=ΓùÅΓùÅΓùÅ          | Dmg=100     
+ID=  844 | Ambipom                        | HP=  110 | Type={C}   | Prev=Aipom                | Move=Slap                      | Cost=ΓùÅΓùÅ           | Dmg=50      
+ID=  844 | Ambipom                        | HP=  110 | Type={C}   | Prev=Aipom                | Move=Dual Tail                 | Cost=ΓùÅΓùÅΓùÅ          | Dmg=n/a     
+ID=  847 | Linoone                        | HP=  100 | Type={C}   | Prev=Zigzagoon            | Move=[Ability] Excited Dash    | Cost=n/a          | Dmg=n/a     
+ID=  847 | Linoone                        | HP=  100 | Type={C}   | Prev=Zigzagoon            | Move=Slash                     | Cost=ΓùÅ            | Dmg=70      
+ID=  849 | Mega Lopunny ex                | HP=  330 | Type={C}   | Prev=Buneary              | Move=Gale Thrust               | Cost=ΓùÅ            | Dmg=60      
+ID=  849 | Mega Lopunny ex                | HP=  330 | Type={C}   | Prev=Buneary              | Move=Spiky Hopper              | Cost=ΓùÅΓùÅ           | Dmg=160     
+ID=  851 | Silcoon                        | HP=   90 | Type={G}   | Prev=Wurmple              | Move=[Ability] Multiplying Cocoon | Cost=n/a          | Dmg=n/a     
+ID=  851 | Silcoon                        | HP=   90 | Type={G}   | Prev=Wurmple              | Move=Tackle                    | Cost={G}          | Dmg=30      
+ID=  853 | Cascoon                        | HP=   90 | Type={G}   | Prev=Wurmple              | Move=Trading Places            | Cost={G}          | Dmg=n/a     
+ID=  857 | Camerupt                       | HP=  140 | Type={R}   | Prev=Numel                | Move=Roasting Burn             | Cost={R}          | Dmg=110     
+ID=  857 | Camerupt                       | HP=  140 | Type={R}   | Prev=Numel                | Move=Power Stomp               | Cost={R}ΓùÅΓùÅΓùÅ       | Dmg=170     
+ID=  859 | Golduck                        | HP=  120 | Type={W}   | Prev=Psyduck              | Move=[Ability] Damp            | Cost=n/a          | Dmg=n/a     
+ID=  859 | Golduck                        | HP=  120 | Type={W}   | Prev=Psyduck              | Move=Hydro Pump                | Cost=ΓùÅΓùÅΓùÅ          | Dmg=60      
+ID=  861 | Mega Froslass ex               | HP=  310 | Type={W}   | Prev=Snorunt              | Move=Resentful Refrain         | Cost={W}          | Dmg=50├ù     
+ID=  861 | Mega Froslass ex               | HP=  310 | Type={W}   | Prev=Snorunt              | Move=Absolute Snow             | Cost={W}ΓùÅΓùÅ        | Dmg=150     
+ID=  863 | N's Vanillish                  | HP=  100 | Type={W}   | Prev=N's Vanillite        | Move=Flop                      | Cost=ΓùÅ            | Dmg=20      
+ID=  863 | N's Vanillish                  | HP=  100 | Type={W}   | Prev=N's Vanillite        | Move=Sheer Cold                | Cost={W}ΓùÅΓùÅ        | Dmg=60      
+ID=  866 | Frosmoth                       | HP=  110 | Type={W}   | Prev=Snom                 | Move=[Ability] Alluring Wings  | Cost=n/a          | Dmg=n/a     
+ID=  866 | Frosmoth                       | HP=  110 | Type={W}   | Prev=Snom                 | Move=Cold Cyclone              | Cost={W}{W}       | Dmg=90      
+ID=  871 | Heliolisk                      | HP=  120 | Type={L}   | Prev=Helioptile           | Move=[Ability] Frilled Generator | Cost=n/a          | Dmg=n/a     
+ID=  871 | Heliolisk                      | HP=  120 | Type={L}   | Prev=Helioptile           | Move=Powerful Bolt             | Cost={L}ΓùÅΓùÅ        | Dmg=70├ù     
+ID=  874 | Team Rocket's Exeggutor        | HP=  140 | Type={P}   | Prev=Team Rocket's Exeggcute | Move=Tri Kinesis               | Cost=ΓùÅΓùÅ           | Dmg=n/a     
+ID=  874 | Team Rocket's Exeggutor        | HP=  140 | Type={P}   | Prev=Team Rocket's Exeggcute | Move=Double-Edge               | Cost={P}ΓùÅΓùÅ        | Dmg=150     
+ID=  876 | Mismagius                      | HP=  110 | Type={P}   | Prev=Misdreavus           | Move=AssassinΓÇÖs Magic          | Cost={P}ΓùÅ         | Dmg=60      
+ID=  879 | Hop's Trevenant                | HP=  140 | Type={P}   | Prev=Hop's Phantump       | Move=Horrifying Revenge        | Cost=ΓùÅ            | Dmg=30      
+ID=  879 | Hop's Trevenant                | HP=  140 | Type={P}   | Prev=Hop's Phantump       | Move=Corner                    | Cost={P}ΓùÅΓùÅ        | Dmg=90      
+ID=  882 | Team Rocket's Dugtrio          | HP=  100 | Type={F}   | Prev=Team Rocket's Diglett | Move=[Ability] Holes           | Cost=n/a          | Dmg=n/a     
+ID=  882 | Team Rocket's Dugtrio          | HP=  100 | Type={F}   | Prev=Team Rocket's Diglett | Move=Mud Shot                  | Cost={F}ΓùÅ         | Dmg=50      
+ID=  884 | Medicham                       | HP=  120 | Type={F}   | Prev=Meditite             | Move=Seventh Kick              | Cost={F}          | Dmg=150     
+ID=  888 | Carkol                         | HP=  110 | Type={F}   | Prev=Rolycoly             | Move=Guard Press               | Cost={F}          | Dmg=20      
+ID=  888 | Carkol                         | HP=  110 | Type={F}   | Prev=Rolycoly             | Move=Power Gem                 | Cost={F}ΓùÅΓùÅ        | Dmg=60      
+ID=  891 | Team Rocket's Honchkrow        | HP=  130 | Type={D}   | Prev=Team Rocket's Murkrow | Move=Rocket Feathers           | Cost=ΓùÅΓùÅ           | Dmg=60├ù     
+ID=  891 | Team Rocket's Honchkrow        | HP=  130 | Type={D}   | Prev=Team Rocket's Murkrow | Move=Hammer In                 | Cost={D}ΓùÅΓùÅ        | Dmg=100     
+ID=  893 | Galarian Linoone               | HP=   90 | Type={D}   | Prev=Galarian Zigzagoon   | Move=Gnaw                      | Cost={D}          | Dmg=20      
+ID=  893 | Galarian Linoone               | HP=   90 | Type={D}   | Prev=Galarian Zigzagoon   | Move=Claw Slash                | Cost={D}ΓùÅ         | Dmg=50      
+ID=  896 | Mega Scrafty ex                | HP=  330 | Type={D}   | Prev=Scraggy              | Move=[Ability] Counterattacking Crest | Cost=n/a          | Dmg=n/a     
+ID=  896 | Mega Scrafty ex                | HP=  330 | Type={D}   | Prev=Scraggy              | Move=Outlaw Leg                | Cost={D}{D}ΓùÅ      | Dmg=160     
+ID=  897 | Pangoro                        | HP=  140 | Type={D}   | Prev=Pancham              | Move=Corkscrew Punch           | Cost={D}          | Dmg=40      
+ID=  897 | Pangoro                        | HP=  140 | Type={D}   | Prev=Pancham              | Move=MasterΓÇÖs Punch            | Cost={D}{D}ΓùÅ      | Dmg=80      
+ID=  900 | Bisharp                        | HP=  120 | Type={M}   | Prev=Pawniard             | Move=Rapid Draw                | Cost={M}          | Dmg=50      
+ID=  903 | Dragonair                      | HP=  100 | Type=τ½£     | Prev=Dratini              | Move=[Ability] Evolutionary Guidance | Cost=n/a          | Dmg=n/a     
+ID=  903 | Dragonair                      | HP=  100 | Type=τ½£     | Prev=Dratini              | Move=Tail Snap                 | Cost={W}{L}       | Dmg=60      
+ID=  908 | Noivern                        | HP=  120 | Type=τ½£     | Prev=Noibat               | Move=Agility                   | Cost=ΓùÅΓùÅ           | Dmg=40      
+ID=  908 | Noivern                        | HP=  120 | Type=τ½£     | Prev=Noibat               | Move=Enhanced Blade            | Cost={P}{D}       | Dmg=70      
+ID=  910 | Erika's Gloom                  | HP=   90 | Type={G}   | Prev=Erika's Oddish       | Move=Poison Spray              | Cost={G}ΓùÅ         | Dmg=50      
+ID=  913 | Erika's Weepinbell             | HP=   90 | Type={G}   | Prev=Erika's Bellsprout   | Move=Melt                      | Cost={G}          | Dmg=30      
+ID=  913 | Erika's Weepinbell             | HP=   90 | Type={G}   | Prev=Erika's Bellsprout   | Move=Leafy Cyclone             | Cost={G}ΓùÅ         | Dmg=70      
+ID=  918 | Bayleef                        | HP=  100 | Type={G}   | Prev=Chikorita            | Move=Leaf Step                 | Cost={G}{G}       | Dmg=60      
+ID=  921 | Dipplin                        | HP=   90 | Type={G}   | Prev=Applin               | Move=Coated Attack             | Cost={G}          | Dmg=20      
+ID=  923 | Floragato                      | HP=   90 | Type={G}   | Prev=Sprigatito           | Move=Magical Leaf              | Cost=ΓùÅΓùÅ           | Dmg=30      
+ID=  927 | Charmeleon                     | HP=  100 | Type={R}   | Prev=Charmander           | Move=Heat Blast                | Cost={R}ΓùÅ         | Dmg=50      
+ID=  931 | Pignite                        | HP=  110 | Type={R}   | Prev=Tepig                | Move=Super Singe               | Cost={R}{R}ΓùÅ      | Dmg=70      
+ID=  934 | Centiskorch                    | HP=  130 | Type={R}   | Prev=Sizzlipede           | Move=Billowing Heat Wave       | Cost={R}          | Dmg=130     
+ID=  934 | Centiskorch                    | HP=  130 | Type={R}   | Prev=Sizzlipede           | Move=Heat Blast                | Cost=ΓùÅΓùÅΓùÅ          | Dmg=80      
+ID=  936 | Crocalor                       | HP=  110 | Type={R}   | Prev=Fuecoco              | Move=Heat Breath               | Cost={R}ΓùÅ         | Dmg=30      
+ID=  938 | Croconaw                       | HP=  100 | Type={W}   | Prev=Totodile             | Move=Crunch                    | Cost={W}{W}       | Dmg=50      
+ID=  940 | Glalie                         | HP=  120 | Type={W}   | Prev=Snorunt              | Move=Damage Beat               | Cost={W}          | Dmg=20├ù     
+ID=  940 | Glalie                         | HP=  120 | Type={W}   | Prev=Snorunt              | Move=Crazy Headbutt            | Cost={W}ΓùÅΓùÅ        | Dmg=140     
+ID=  942 | Sealeo                         | HP=  100 | Type={W}   | Prev=Spheal               | Move=Lunge Out                 | Cost={W}          | Dmg=30      
+ID=  942 | Sealeo                         | HP=  100 | Type={W}   | Prev=Spheal               | Move=Ice Ball                  | Cost={W}{W}       | Dmg=60      
+ID=  949 | Raichu                         | HP=  130 | Type={L}   | Prev=Pikachu              | Move=Quick Blow                | Cost={L}          | Dmg=20      
+ID=  949 | Raichu                         | HP=  130 | Type={L}   | Prev=Pikachu              | Move=Strong Volt               | Cost={L}{L}ΓùÅ      | Dmg=150     
+ID=  958 | Clefable                       | HP=  120 | Type={P}   | Prev=Clefairy             | Move=Metronome                 | Cost=ΓùÅΓùÅ           | Dmg=n/a     
+ID=  958 | Clefable                       | HP=  120 | Type={P}   | Prev=Clefairy             | Move=Magical Shot              | Cost={P}ΓùÅΓùÅ        | Dmg=100     
+ID=  960 | Togetic                        | HP=   90 | Type={P}   | Prev=Togepi               | Move=Draining Kiss             | Cost=ΓùÅΓùÅ           | Dmg=30      
+ID=  962 | Azumarill ex                   | HP=  270 | Type={P}   | Prev=Marill               | Move=[Ability] Bubble Gathering | Cost=n/a          | Dmg=n/a     
+ID=  962 | Azumarill ex                   | HP=  270 | Type={P}   | Prev=Marill               | Move=Energized Balloon         | Cost=ΓùÅΓùÅΓùÅ          | Dmg=60      
+ID=  964 | Beheeyem                       | HP=  100 | Type={P}   | Prev=Elgyem               | Move=Cosmic Beatdown           | Cost={P}          | Dmg=20├ù     
+ID=  966 | Slurpuff                       | HP=  120 | Type={P}   | Prev=Swirlix              | Move=Tackle                    | Cost={P}          | Dmg=40      
+ID=  966 | Slurpuff                       | HP=  120 | Type={P}   | Prev=Swirlix              | Move=Magical Shot              | Cost={P}ΓùÅ         | Dmg=70      
+ID=  968 | Dachsbun ex                    | HP=  250 | Type={P}   | Prev=Fidough              | Move=[Ability] Time to Chow Down | Cost=n/a          | Dmg=n/a     
+ID=  968 | Dachsbun ex                    | HP=  250 | Type={P}   | Prev=Fidough              | Move=Wonder Shine              | Cost=ΓùÅΓùÅ           | Dmg=130     
+ID=  981 | Whirlipede                     | HP=  100 | Type={D}   | Prev=Venipede             | Move=Poison Ring               | Cost={D}          | Dmg=n/a     
+ID=  981 | Whirlipede                     | HP=  100 | Type={D}   | Prev=Venipede             | Move=Spinning Attack           | Cost={D}ΓùÅΓùÅ        | Dmg=60      
+ID=  984 | Mandibuzz ex                   | HP=  260 | Type={D}   | Prev=Vullaby              | Move=Bone Shot                 | Cost=ΓùÅΓùÅ           | Dmg=n/a     
+ID=  984 | Mandibuzz ex                   | HP=  260 | Type={D}   | Prev=Vullaby              | Move=Vulture Claw              | Cost={D}ΓùÅΓùÅ        | Dmg=160     
+ID=  991 | Melmetal                       | HP=  160 | Type={M}   | Prev=Meltan               | Move=Hammer In                 | Cost={M}{M}ΓùÅ      | Dmg=120     
+ID=  991 | Melmetal                       | HP=  160 | Type={M}   | Prev=Meltan               | Move=Iron Bash                 | Cost={M}{M}{M}{M}ΓùÅ | Dmg=230     
+ID=  994 | Fraxure                        | HP=  100 | Type=τ½£     | Prev=Axew                 | Move=[Ability] Unnerve         | Cost=n/a          | Dmg=n/a     
+ID=  994 | Fraxure                        | HP=  100 | Type=τ½£     | Prev=Axew                 | Move=Dragon Pulse              | Cost={F}{M}       | Dmg=80      
+ID=  997 | Larry's Dudunsparce ex         | HP=  270 | Type={C}   | Prev=Larry's Dunsparce    | Move=Work Rush                 | Cost=ΓùÅΓùÅΓùÅ          | Dmg=80├ù     
+ID=  999 | Vigoroth                       | HP=   90 | Type={C}   | Prev=Slakoth              | Move=Slashing Claw             | Cost=ΓùÅΓùÅ           | Dmg=50      
+ID= 1001 | Delcatty                       | HP=  100 | Type={C}   | Prev=Skitty               | Move=Cat Kick                  | Cost=ΓùÅ            | Dmg=40      
+ID= 1001 | Delcatty                       | HP=  100 | Type={C}   | Prev=Skitty               | Move=Energy Crush              | Cost=ΓùÅΓùÅ           | Dmg=40├ù     
+ID= 1004 | Larry's Staravia               | HP=   90 | Type={C}   | Prev=Larry's Starly       | Move=Flap                      | Cost=ΓùÅ            | Dmg=20      
+ID= 1004 | Larry's Staravia               | HP=   90 | Type={C}   | Prev=Larry's Starly       | Move=Razor Wing                | Cost=ΓùÅΓùÅ           | Dmg=50      
+ID= 1008 | Larry's Braviary               | HP=  130 | Type={C}   | Prev=Larry's Rufflet      | Move=Clutch                    | Cost=ΓùÅΓùÅ           | Dmg=50      
+ID= 1008 | Larry's Braviary               | HP=  130 | Type={C}   | Prev=Larry's Rufflet      | Move=Brave Bird                | Cost=ΓùÅΓùÅΓùÅ          | Dmg=120     
+ID= 1012 | Ariados                        | HP=  110 | Type={G}   | Prev=Spinarak             | Move=Poison Ring               | Cost={G}          | Dmg=50      
+ID= 1015 | Servine                        | HP=  100 | Type={G}   | Prev=Snivy                | Move=Solar Cutter              | Cost={G}          | Dmg=40      
+ID= 1018 | Spewpa                         | HP=   80 | Type={G}   | Prev=Scatterbug           | Move=Hide                      | Cost={G}          | Dmg=n/a     
+ID= 1021 | Dartrix                        | HP=  100 | Type={G}   | Prev=Rowlet               | Move=Leafage                   | Cost={G}          | Dmg=20      
+ID= 1021 | Dartrix                        | HP=  100 | Type={G}   | Prev=Rowlet               | Move=Feather Shot              | Cost=ΓùÅΓùÅΓùÅ          | Dmg=n/a     
+ID= 1023 | Fletchinder                    | HP=   90 | Type={R}   | Prev=Fletchling           | Move=Flare                     | Cost={R}{R}       | Dmg=60      
+ID= 1026 | Salazzle ex                    | HP=  260 | Type={R}   | Prev=Salandit             | Move=Nasty Plot                | Cost={R}          | Dmg=n/a     
+ID= 1026 | Salazzle ex                    | HP=  260 | Type={R}   | Prev=Salandit             | Move=Dire Nails                | Cost={R}{R}       | Dmg=100     
+ID= 1029 | Dewgong                        | HP=  130 | Type={W}   | Prev=Seel                 | Move=[Ability] Wash Out        | Cost=n/a          | Dmg=n/a     
+ID= 1029 | Dewgong                        | HP=  130 | Type={W}   | Prev=Seel                 | Move=Wave Splash               | Cost={W}{W}       | Dmg=60      
+ID= 1031 | Mega Starmie ex                | HP=  330 | Type={W}   | Prev=Staryu               | Move=Jetting Blow              | Cost={W}          | Dmg=120     
+ID= 1031 | Mega Starmie ex                | HP=  330 | Type={W}   | Prev=Staryu               | Move=Nebula Beam               | Cost=ΓùÅΓùÅΓùÅ          | Dmg=210     
+ID= 1032 | Amaura                         | HP=  100 | Type={W}   | Prev=Antique Sail Fossil  | Move=Icy Wind                  | Cost={W}ΓùÅ         | Dmg=50      
+ID= 1036 | Luxio                          | HP=   90 | Type={L}   | Prev=Shinx                | Move=[Ability] Fighting Roar   | Cost=n/a          | Dmg=n/a     
+ID= 1036 | Luxio                          | HP=   90 | Type={L}   | Prev=Shinx                | Move=Static Shock              | Cost={L}ΓùÅ         | Dmg=40      
+ID= 1040 | Mega Clefable ex               | HP=  320 | Type={P}   | Prev=Clefairy             | Move=[Ability] Luminous Wing   | Cost=n/a          | Dmg=n/a     
+ID= 1040 | Mega Clefable ex               | HP=  320 | Type={P}   | Prev=Clefairy             | Move=Shooting Moons            | Cost={P}{P}       | Dmg=120     
+ID= 1043 | Meowstic                       | HP=  100 | Type={P}   | Prev=Espurr               | Move=Perplex                   | Cost={P}          | Dmg=n/a     
+ID= 1043 | Meowstic                       | HP=  100 | Type={P}   | Prev=Espurr               | Move=Psychic                   | Cost={P}          | Dmg=30      
+ID= 1045 | Aromatisse                     | HP=  120 | Type={P}   | Prev=Spritzee             | Move=[Ability] Scent Collection | Cost=n/a          | Dmg=n/a     
+ID= 1045 | Aromatisse                     | HP=  120 | Type={P}   | Prev=Spritzee             | Move=Draining Kiss             | Cost={P}ΓùÅ         | Dmg=50      
+ID= 1047 | Probopass                      | HP=  140 | Type={F}   | Prev=Nosepass             | Move=Rolling Rocks             | Cost={F}{F}       | Dmg=60      
+ID= 1047 | Probopass                      | HP=  140 | Type={F}   | Prev=Nosepass             | Move=Obliterating Nose         | Cost={F}{F}{F}ΓùÅ   | Dmg=260     
+ID= 1049 | Hippowdon                      | HP=  150 | Type={F}   | Prev=Hippopotas           | Move=Twister Spewing           | Cost={F}{F}ΓùÅ      | Dmg=80      
+ID= 1049 | Hippowdon                      | HP=  150 | Type={F}   | Prev=Hippopotas           | Move=Heavy Impact              | Cost={F}{F}ΓùÅΓùÅ     | Dmg=130     
+ID= 1052 | Barbaracle                     | HP=  130 | Type={F}   | Prev=Binacle              | Move=[Ability] Stone Arms      | Cost=n/a          | Dmg=n/a     
+ID= 1052 | Barbaracle                     | HP=  130 | Type={F}   | Prev=Binacle              | Move=Hammer In                 | Cost={F}{F}ΓùÅ      | Dmg=80      
+ID= 1053 | Tyrunt                         | HP=  100 | Type={F}   | Prev=Antique Jaw Fossil   | Move=Get Angry                 | Cost={F}ΓùÅ         | Dmg=20├ù     
+ID= 1058 | Haunter                        | HP=  100 | Type={D}   | Prev=Gastly               | Move=Haunt                     | Cost={D}          | Dmg=n/a     
+ID= 1061 | Drapion                        | HP=  140 | Type={D}   | Prev=Skorupi              | Move=Wrack Down                | Cost={D}{D}       | Dmg=60      
+ID= 1061 | Drapion                        | HP=  140 | Type={D}   | Prev=Skorupi              | Move=Hazardous Tail            | Cost={D}{D}{D}    | Dmg=100     
+ID= 1066 | Doublade                       | HP=  100 | Type={M}   | Prev=Honedge              | Move=Weaponized Swords         | Cost=ΓùÅΓùÅ           | Dmg=60├ù     
+ID= 1070 | Raticate                       | HP=   90 | Type={C}   | Prev=Rattata              | Move=Scrape Off                | Cost=ΓùÅ            | Dmg=20      
+ID= 1070 | Raticate                       | HP=   90 | Type={C}   | Prev=Rattata              | Move=Retaliatory Incisors      | Cost=ΓùÅ            | Dmg=40├ù     
+ID= 1074 | Diggersby                      | HP=  150 | Type={C}   | Prev=Bunnelby             | Move=Earthquake                | Cost=ΓùÅ            | Dmg=140     
+ID= 1074 | Diggersby                      | HP=  150 | Type={C}   | Prev=Bunnelby             | Move=Whap Down                 | Cost=ΓùÅΓùÅΓùÅ          | Dmg=100     
+
+=== STAGE 2 POKEMON ===
+ID=   40 | Greninja ex                    | HP=  310 | Type={F}   | Prev=Frogadier            | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=   40 | Greninja ex                    | HP=  310 | Type={F}   | Prev=Frogadier            | Move=Shinobi Blade             | Cost={W}          | Dmg=170     
+ID=   40 | Greninja ex                    | HP=  310 | Type={F}   | Prev=Frogadier            | Move=Mirage Barrage            | Cost={W}ΓùÅΓùÅ        | Dmg=n/a     
+ID=   49 | Feraligatr                     | HP=  180 | Type={W}   | Prev=Croconaw             | Move=[Ability] Torrential Heart | Cost=n/a          | Dmg=n/a     
+ID=   49 | Feraligatr                     | HP=  180 | Type={W}   | Prev=Croconaw             | Move=Giant Wave                | Cost={W}{W}       | Dmg=160     
+ID=   70 | Shiftry                        | HP=  150 | Type={G}   | Prev=Nuzleaf              | Move=Expelling Tornado         | Cost={G}          | Dmg=n/a     
+ID=   70 | Shiftry                        | HP=  150 | Type={G}   | Prev=Nuzleaf              | Move=Energy Loop               | Cost=ΓùÅΓùÅ           | Dmg=140     
+ID=   79 | Incineroar ex                  | HP=  320 | Type={R}   | Prev=Torracat             | Move=[Ability] Hustle Play     | Cost=n/a          | Dmg=n/a     
+ID=   79 | Incineroar ex                  | HP=  320 | Type={R}   | Prev=Torracat             | Move=Blaze Blast               | Cost={R}ΓùÅΓùÅΓùÅΓùÅ      | Dmg=240     
+ID=   91 | Rillaboom                      | HP=  180 | Type={G}   | Prev=Thwackey             | Move=Drum Beating              | Cost={G}          | Dmg=60      
+ID=   91 | Rillaboom                      | HP=  180 | Type={G}   | Prev=Thwackey             | Move=Wood Hammer               | Cost={G}{G}       | Dmg=180     
+ID=   98 | Chandelure                     | HP=  130 | Type={R}   | Prev=Lampent              | Move=[Ability] Alluring Light  | Cost=n/a          | Dmg=n/a     
+ID=   98 | Chandelure                     | HP=  130 | Type={R}   | Prev=Lampent              | Move=Mind Ruler                | Cost={R}          | Dmg=30├ù     
+ID=  115 | Conkeldurr                     | HP=  180 | Type={F}   | Prev=Gurdurr              | Move=Tantrum                   | Cost={F}          | Dmg=80      
+ID=  115 | Conkeldurr                     | HP=  180 | Type={F}   | Prev=Gurdurr              | Move=Gutsy Swing               | Cost={F}ΓùÅΓùÅΓùÅ       | Dmg=250     
+ID=  121 | Dragapult ex                   | HP=  320 | Type=τ½£     | Prev=Drakloak             | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=  121 | Dragapult ex                   | HP=  320 | Type=τ½£     | Prev=Drakloak             | Move=Jet Headbutt              | Cost=ΓùÅ            | Dmg=70      
+ID=  121 | Dragapult ex                   | HP=  320 | Type=τ½£     | Prev=Drakloak             | Move=Phantom Dive              | Cost={R}{P}       | Dmg=200     
+ID=  129 | Decidueye                      | HP=  150 | Type={G}   | Prev=Dartrix              | Move=Stock Up on Feathers      | Cost=ΓùÅ            | Dmg=n/a     
+ID=  129 | Decidueye                      | HP=  150 | Type={G}   | Prev=Dartrix              | Move=Power Shot                | Cost={G}          | Dmg=170     
+ID=  133 | Dusknoir                       | HP=  160 | Type={P}   | Prev=Dusclops             | Move=[Ability] Cursed Blast    | Cost=n/a          | Dmg=n/a     
+ID=  133 | Dusknoir                       | HP=  160 | Type={P}   | Prev=Dusclops             | Move=Shadow Bind               | Cost={P}{P}ΓùÅ      | Dmg=150     
+ID=  147 | Cradily                        | HP=  150 | Type={G}   | Prev=Lileep               | Move=[Ability] Selective Slime | Cost=n/a          | Dmg=n/a     
+ID=  147 | Cradily                        | HP=  150 | Type={G}   | Prev=Lileep               | Move=Miasma Wind               | Cost={G}          | Dmg=100├ù    
+ID=  150 | Hydrapple ex                   | HP=  330 | Type={G}   | Prev=Dipplin              | Move=[Ability] Ripening Charge | Cost=n/a          | Dmg=n/a     
+ID=  150 | Hydrapple ex                   | HP=  330 | Type={G}   | Prev=Dipplin              | Move=Syrup Storm               | Cost=ΓùÅΓùÅ           | Dmg=30      
+ID=  153 | Cinderace ex                   | HP=  320 | Type={R}   | Prev=Raboot               | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=  153 | Cinderace ex                   | HP=  320 | Type={R}   | Prev=Raboot               | Move=Flare Strike              | Cost={R}ΓùÅΓùÅ        | Dmg=280     
+ID=  153 | Cinderace ex                   | HP=  320 | Type={R}   | Prev=Raboot               | Move=Garnet Volley             | Cost={R}{F}{D}    | Dmg=n/a     
+ID=  155 | Carracosta                     | HP=  160 | Type={W}   | Prev=Tirtouga             | Move=[Ability] Primal Knowledge | Cost=n/a          | Dmg=n/a     
+ID=  155 | Carracosta                     | HP=  160 | Type={W}   | Prev=Tirtouga             | Move=Tidal Wave                | Cost={W}{W}       | Dmg=150     
+ID=  167 | Klinklang                      | HP=  140 | Type={M}   | Prev=Klang                | Move=[Ability] Emergency Rotation | Cost=n/a          | Dmg=n/a     
+ID=  167 | Klinklang                      | HP=  140 | Type={M}   | Prev=Klang                | Move=Hyper Ray                 | Cost=ΓùÅΓùÅ           | Dmg=130     
+ID=  182 | Quaquaval                      | HP=  170 | Type={W}   | Prev=Quaxwell             | Move=[Ability] Up-Tempo        | Cost=n/a          | Dmg=n/a     
+ID=  182 | Quaquaval                      | HP=  170 | Type={W}   | Prev=Quaxwell             | Move=Hydro Splash              | Cost={W}ΓùÅ         | Dmg=120     
+ID=  189 | Flygon ex                      | HP=  310 | Type={F}   | Prev=Vibrava              | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=  189 | Flygon ex                      | HP=  310 | Type={F}   | Prev=Vibrava              | Move=Reversing Storm           | Cost={F}          | Dmg=130     
+ID=  189 | Flygon ex                      | HP=  310 | Type={F}   | Prev=Vibrava              | Move=Sonic Peridot             | Cost={W}{F}{M}    | Dmg=n/a     
+ID=  203 | Skeledirge                     | HP=  180 | Type={R}   | Prev=Crocalor             | Move=[Ability] Unaware         | Cost=n/a          | Dmg=n/a     
+ID=  203 | Skeledirge                     | HP=  180 | Type={R}   | Prev=Crocalor             | Move=Torcherto                 | Cost={R}ΓùÅ         | Dmg=60      
+ID=  214 | Togekiss                       | HP=  140 | Type={P}   | Prev=Togetic              | Move=[Ability] Wonder Kiss     | Cost=n/a          | Dmg=n/a     
+ID=  214 | Togekiss                       | HP=  140 | Type={P}   | Prev=Togetic              | Move=Speed Wing                | Cost=ΓùÅΓùÅΓùÅ          | Dmg=140     
+ID=  224 | Annihilape                     | HP=  140 | Type={F}   | Prev=Primeape             | Move=Tantrum                   | Cost={F}          | Dmg=130     
+ID=  224 | Annihilape                     | HP=  140 | Type={F}   | Prev=Primeape             | Move=Destined Fight            | Cost={F}ΓùÅ         | Dmg=n/a     
+ID=  229 | Hydreigon ex                   | HP=  330 | Type={D}   | Prev=Zweilous             | Move=[Tera]                    | Cost=n/a          | Dmg=n/a     
+ID=  229 | Hydreigon ex                   | HP=  330 | Type={D}   | Prev=Zweilous             | Move=Crashing Headbutt         | Cost={D}ΓùÅ         | Dmg=200     
+ID=  229 | Hydreigon ex                   | HP=  330 | Type={D}   | Prev=Zweilous             | Move=Obsidian                  | Cost={P}{D}{M}ΓùÅ   | Dmg=130     
+ID=  232 | Slaking ex                     | HP=  340 | Type={C}   | Prev=Vigoroth             | Move=[Ability] Born to Slack   | Cost=n/a          | Dmg=n/a     
+ID=  232 | Slaking ex                     | HP=  340 | Type={C}   | Prev=Vigoroth             | Move=Great Swing               | Cost=ΓùÅΓùÅ           | Dmg=280     
+ID=  245 | Alakazam                       | HP=  140 | Type={P}   | Prev=Kadabra              | Move=Strange Hacking           | Cost={P}          | Dmg=n/a     
+ID=  245 | Alakazam                       | HP=  140 | Type={P}   | Prev=Kadabra              | Move=Psychic                   | Cost={P}          | Dmg=10      
+ID=  254 | Butterfree                     | HP=  120 | Type={G}   | Prev=Metapod              | Move=Scale Hurricane           | Cost={G}          | Dmg=60├ù     
+ID=  262 | Ludicolo                       | HP=  140 | Type={W}   | Prev=Lombre               | Move=[Ability] Vibrant Dance   | Cost=n/a          | Dmg=n/a     
+ID=  262 | Ludicolo                       | HP=  140 | Type={W}   | Prev=Lombre               | Move=Hydro Splash              | Cost={W}{W}ΓùÅ      | Dmg=130     
+ID=  276 | Metagross                      | HP=  170 | Type={P}   | Prev=Metang               | Move=Wrack Down                | Cost={P}          | Dmg=60      
+ID=  276 | Metagross                      | HP=  170 | Type={P}   | Prev=Metang               | Move=Conjoined Beams           | Cost={P}{P}       | Dmg=130     
+ID=  283 | Mamoswine ex                   | HP=  340 | Type={F}   | Prev=Piloswine            | Move=[Ability] Mammoth Hauler  | Cost=n/a          | Dmg=n/a     
+ID=  283 | Mamoswine ex                   | HP=  340 | Type={F}   | Prev=Piloswine            | Move=Rumbling March            | Cost={F}{F}       | Dmg=180     
+ID=  290 | Tyranitar                      | HP=  190 | Type={D}   | Prev=Pupitar              | Move=[Ability] Daunting Gaze   | Cost=n/a          | Dmg=n/a     
+ID=  290 | Tyranitar                      | HP=  190 | Type={D}   | Prev=Pupitar              | Move=Cracking Stomp            | Cost={D}ΓùÅ         | Dmg=150     
+ID=  296 | NΓÇÖs Klinklang                  | HP=  160 | Type={M}   | Prev=NΓÇÖs Klang            | Move=Magnetic Blast            | Cost=ΓùÅ            | Dmg=50      
+ID=  296 | NΓÇÖs Klinklang                  | HP=  160 | Type={M}   | Prev=NΓÇÖs Klang            | Move=Triple Smash              | Cost={M}{M}ΓùÅ      | Dmg=120├ù    
+ID=  298 | HopΓÇÖs Corviknight              | HP=  170 | Type={M}   | Prev=HopΓÇÖs Corvisquire    | Move=Shoot Through             | Cost=ΓùÅ            | Dmg=50      
+ID=  298 | HopΓÇÖs Corviknight              | HP=  170 | Type={M}   | Prev=HopΓÇÖs Corvisquire    | Move=Steel Wing                | Cost={M}{M}ΓùÅ      | Dmg=150     
+ID=  302 | Salamence ex                   | HP=  320 | Type=τ½£     | Prev=Shelgon              | Move=Wide Blast                | Cost={R}ΓùÅΓùÅ        | Dmg=n/a     
+ID=  302 | Salamence ex                   | HP=  320 | Type=τ½£     | Prev=Shelgon              | Move=Dragon Impact             | Cost={R}{W}ΓùÅΓùÅ     | Dmg=300     
+ID=  326 | Blaziken ex                    | HP=  320 | Type={R}   | Prev=Combusken            | Move=[Ability] Seething Spirit | Cost=n/a          | Dmg=n/a     
+ID=  326 | Blaziken ex                    | HP=  320 | Type={R}   | Prev=Combusken            | Move=Smolder-sault             | Cost={R}ΓùÅ         | Dmg=200     
+ID=  348 | Hydrapple                      | HP=  170 | Type={G}   | Prev=Dipplin              | Move=Hydra Breath              | Cost={G}          | Dmg=n/a     
+ID=  348 | Hydrapple                      | HP=  170 | Type={G}   | Prev=Dipplin              | Move=Whip Smash                | Cost={G}ΓùÅΓùÅ        | Dmg=140     
+ID=  354 | Ethan's Typhlosion             | HP=  170 | Type={R}   | Prev=Ethan's Quilava      | Move=Buddy Blast               | Cost={R}          | Dmg=40      
+ID=  354 | Ethan's Typhlosion             | HP=  170 | Type={R}   | Prev=Ethan's Quilava      | Move=Steam Artillery           | Cost={R}{R}ΓùÅ      | Dmg=160     
+ID=  381 | Cynthia's Garchomp ex          | HP=  330 | Type={F}   | Prev=Cynthia's Gabite     | Move=Corkscrew Dive            | Cost={F}          | Dmg=100     
+ID=  381 | Cynthia's Garchomp ex          | HP=  330 | Type={F}   | Prev=Cynthia's Gabite     | Move=Draconic Buster           | Cost={F}{F}       | Dmg=260     
+ID=  404 | Arboliva ex                    | HP=  310 | Type={G}   | Prev=Dolliv               | Move=Oil Salvo                 | Cost={G}          | Dmg=n/a     
+ID=  404 | Arboliva ex                    | HP=  310 | Type={G}   | Prev=Dolliv               | Move=Aroma Shot                | Cost=ΓùÅΓùÅΓùÅ          | Dmg=160     
+ID=  412 | Blaziken                       | HP=  170 | Type={R}   | Prev=Combusken            | Move=Heat Blast                | Cost=ΓùÅΓùÅ           | Dmg=70      
+ID=  412 | Blaziken                       | HP=  170 | Type={R}   | Prev=Combusken            | Move=Inferno Kick Flurry       | Cost={R}{R}ΓùÅ      | Dmg=120     
+ID=  428 | Team Rocket's Ampharos         | HP=  140 | Type={L}   | Prev=Team Rocket's Flaaffy | Move=[Ability] Darkest Impulse | Cost=n/a          | Dmg=n/a     
+ID=  428 | Team Rocket's Ampharos         | HP=  140 | Type={L}   | Prev=Team Rocket's Flaaffy | Move=Head Bolt                 | Cost={L}ΓùÅΓùÅ        | Dmg=140     
+ID=  436 | Team Rocket's Orbeetle         | HP=  130 | Type={P}   | Prev=Team Rocket's Dottler | Move=[Ability] Rocket Brain    | Cost=n/a          | Dmg=n/a     
+ID=  436 | Team Rocket's Orbeetle         | HP=  130 | Type={P}   | Prev=Team Rocket's Dottler | Move=Psychic                   | Cost={P}ΓùÅΓùÅ        | Dmg=40      
+ID=  439 | Annihilape                     | HP=  150 | Type={F}   | Prev=Primeape             | Move=[Ability] Lose Cool       | Cost=n/a          | Dmg=n/a     
+ID=  439 | Annihilape                     | HP=  150 | Type={F}   | Prev=Primeape             | Move=Impact Blow               | Cost={F}{F}       | Dmg=160     
+ID=  442 | Team Rocket's Tyranitar        | HP=  180 | Type={F}   | Prev=Team Rocket's Pupitar | Move=[Ability] Sand Stream     | Cost=n/a          | Dmg=n/a     
+ID=  442 | Team Rocket's Tyranitar        | HP=  180 | Type={F}   | Prev=Team Rocket's Pupitar | Move=Demolition Tackle         | Cost={F}ΓùÅΓùÅΓùÅ       | Dmg=180     
+ID=  452 | Team Rocket's Nidoqueen        | HP=  170 | Type={D}   | Prev=Team Rocket's Nidorina | Move=Love Impact               | Cost={D}          | Dmg=60      
+ID=  452 | Team Rocket's Nidoqueen        | HP=  170 | Type={D}   | Prev=Team Rocket's Nidorina | Move=Mega Kick                 | Cost={D}{D}       | Dmg=130     
+ID=  455 | Team Rocket's Nidoking ex      | HP=  330 | Type={D}   | Prev=Team Rocket's Nidorino | Move=Tainted Horn              | Cost={D}{D}ΓùÅ      | Dmg=100     
+ID=  455 | Team Rocket's Nidoking ex      | HP=  330 | Type={D}   | Prev=Team Rocket's Nidorino | Move=Kingly Impact             | Cost={D}{D}{D}ΓùÅ   | Dmg=240     
+ID=  458 | Team Rocket's Crobat ex        | HP=  310 | Type={D}   | Prev=Team Rocket's Golbat | Move=[Ability] Biting Spree    | Cost=n/a          | Dmg=n/a     
+ID=  458 | Team Rocket's Crobat ex        | HP=  310 | Type={D}   | Prev=Team Rocket's Golbat | Move=AssassinΓÇÖs Return         | Cost={D}{D}       | Dmg=120     
+ID=  475 | Team Rocket's Porygon-Z        | HP=  140 | Type={C}   | Prev=Team Rocket's Porygon2 | Move=[Ability] Reconstitute    | Cost=n/a          | Dmg=n/a     
+ID=  475 | Team Rocket's Porygon-Z        | HP=  140 | Type={C}   | Prev=Team Rocket's Porygon2 | Move=R Command                 | Cost=ΓùÅΓùÅ           | Dmg=20├ù     
+ID=  481 | Serperior ex                   | HP=  320 | Type={G}   | Prev=Servine              | Move=[Ability] Regal Cheer     | Cost=n/a          | Dmg=n/a     
+ID=  481 | Serperior ex                   | HP=  320 | Type={G}   | Prev=Servine              | Move=Command the Grass         | Cost={G}ΓùÅΓùÅΓùÅ       | Dmg=150     
+ID=  495 | Chandelure                     | HP=  150 | Type={R}   | Prev=Lampent              | Move=Incendiary Pillar         | Cost={R}          | Dmg=50      
+ID=  495 | Chandelure                     | HP=  150 | Type={R}   | Prev=Lampent              | Move=Burn It All Up            | Cost={R}{R}       | Dmg=180     
+ID=  502 | Seismitoad                     | HP=  170 | Type={W}   | Prev=Palpitoad            | Move=Round                     | Cost=ΓùÅΓùÅΓùÅ          | Dmg=70├ù     
+ID=  502 | Seismitoad                     | HP=  170 | Type={W}   | Prev=Palpitoad            | Move=Hyper Voice               | Cost={W}ΓùÅΓùÅΓùÅ       | Dmg=160     
+ID=  504 | Carracosta                     | HP=  180 | Type={W}   | Prev=Tirtouga             | Move=[Ability] Mighty Shell    | Cost=n/a          | Dmg=n/a     
+ID=  504 | Carracosta                     | HP=  180 | Type={W}   | Prev=Tirtouga             | Move=Big Bite                  | Cost={W}ΓùÅΓùÅ        | Dmg=150     
+ID=  513 | Eelektross                     | HP=  160 | Type={L}   | Prev=Eelektrik            | Move=Thunder Fang              | Cost={L}          | Dmg=60      
+ID=  513 | Eelektross                     | HP=  160 | Type={L}   | Prev=Eelektrik            | Move=Buzz Flip                 | Cost={L}{L}{L}ΓùÅ   | Dmg=100├ù    
+ID=  520 | Reuniclus                      | HP=  140 | Type={P}   | Prev=Duosion              | Move=Cellular Ascension        | Cost=ΓùÅ            | Dmg=n/a     
+ID=  520 | Reuniclus                      | HP=  140 | Type={P}   | Prev=Duosion              | Move=Evo-Lariat                | Cost=ΓùÅ            | Dmg=40      
+ID=  530 | Conkeldurr                     | HP=  140 | Type={F}   | Prev=Gurdurr              | Move=[Ability] Craftsmanship   | Cost=n/a          | Dmg=n/a     
+ID=  530 | Conkeldurr                     | HP=  140 | Type={F}   | Prev=Gurdurr              | Move=Swing Around              | Cost={F}ΓùÅΓùÅΓùÅ       | Dmg=100     
+ID=  537 | Scolipede                      | HP=  160 | Type={D}   | Prev=Whirlipede           | Move=[Ability] Poison Point    | Cost=n/a          | Dmg=n/a     
+ID=  537 | Scolipede                      | HP=  160 | Type={D}   | Prev=Whirlipede           | Move=Venoshock                 | Cost={D}ΓùÅ         | Dmg=90      
+ID=  540 | Krookodile                     | HP=  170 | Type={D}   | Prev=Krokorok             | Move=Tighten Up                | Cost={D}ΓùÅ         | Dmg=60      
+ID=  540 | Krookodile                     | HP=  170 | Type={D}   | Prev=Krokorok             | Move=Cursed Slug               | Cost={D}{D}ΓùÅ      | Dmg=120     
+ID=  550 | Haxorus                        | HP=  170 | Type=τ½£     | Prev=Fraxure              | Move=Cross-Cut                 | Cost=ΓùÅΓùÅ           | Dmg=80      
+ID=  550 | Haxorus                        | HP=  170 | Type=τ½£     | Prev=Fraxure              | Move=Axe Blast                 | Cost={F}{M}ΓùÅ      | Dmg=n/a     
+ID=  553 | Unfezant                       | HP=  150 | Type={C}   | Prev=Tranquill            | Move=Add On                    | Cost=ΓùÅ            | Dmg=n/a     
+ID=  553 | Unfezant                       | HP=  150 | Type={C}   | Prev=Tranquill            | Move=Swift Flight              | Cost=ΓùÅΓùÅ           | Dmg=120     
+ID=  559 | Leavanny                       | HP=  130 | Type={G}   | Prev=Swadloon             | Move=Healing Wrapping          | Cost=ΓùÅ            | Dmg=n/a     
+ID=  559 | Leavanny                       | HP=  130 | Type={G}   | Prev=Swadloon             | Move=X-Scissor                 | Cost={G}ΓùÅ         | Dmg=90      
+ID=  569 | Emboar                         | HP=  180 | Type={R}   | Prev=Pignite              | Move=[Ability] Inferno Fandango | Cost=n/a          | Dmg=n/a     
+ID=  569 | Emboar                         | HP=  180 | Type={R}   | Prev=Pignite              | Move=Heat Crash                | Cost={R}{R}{R}ΓùÅ   | Dmg=120     
+ID=  576 | Samurott                       | HP=  160 | Type={W}   | Prev=Dewott               | Move=[Ability] Torrential Whirlpool | Cost=n/a          | Dmg=n/a     
+ID=  576 | Samurott                       | HP=  160 | Type={W}   | Prev=Dewott               | Move=Energized Slash           | Cost={W}          | Dmg=30      
+ID=  582 | Vanilluxe                      | HP=  150 | Type={W}   | Prev=Vanillish            | Move=Ram                       | Cost=ΓùÅΓùÅ           | Dmg=60      
+ID=  582 | Vanilluxe                      | HP=  150 | Type={W}   | Prev=Vanillish            | Move=Double Freeze             | Cost={W}ΓùÅΓùÅ        | Dmg=90├ù     
+ID=  596 | Gothitelle                     | HP=  150 | Type={P}   | Prev=Gothorita            | Move=[Ability] Distorted Future | Cost=n/a          | Dmg=n/a     
+ID=  596 | Gothitelle                     | HP=  150 | Type={P}   | Prev=Gothorita            | Move=Synchro Shot              | Cost={P}ΓùÅ         | Dmg=90      
+ID=  601 | Gigalith                       | HP=  170 | Type={F}   | Prev=Boldore              | Move=Vengeful Cannon           | Cost={F}          | Dmg=20├ù     
+ID=  601 | Gigalith                       | HP=  170 | Type={F}   | Prev=Boldore              | Move=Heavy Impact              | Cost={F}{F}{F}    | Dmg=160     
+ID=  604 | Archeops                       | HP=  140 | Type={F}   | Prev=Archen               | Move=[Ability] Ancient Wing    | Cost=n/a          | Dmg=n/a     
+ID=  604 | Archeops                       | HP=  140 | Type={F}   | Prev=Archen               | Move=Rock Throw                | Cost={F}ΓùÅ         | Dmg=100     
+ID=  618 | Hydreigon ex                   | HP=  330 | Type={D}   | Prev=Zweilous             | Move=[Ability] Greedy Eater    | Cost=n/a          | Dmg=n/a     
+ID=  618 | Hydreigon ex                   | HP=  330 | Type={D}   | Prev=Zweilous             | Move=Dark Bite                 | Cost={D}{D}{D}ΓùÅΓùÅ  | Dmg=200     
+ID=  623 | Klinklang                      | HP=  150 | Type={M}   | Prev=Klang                | Move=[Ability] Gear Coating    | Cost=n/a          | Dmg=n/a     
+ID=  623 | Klinklang                      | HP=  150 | Type={M}   | Prev=Klang                | Move=Hammer In                 | Cost={M}ΓùÅΓùÅ        | Dmg=120     
+ID=  630 | Stoutland                      | HP=  160 | Type={C}   | Prev=Herdier              | Move=Odor Sleuth               | Cost=ΓùÅΓùÅ           | Dmg=n/a     
+ID=  630 | Stoutland                      | HP=  160 | Type={C}   | Prev=Herdier              | Move=Special Fang              | Cost=ΓùÅΓùÅΓùÅΓùÅ         | Dmg=100     
+ID=  641 | Steven's Metagross ex          | HP=  340 | Type={M}   | Prev=Steven's Metang      | Move=[Ability] X-Boot          | Cost=n/a          | Dmg=n/a     
+ID=  641 | Steven's Metagross ex          | HP=  340 | Type={M}   | Prev=Steven's Metang      | Move=Metal Stomp               | Cost={M}ΓùÅΓùÅ        | Dmg=200     
+ID=  648 | Marnie's Grimmsnarl ex         | HP=  320 | Type={D}   | Prev=Marnie's Morgrem     | Move=[Ability] Punk Up         | Cost=n/a          | Dmg=n/a     
+ID=  648 | Marnie's Grimmsnarl ex         | HP=  320 | Type={D}   | Prev=Marnie's Morgrem     | Move=Shadow Bullet             | Cost={D}{D}       | Dmg=180     
+ID=  652 | Mega Venusaur ex               | HP=  380 | Type={G}   | Prev=Ivysaur              | Move=[Ability] Solar Transfer  | Cost=n/a          | Dmg=n/a     
+ID=  652 | Mega Venusaur ex               | HP=  380 | Type={G}   | Prev=Ivysaur              | Move=Jungle Dump               | Cost={G}{G}{G}{G} | Dmg=240     
+ID=  658 | Shiftry                        | HP=  160 | Type={G}   | Prev=Nuzleaf              | Move=Reversing Gust            | Cost={G}          | Dmg=n/a     
+ID=  658 | Shiftry                        | HP=  160 | Type={G}   | Prev=Nuzleaf              | Move=Perplex                   | Cost={G}ΓùÅ         | Dmg=100     
+ID=  666 | Cinderace                      | HP=  160 | Type={R}   | Prev=Raboot               | Move=[Ability] Explosiveness   | Cost=n/a          | Dmg=n/a     
+ID=  666 | Cinderace                      | HP=  160 | Type={R}   | Prev=Raboot               | Move=Turbo Flare               | Cost=ΓùÅ            | Dmg=50      
+ID=  685 | Garganacl                      | HP=  180 | Type={F}   | Prev=Naclstack            | Move=[Ability] Powerful a-Salt | Cost=n/a          | Dmg=n/a     
+ID=  685 | Garganacl                      | HP=  180 | Type={F}   | Prev=Naclstack            | Move=Hammer In                 | Cost={F}{F}ΓùÅ      | Dmg=130     
+ID=  699 | Tinkaton                       | HP=  160 | Type={M}   | Prev=Tinkatuff            | Move=Windup Swing              | Cost={M}          | Dmg=-240    
+ID=  710 | Meganium                       | HP=  160 | Type={G}   | Prev=Bayleef              | Move=[Ability] Wild Growth     | Cost=n/a          | Dmg=n/a     
+ID=  710 | Meganium                       | HP=  160 | Type={G}   | Prev=Bayleef              | Move=Solar Beam                | Cost={G}{G}ΓùÅΓùÅ     | Dmg=140     
+ID=  728 | Inteleon                       | HP=  150 | Type={W}   | Prev=Drizzile             | Move=Bring Down                | Cost={W}          | Dmg=n/a     
+ID=  728 | Inteleon                       | HP=  150 | Type={W}   | Prev=Drizzile             | Move=Water Shot                | Cost={W}          | Dmg=110     
+ID=  734 | Magnezone                      | HP=  160 | Type={L}   | Prev=Magneton             | Move=Upper Spark               | Cost={L}          | Dmg=50      
+ID=  734 | Magnezone                      | HP=  160 | Type={L}   | Prev=Magneton             | Move=Flashing Bolt             | Cost={L}{L}       | Dmg=160     
+ID=  743 | Alakazam                       | HP=  140 | Type={P}   | Prev=Kadabra              | Move=[Ability] Psychic Draw    | Cost=n/a          | Dmg=n/a     
+ID=  743 | Alakazam                       | HP=  140 | Type={P}   | Prev=Kadabra              | Move=Powerful Hand             | Cost={P}          | Dmg=n/a     
+ID=  747 | Mega Gardevoir ex              | HP=  360 | Type={P}   | Prev=Kirlia               | Move=Overflowing Wishes        | Cost={P}          | Dmg=n/a     
+ID=  747 | Mega Gardevoir ex              | HP=  360 | Type={P}   | Prev=Kirlia               | Move=Mega Symphonia            | Cost={P}          | Dmg=50├ù     
+ID=  772 | Mega Gengar ex                 | HP=  350 | Type={D}   | Prev=Haunter              | Move=[Ability] Shadowy Concealment | Cost=n/a          | Dmg=n/a     
+ID=  772 | Mega Gengar ex                 | HP=  350 | Type={D}   | Prev=Haunter              | Move=Void Gale                 | Cost={D}{D}       | Dmg=230     
+ID=  780 | Vileplume                      | HP=  150 | Type={G}   | Prev=Gloom                | Move=Pollen Bomb               | Cost={G}          | Dmg=30      
+ID=  780 | Vileplume                      | HP=  150 | Type={G}   | Prev=Gloom                | Move=Lively Flower             | Cost={G}          | Dmg=60      
+ID=  784 | Ludicolo                       | HP=  160 | Type={G}   | Prev=Lombre               | Move=[Ability] Excited Heal    | Cost=n/a          | Dmg=n/a     
+ID=  784 | Ludicolo                       | HP=  160 | Type={G}   | Prev=Lombre               | Move=Lunge Out                 | Cost={G}ΓùÅ         | Dmg=120     
+ID=  790 | Mega Charizard X ex            | HP=  360 | Type={R}   | Prev=Charmeleon           | Move=Inferno X                 | Cost={R}{R}       | Dmg=90├ù     
+ID=  802 | Mamoswine                      | HP=  180 | Type={W}   | Prev=Piloswine            | Move=Wreck                     | Cost=ΓùÅΓùÅΓùÅ          | Dmg=120     
+ID=  802 | Mamoswine                      | HP=  180 | Type={W}   | Prev=Piloswine            | Move=Blizzard Edge             | Cost={W}ΓùÅΓùÅΓùÅ       | Dmg=200     
+ID=  811 | Pawmot                         | HP=  140 | Type={L}   | Prev=Pawmo                | Move=Voltaic Fist              | Cost={L}{L}       | Dmg=130     
+ID=  824 | Flygon                         | HP=  150 | Type={F}   | Prev=Vibrava              | Move=[Ability] Sandy Flapping  | Cost=n/a          | Dmg=n/a     
+ID=  824 | Flygon                         | HP=  150 | Type={F}   | Prev=Vibrava              | Move=Cutting Wind              | Cost={F}{F}       | Dmg=130     
+ID=  832 | Krookodile                     | HP=  170 | Type={D}   | Prev=Krokorok             | Move=Vengeful Fang             | Cost={D}          | Dmg=60      
+ID=  832 | Krookodile                     | HP=  170 | Type={D}   | Prev=Krokorok             | Move=Hammer In                 | Cost={D}ΓùÅΓùÅΓùÅ       | Dmg=160     
+ID=  835 | Empoleon ex                    | HP=  320 | Type={M}   | Prev=Prinplup             | Move=[Ability] EmperorΓÇÖs Stance | Cost=n/a          | Dmg=n/a     
+ID=  835 | Empoleon ex                    | HP=  320 | Type={M}   | Prev=Prinplup             | Move=Iron Feathers             | Cost={M}{M}ΓùÅ      | Dmg=210     
+ID=  852 | Beautifly                      | HP=  130 | Type={G}   | Prev=Silcoon              | Move=Stun Spore                | Cost={G}          | Dmg=40      
+ID=  852 | Beautifly                      | HP=  130 | Type={G}   | Prev=Silcoon              | Move=Energy Straw              | Cost={G}          | Dmg=80├ù     
+ID=  854 | Dustox                         | HP=  140 | Type={G}   | Prev=Cascoon              | Move=[Ability] Boisterous Wind | Cost=n/a          | Dmg=n/a     
+ID=  854 | Dustox                         | HP=  140 | Type={G}   | Prev=Cascoon              | Move=Twilight Poison           | Cost={G}{G}       | Dmg=100     
+ID=  864 | N's Vanilluxe                  | HP=  150 | Type={W}   | Prev=N's Vanillish        | Move=Snow Coating              | Cost=ΓùÅΓùÅ           | Dmg=n/a     
+ID=  864 | N's Vanilluxe                  | HP=  150 | Type={W}   | Prev=N's Vanillish        | Move=Blizzard                  | Cost={W}ΓùÅΓùÅ        | Dmg=120     
+ID=  868 | Mega Eelektross ex             | HP=  350 | Type={L}   | Prev=Eelektrik            | Move=Split Bomb                | Cost={L}{L}       | Dmg=n/a     
+ID=  868 | Mega Eelektross ex             | HP=  350 | Type={L}   | Prev=Eelektrik            | Move=Disaster Shock            | Cost={L}{L}{L}    | Dmg=190     
+ID=  889 | Coalossal                      | HP=  180 | Type={F}   | Prev=Carkol               | Move=Tar Cannon                | Cost={F}          | Dmg=n/a     
+ID=  889 | Coalossal                      | HP=  180 | Type={F}   | Prev=Carkol               | Move=Bulky Bump                | Cost={F}ΓùÅΓùÅΓùÅ       | Dmg=220     
+ID=  894 | Galarian Obstagoon             | HP=  170 | Type={D}   | Prev=Galarian Linoone     | Move=Scarring Shout            | Cost={D}ΓùÅ         | Dmg=70├ù     
+ID=  894 | Galarian Obstagoon             | HP=  170 | Type={D}   | Prev=Galarian Linoone     | Move=Punk Smash                | Cost={D}ΓùÅΓùÅ        | Dmg=160     
+ID=  901 | Kingambit                      | HP=  170 | Type={M}   | Prev=Bisharp              | Move=[Ability] Supreme Overlord | Cost=n/a          | Dmg=n/a     
+ID=  901 | Kingambit                      | HP=  170 | Type={M}   | Prev=Bisharp              | Move=Double-Edged Slash        | Cost={M}{M}       | Dmg=180     
+ID=  904 | Mega Dragonite ex              | HP=  370 | Type=τ½£     | Prev=Dragonair            | Move=[Ability] Sky Transport   | Cost=n/a          | Dmg=n/a     
+ID=  904 | Mega Dragonite ex              | HP=  370 | Type=τ½£     | Prev=Dragonair            | Move=Ryuno Glide               | Cost={W}{L}{L}    | Dmg=330     
+ID=  911 | Erika's Vileplume ex           | HP=  310 | Type={G}   | Prev=Erika's Gloom        | Move=[Ability] Lovely Fragrance | Cost=n/a          | Dmg=n/a     
+ID=  911 | Erika's Vileplume ex           | HP=  310 | Type={G}   | Prev=Erika's Gloom        | Move=Bloom Powder              | Cost={G}{G}ΓùÅ      | Dmg=160     
+ID=  914 | Erika's Victreebel             | HP=  150 | Type={G}   | Prev=Erika's Weepinbell   | Move=Flower Garden Rondo       | Cost={G}ΓùÅ         | Dmg=40├ù     
+ID=  914 | Erika's Victreebel             | HP=  150 | Type={G}   | Prev=Erika's Weepinbell   | Move=Solar Beam                | Cost={G}{G}ΓùÅ      | Dmg=130     
+ID=  919 | Mega Meganium ex               | HP=  360 | Type={G}   | Prev=Bayleef              | Move=Giant Bouquet             | Cost=ΓùÅΓùÅΓùÅ          | Dmg=70      
+ID=  924 | Meowscarada                    | HP=  160 | Type={G}   | Prev=Floragato            | Move=[Ability] Showtime        | Cost=n/a          | Dmg=n/a     
+ID=  924 | Meowscarada                    | HP=  160 | Type={G}   | Prev=Floragato            | Move=Rising Bloom              | Cost=ΓùÅΓùÅ           | Dmg=90      
+ID=  928 | Mega Charizard Y ex            | HP=  360 | Type={R}   | Prev=Charmeleon           | Move=Explosion Y               | Cost={R}{R}ΓùÅ      | Dmg=n/a     
+ID=  932 | Mega Emboar ex                 | HP=  380 | Type={R}   | Prev=Pignite              | Move=Crimson Blast             | Cost={R}{R}ΓùÅ      | Dmg=320     
+ID=  939 | Mega Feraligatr ex             | HP=  370 | Type={W}   | Prev=Croconaw             | Move=Mortal Crunch             | Cost={W}{W}ΓùÅ      | Dmg=200     
+ID=  943 | Walrein                        | HP=  170 | Type={W}   | Prev=Sealeo               | Move=Frigid Fangs              | Cost={W}          | Dmg=60      
+ID=  943 | Walrein                        | HP=  170 | Type={W}   | Prev=Sealeo               | Move=Megaton Fall              | Cost={W}{W}       | Dmg=170     
+ID=  954 | Luxray ex                      | HP=  310 | Type={L}   | Prev=Luxio                | Move=Piercing Gaze             | Cost=ΓùÅΓùÅ           | Dmg=120     
+ID=  954 | Luxray ex                      | HP=  310 | Type={L}   | Prev=Luxio                | Move=Volt Strike               | Cost={L}{L}       | Dmg=250     
+ID=  982 | Scolipede                      | HP=  170 | Type={D}   | Prev=Whirlipede           | Move=Dastardly Jab             | Cost={D}ΓùÅ         | Dmg=n/a     
+ID=  982 | Scolipede                      | HP=  170 | Type={D}   | Prev=Whirlipede           | Move=Sludge Bomb               | Cost={D}ΓùÅΓùÅ        | Dmg=160     
+ID=  995 | Haxorus                        | HP=  170 | Type=τ½£     | Prev=Fraxure              | Move=Bring Down the Axe        | Cost={F}          | Dmg=n/a     
+ID=  995 | Haxorus                        | HP=  170 | Type=τ½£     | Prev=Fraxure              | Move=Dragon Pulse              | Cost={F}{M}       | Dmg=230     
+ID= 1005 | Larry's Staraptor              | HP=  150 | Type={C}   | Prev=Larry's Staravia     | Move=Facade                    | Cost=ΓùÅ            | Dmg=60      
+ID= 1005 | Larry's Staraptor              | HP=  150 | Type={C}   | Prev=Larry's Staravia     | Move=Feathery Strike           | Cost=ΓùÅΓùÅΓùÅ          | Dmg=150     
+ID= 1016 | Serperior                      | HP=  160 | Type={G}   | Prev=Servine              | Move=Regal Command             | Cost={G}          | Dmg=20├ù     
+ID= 1016 | Serperior                      | HP=  160 | Type={G}   | Prev=Servine              | Move=Solar Coiling             | Cost={G}{G}{G}    | Dmg=100     
+ID= 1019 | Vivillon                       | HP=  120 | Type={G}   | Prev=Spewpa               | Move=[Ability] Grand Wing      | Cost=n/a          | Dmg=n/a     
+ID= 1019 | Vivillon                       | HP=  120 | Type={G}   | Prev=Spewpa               | Move=Blow Through              | Cost={G}          | Dmg=60      
+ID= 1022 | Decidueye ex                   | HP=  320 | Type={G}   | Prev=Dartrix              | Move=[Ability] SniperΓÇÖs Eye    | Cost=n/a          | Dmg=n/a     
+ID= 1022 | Decidueye ex                   | HP=  320 | Type={G}   | Prev=Dartrix              | Move=Crushing Arrow            | Cost={G}ΓùÅΓùÅΓùÅ       | Dmg=240     
+ID= 1024 | Talonflame                     | HP=  150 | Type={R}   | Prev=Fletchinder          | Move=[Ability] Sky Hunt        | Cost=n/a          | Dmg=n/a     
+ID= 1024 | Talonflame                     | HP=  150 | Type={R}   | Prev=Fletchinder          | Move=Fire Wing                 | Cost={R}{R}       | Dmg=110     
+ID= 1033 | Aurorus                        | HP=  170 | Type={W}   | Prev=Amaura               | Move=[Ability] Tundra Wall     | Cost=n/a          | Dmg=n/a     
+ID= 1033 | Aurorus                        | HP=  170 | Type={W}   | Prev=Amaura               | Move=Freezing Chill            | Cost={W}{W}ΓùÅ      | Dmg=150     
+ID= 1037 | Luxray                         | HP=  150 | Type={L}   | Prev=Luxio                | Move=Incessant Onslaught       | Cost={L}ΓùÅ         | Dmg=70├ù     
+ID= 1037 | Luxray                         | HP=  150 | Type={L}   | Prev=Luxio                | Move=Strong Volt               | Cost={L}ΓùÅΓùÅ        | Dmg=200     
+ID= 1054 | Tyrantrum                      | HP=  180 | Type={F}   | Prev=Tyrunt               | Move=[Ability] Tyrannically Gutsy | Cost=n/a          | Dmg=n/a     
+ID= 1054 | Tyrantrum                      | HP=  180 | Type={F}   | Prev=Tyrunt               | Move=Wreak Havoc               | Cost={F}ΓùÅ         | Dmg=160     
+ID= 1059 | Gengar                         | HP=  130 | Type={D}   | Prev=Haunter              | Move=[Ability] Infinite Shadow | Cost=n/a          | Dmg=n/a     
+ID= 1059 | Gengar                         | HP=  130 | Type={D}   | Prev=Haunter              | Move=Mind Jack                 | Cost={D}          | Dmg=10      
+ID= 1067 | Aegislash                      | HP=  150 | Type={M}   | Prev=Doublade             | Move=Slash                     | Cost=ΓùÅΓùÅΓùÅ          | Dmg=80      
+ID= 1067 | Aegislash                      | HP=  150 | Type={M}   | Prev=Doublade             | Move=Metal Slash               | Cost={M}ΓùÅΓùÅΓùÅ       | Dmg=230     
